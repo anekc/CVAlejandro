@@ -99,20 +99,20 @@
     }
     
     .scale-cv .bd-container {
-        max-width: 595px;
+        max-width: 800px;
     }
     
     .scale-cv .section {
-        padding: 1.5rem 0 .80rem;
+        padding: .40rem 0 .1rem;
     }
     
     .scale-cv .section-title {
-        margin-bottom: .75em;
+        margin-bottom: .50em;
     }
     
     .scale-cv .resume-left,
     .scale-cv .resume-right {
-        padding: 0 1rem;
+        padding: 0 .75rem;
     }
     
     .scale-cv .home__img {
@@ -121,7 +121,7 @@
     }
     
     .scale-cv .home__container {
-        gap: 1.5rem;
+        gap: .1rem;
     }
     
     .scale-cv .home__data {
@@ -140,9 +140,9 @@
     }
     
     .scale-cv .education__container,
-    .scale-cv .experience__container,
-    .scale-cv .certificate__container {
-        gap: 1rem;
+    .scale-cv .skills__content,
+    .scale-cv .skills__content1 {
+        gap: .30rem;
     }
     
     .scale-cv .education__time,
@@ -152,8 +152,8 @@
     
     .scale-cv .education__rounder,
     .scale-cv .experience__rounder {
-        width: 11px;
-        height: 11px;
+        width: 10px;
+        height: 10px;
         margin-top: .22rem;
     }
     
