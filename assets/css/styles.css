@@ -99,20 +99,20 @@
     }
     
     .scale-cv .bd-container {
-        max-width: 850px;
+        max-width: 1159px;
     }
     
     .scale-cv .section {
-        padding: .40rem 0 .1rem;
+        padding: .80rem 0 .2rem;
     }
     
     .scale-cv .section-title {
-        margin-bottom: .50em;
+        margin-bottom: .70em;
     }
     
     .scale-cv .resume-left,
     .scale-cv .resume-right {
-        padding: 0 .75rem;
+        padding: 0 1rem;
     }
     
     .scale-cv .home__img {
@@ -130,7 +130,7 @@
     
     .scale-cv .home__adress,
     .scale-cv .social__container {
-        gap: 0.75rem;
+        gap: 1rem;
     }
     
     .scale-cv .home__icon,
@@ -142,12 +142,12 @@
     .scale-cv .education__container,
     .scale-cv .skills__content,
     .scale-cv .skills__content1 {
-        gap: .30rem;
+        gap: .1rem;
     }
     
     .scale-cv .education__time,
     .scale-cv .experience__time {
-        padding-right: .5rem;
+        padding-right: .75rem;
     }
     
     .scale-cv .education__rounder,
