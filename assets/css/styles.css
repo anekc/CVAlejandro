@@ -476,6 +476,7 @@
         margin-bottom: var(--mb-3);
     }
     
+    .languages__circle,
     .skills__circle {
         display: inline-block;
         width: 5px;
