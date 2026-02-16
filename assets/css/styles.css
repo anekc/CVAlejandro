@@ -850,14 +850,20 @@
         }
 
         /* Skills layout for print */
+        /* Skills layout for print - using Flexbox for reliability */
         .skills__content {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            column-gap: 2rem;
-            align-items: flex-start;
+            display: flex !important;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 1rem;
+            margin-bottom: 0;
         }
 
         .skills__group {
+            width: 48%;
+            /* Force 2 columns */
+            margin-bottom: 0.5rem;
             break-inside: avoid;
             page-break-inside: avoid;
         }
