@@ -495,10 +495,10 @@
     }
 
     .skills__subtitle {
-        font-size: var(--h3-font-size);
-        color: var(--text-color-light);
+        font-size: var(--normal-font-size);
+        color: var(--title-color);
         margin-bottom: var(--mb-2);
-        font-weight: var(--font-semi-bold);
+        font-weight: bold;
     }
 
     .skills__content1 {
