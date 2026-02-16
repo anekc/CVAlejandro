@@ -199,7 +199,7 @@ function updateLanguage(lang) {
                 const catTitle = document.createElement('h3');
                 catTitle.className = 'skills__subtitle';
                 catTitle.style.marginBottom = 'var(--mb-2)'; // Increased margin for visual separation
-                catTitle.style.color = 'var(--text-color)';
+                // catTitle.style.color = 'var(--text-color)'; // Removed to allow CSS override
                 catTitle.textContent = category.name;
                 group.appendChild(catTitle);
 

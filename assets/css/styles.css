@@ -912,14 +912,14 @@
 
             .skills__subtitle {
                 font-size: 9pt;
-                font-weight: 800 !important;
-                /* Extra bold */
-                color: #000 !important;
-                /* Pure black */
+                font-weight: bold !important;
+                /* Standard bold */
+                color: black !important;
+                /* Keyword black */
                 margin-bottom: 0 !important;
                 margin-top: 0.1rem;
                 text-transform: none !important;
-                /* No uppercase */
+                /* Force mixed case */
                 width: 100%;
             }
 
