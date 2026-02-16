@@ -52,6 +52,114 @@ function scrollTop() {
 }
 window.addEventListener('scroll', scrollTop);
 
+/*==================== LANGUAGE SWITCHING ====================*/
+const languageButton = document.getElementById('language-button');
+const currentLang = localStorage.getItem('selected-lang') || 'en'; // Default to English
+
+// Function to update text content based on language
+function updateLanguage(lang) {
+    // Update simple text elements with data-lang attribute
+    document.querySelectorAll('[data-lang]').forEach(element => {
+        const key = element.getAttribute('data-lang');
+        const keys = key.split('.');
+        let value = translations[lang];
+
+        // Navigate nested object
+        for (const k of keys) {
+            if (value) value = value[k];
+        }
+
+        if (value) {
+            element.textContent = value;
+        }
+    });
+
+    // Update section titles
+    const sectionTitles = {
+        'profile': translations[lang].profile.title,
+        'experience': translations[lang].experience.title,
+        'skills': translations[lang].skills.title,
+        'education': translations[lang].education.title,
+        'languages': translations[lang].languages.title,
+        'social': translations[lang].social.title
+    };
+
+    Object.keys(sectionTitles).forEach(id => {
+        const section = document.getElementById(id);
+        if (section) {
+            const title = section.querySelector('.section-title');
+            if (title) title.textContent = sectionTitles[id];
+        }
+    });
+
+    // Update profile description
+    const profileDesc = document.querySelector('.profile__description');
+    if (profileDesc) {
+        profileDesc.textContent = translations[lang].profile.description;
+    }
+
+    // Update experience
+    const expContents = document.querySelectorAll('.experience__content');
+    expContents.forEach((content, index) => {
+        if (translations[lang].experience.jobs[index]) {
+            const job = translations[lang].experience.jobs[index];
+            const titleEl = content.querySelector('.experience__title');
+            const companyEl = content.querySelector('.experience__company');
+            const descEl = content.querySelector('.experience__description');
+
+            if (titleEl) titleEl.textContent = job.title;
+            if (companyEl) companyEl.textContent = job.company;
+            if (descEl) descEl.innerHTML = job.description.replace(/\n/g, '<br>');
+        }
+    });
+
+    // Update skills
+    const skillItems = document.querySelectorAll('.skills__name');
+    translations[lang].skills.items.forEach((skill, index) => {
+        if (skillItems[index]) {
+            const circle = skillItems[index].querySelector('.skills__circle');
+            skillItems[index].innerHTML = '';
+            if (circle) skillItems[index].appendChild(circle);
+            skillItems[index].appendChild(document.createTextNode(skill));
+        }
+    });
+
+    // Update education
+    const eduTitle = document.querySelector('.education__title');
+    const eduStudies = document.querySelector('.education__studies');
+    const eduYear = document.querySelector('.education__year');
+    if (eduTitle) eduTitle.textContent = translations[lang].education.degree;
+    if (eduStudies) eduStudies.textContent = translations[lang].education.institution;
+    if (eduYear) eduYear.textContent = translations[lang].education.years;
+
+    // Update languages
+    const langItems = document.querySelectorAll('.languages__name');
+    translations[lang].languages.items.forEach((language, index) => {
+        if (langItems[index]) {
+            const circle = langItems[index].querySelector('.languages__circle');
+            langItems[index].innerHTML = '';
+            if (circle) langItems[index].appendChild(circle);
+            langItems[index].appendChild(document.createTextNode(language));
+        }
+    });
+
+    // Store preference
+    localStorage.setItem('selected-lang', lang);
+}
+
+// Apply saved language on load
+if (currentLang) {
+    updateLanguage(currentLang);
+}
+
+// Toggle language on button click
+if (languageButton) {
+    languageButton.addEventListener('click', () => {
+        const newLang = localStorage.getItem('selected-lang') === 'en' ? 'es' : 'en';
+        updateLanguage(newLang);
+    });
+}
+
 /*==================== DARK LIGHT THEME ====================*/
 
 const themeButton = document.getElementById('theme-button');
@@ -93,36 +201,34 @@ function removeScale() {
     document.body.classList.remove('scale-cv');
 
 }
-/*==================== GENERATE PDF ====================*/
-// PDF generated area
-
-let areaCv = document.getElementById('area-cv');
-
+/*==================== GENERATE PDF (Harvard Format via Print) ====================*/
+// Use browser print to respect @media print CSS (Harvard format)
 let resumeButton = document.getElementById('resume-button');
+let mobileButton = document.querySelector('.home__button-movil');
 
-// Html2pdf options
-let opt = {
-    margin: 1,
-    filename: 'CVAlejandroArteaga.pdf',
-    image: { type: 'jpeg', quality: 0.98 },
-    html2canvas: { scale: 4 },
-    jsPDF: { unit: 'in', format: 'letter', orientation: 'portrait' }
-};
-
-// Function to call areaCv and Html2Pdf options 
+// Function to generate PDF using browser print
 function generateResume() {
-    html2pdf(areaCv, opt);
+    console.log('Opening print dialog for Harvard PDF...');
+    window.print();
 }
 
-// When the button is clicked, it executes the three functions
+// Desktop download icon
+if (resumeButton) {
+    resumeButton.addEventListener('click', () => {
+        console.log('Desktop download button clicked');
+        generateResume();
+    });
+} else {
+    console.error('Resume button not found');
+}
 
-resumeButton.addEventListener('click', () => {
-
-    // 1. The class .scale-cv is added to the body, where it reduces the size of the elements
-    scaleCv();
-
-    // 2. The PDF is generated
-    generateResume();
-
-    // 3. The .scale-cv class is removed from the body after 5 seconds to return to normal size.
-});
+// Mobile download button
+if (mobileButton) {
+    mobileButton.addEventListener('click', (e) => {
+        e.preventDefault(); // Prevent default link behavior
+        console.log('Mobile download button clicked');
+        generateResume();
+    });
+} else {
+    console.error('Mobile button not found');
+}
