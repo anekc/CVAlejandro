@@ -79,9 +79,11 @@ let translations = {
             "languages": "Idiomas"
         },
         "home": {
-            "name": "Alejandro Arteaga",
-            "profession": "Consultor Senior de Supply Chain",
-            "location": "Coyoacán | CDMX | México",
+            "title": "Alejandro Arteaga",
+            "profession": "Gerente de Proyectos Logísticos | Especialista SAP y WMS",
+            "address": "Ciudad de México, México",
+            "phone": "+52 5563997582",
+            "description": "Ingeniero Industrial con más de 5 años de experiencia...",
             "download": "Descargar CV"
         },
         "social": {

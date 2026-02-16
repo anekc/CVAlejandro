@@ -141,24 +141,6 @@ function updateLanguage(lang) {
     });
 
     // Update section titles
-    // Update contact info if specific format is provided (e.g., Blue Yonder single line)
-    const homeData = translations[lang].home;
-    const contactContainer = document.getElementById('home-contact-info');
-
-    if (homeData.contactInfo && contactContainer) {
-        // Replace with single line format
-        contactContainer.innerHTML = `<span class="home__information" style="display: block; text-align: center; width: 100%;">${homeData.contactInfo}</span>`;
-        // Remove grid gap if it interferes with centering
-        contactContainer.style.display = 'block';
-        contactContainer.style.textAlign = 'center';
-    } else if (contactContainer) {
-        // Revert to default layout (optional, or reload page handles this)
-        // For now, assuming page reload clears it, but if dynamic switching is needed without reload:
-        // We'd need the original HTML template. Since we reload via ?v= param usually, this is fine.
-        // But for language switch 'en' <-> 'es', we need to support fallback if 'en' has it and 'es' doesn't?
-        // Current implementation assumes symmetric structure or simple replacement.
-    }
-
     const sectionTitles = {
         'profile': translations[lang].profile.title,
         'experience': translations[lang].experience.title,

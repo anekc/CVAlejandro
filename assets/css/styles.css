@@ -783,6 +783,27 @@
             /* Remove decorative elements for ATS */
         }
 
+        /* Contact Info: Single Line with Pipes for Print */
+        .home__adress {
+            display: flex !important;
+            flex-direction: row;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-top: 0.25rem;
+        }
+
+        .home__information {
+            font-size: 9pt;
+            display: inline-block;
+        }
+
+        .home__information:not(:last-child)::after {
+            content: " |";
+            margin-left: 0.5rem;
+            color: #333;
+        }
+
         /* Experience and Education timeline adjustments */
         .experience__rounder,
         .education__rounder,
