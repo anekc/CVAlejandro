@@ -304,6 +304,26 @@ function updateLanguage(lang) {
         }
     });
 
+    // Dynamic Menu Toggle
+    const navProjects = document.getElementById('nav-projects');
+    const navCerts = document.getElementById('nav-certifications');
+
+    if (navProjects) {
+        if (translations[lang].projects && translations[lang].projects.items && translations[lang].projects.items.length > 0) {
+            navProjects.style.display = ''; // Revert to CSS default (visible)
+        } else {
+            navProjects.style.display = 'none';
+        }
+    }
+
+    if (navCerts) {
+        if (translations[lang].certifications && translations[lang].certifications.items && translations[lang].certifications.items.length > 0) {
+            navCerts.style.display = ''; // Revert to CSS default (visible)
+        } else {
+            navCerts.style.display = 'none';
+        }
+    }
+
     // Store preference
     localStorage.setItem('selected-lang', lang);
 }

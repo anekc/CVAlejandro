@@ -5,6 +5,8 @@ let translations = {
             "profile": "Profile",
             "experience": "Experience",
             "skills": "Skills",
+            "projects": "Projects",
+            "certifications": "Certifications",
             "languages": "Languages"
         },
         "home": {
@@ -78,6 +80,8 @@ let translations = {
             "profile": "Perfil",
             "experience": "Experiencia",
             "skills": "Habilidades",
+            "projects": "Proyectos",
+            "certifications": "Certificaciones",
             "languages": "Idiomas"
         },
         "home": {
