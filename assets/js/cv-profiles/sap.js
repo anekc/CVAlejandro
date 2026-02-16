@@ -15,16 +15,18 @@ const sapProfile = {
         },
         "experience": {
             "title": "Professional Experience",
-            "job1": {
-                "title": "Senior Functional Consultant – Blue Yonder WMS",
-                "company": "Argano | 2025 – Present",
-                "description": "• Supported blueprint workshops and functional requirement analysis for greenfield WMS implementations.\n• Configured receiving, inventory, and location management processes based on operational requirements.\n• Generated large-scale test datasets and supported mass testing activities prior to go-live.\n• Assisted integration validation between ERP and WMS through XML interface testing.\n• Delivered functional training sessions for warehouse users and operational teams."
-            },
-            "job2": {
-                "title": "WMS Specialist & Developer",
-                "company": "Netlogistik | 2021 – 2024",
-                "description": "• Supported end-to-end WMS implementation projects across multiple distribution centers.\n• Conducted warehouse process analysis sessions covering receiving, putaway, replenishment, picking, and shipping.\n• Configured system workflows and validated integrations with SAP Business One, Navision, and Epicor.\n• Led user testing coordination and provided post-go-live operational support.\n• Assisted in solution documentation and functional design validation."
-            }
+            "jobs": [
+                {
+                    "title": "Senior Functional Consultant – Blue Yonder WMS",
+                    "company": "Argano | 2025 – Present",
+                    "description": "• Supported blueprint workshops and functional requirement analysis for greenfield WMS implementations.\n• Configured receiving, inventory, and location management processes based on operational requirements.\n• Generated large-scale test datasets and supported mass testing activities prior to go-live.\n• Assisted integration validation between ERP and WMS through XML interface testing.\n• Delivered functional training sessions for warehouse users and operational teams."
+                },
+                {
+                    "title": "WMS Specialist & Developer",
+                    "company": "Netlogistik | 2021 – 2024",
+                    "description": "• Supported end-to-end WMS implementation projects across multiple distribution centers.\n• Conducted warehouse process analysis sessions covering receiving, putaway, replenishment, picking, and shipping.\n• Configured system workflows and validated integrations with SAP Business One, Navision, and Epicor.\n• Led user testing coordination and provided post-go-live operational support.\n• Assisted in solution documentation and functional design validation."
+                }
+            ]
         },
         "projects": {
             "title": "Selected Implementation Projects",
@@ -84,16 +86,18 @@ const sapProfile = {
         },
         "experience": {
             "title": "Experiencia Profesional",
-            "job1": {
-                "title": "Consultor Funcional Senior – Blue Yonder WMS",
-                "company": "Argano | 2025 – Presente",
-                "description": "• Apoyé talleres de diseño (blueprint) y análisis de requerimientos funcionales para implementaciones WMS desde cero.\n• Configuré procesos de recibo, inventario y gestión de ubicaciones basado en requerimientos operativos.\n• Generé sets de datos de prueba a gran escala y apoyé actividades de pruebas masivas previo al arranque.\n• Asistí en la validación de integraciones entre ERP y WMS mediante pruebas de interfaces XML.\n• Impartí sesiones de capacitación funcional para usuarios de almacén y equipos operativos."
-            },
-            "job2": {
-                "title": "Desarrollador y Especialista WMS",
-                "company": "Netlogistik | 2021 – 2024",
-                "description": "• Apoyé proyectos de implementación WMS de punta a punta en múltiples centros de distribución.\n• Conduje sesiones de análisis de procesos de almacén cubriendo recibo, acomodo, reabastecimiento, surtido y embarque.\n• Configuré flujos de trabajo del sistema y validé integraciones con SAP Business One, Navision y Epicor.\n• Lideré la coordinación de pruebas de usuario y brindé soporte operativo post-arranque.\n• Asistí en la documentación de soluciones y validación de diseño funcional."
-            }
+            "jobs": [
+                {
+                    "title": "Consultor Funcional Senior – Blue Yonder WMS",
+                    "company": "Argano | 2025 – Presente",
+                    "description": "• Apoyé talleres de diseño (blueprint) y análisis de requerimientos funcionales para implementaciones WMS desde cero.\n• Configuré procesos de recibo, inventario y gestión de ubicaciones basado en requerimientos operativos.\n• Generé sets de datos de prueba a gran escala y apoyé actividades de pruebas masivas previo al arranque.\n• Asistí en la validación de integraciones entre ERP y WMS mediante pruebas de interfaces XML.\n• Impartí sesiones de capacitación funcional para usuarios de almacén y equipos operativos."
+                },
+                {
+                    "title": "Desarrollador y Especialista WMS",
+                    "company": "Netlogistik | 2021 – 2024",
+                    "description": "• Apoyé proyectos de implementación WMS de punta a punta en múltiples centros de distribución.\n• Conduje sesiones de análisis de procesos de almacén cubriendo recibo, acomodo, reabastecimiento, surtido y embarque.\n• Configuré flujos de trabajo del sistema y validé integraciones con SAP Business One, Navision y Epicor.\n• Lideré la coordinación de pruebas de usuario y brindé soporte operativo post-arranque.\n• Asistí en la documentación de soluciones y validación de diseño funcional."
+                }
+            ]
         },
         "projects": {
             "title": "Proyectos de Implementación Seleccionados",
