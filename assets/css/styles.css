@@ -830,7 +830,15 @@
 
         /* Skills layout for print */
         .skills__content {
-            display: block;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            column-gap: 2rem;
+            align-items: flex-start;
+        }
+
+        .skills__group {
+            break-inside: avoid;
+            page-break-inside: avoid;
         }
 
         .skills__data {
