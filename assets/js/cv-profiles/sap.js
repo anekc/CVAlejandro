@@ -7,24 +7,24 @@ const sapProfile = {
             "title": "Alejandro Arteaga",
             "profession": "Implementation Specialist | WMS Functional Consultant",
             "contactInfo": "Mexico City, Mexico | alejandro_la1@outlook.com | +52 5563997582",
-            "description": "Implementation Specialist and WMS Functional Consultant with 4+ years of experience supporting warehouse management system implementations across logistics, manufacturing, and distribution environments. Experienced in requirements analysis, system configuration, integration validation, testing coordination, and go-live support. Strong collaborator with technical and operational teams to ensure smooth system adoption and operational continuity."
+            "description": "Implementation Specialist with 4+ years of experience supporting Warehouse Management System (WMS) deployments across distribution and manufacturing environments in Mexico and the United States. Experienced in client-facing requirement gathering sessions, system configuration, integration validation, testing coordination, and go-live readiness. Strong background translating warehouse operations into system workflows and supporting multi-project implementation environments."
         },
         "profile": {
             "title": "About Me",
-            "description": "Implementation Specialist and WMS Functional Consultant with 4+ years of experience supporting warehouse management system implementations across logistics, manufacturing, and distribution environments. Experienced in requirements analysis, system configuration, integration validation, testing coordination, and go-live support. Strong collaborator with technical and operational teams to ensure smooth system adoption and operational continuity."
+            "description": "Implementation Specialist with 4+ years of experience supporting Warehouse Management System (WMS) deployments across distribution and manufacturing environments in Mexico and the United States. Experienced in client-facing requirement gathering sessions, system configuration, integration validation, testing coordination, and go-live readiness. Strong background translating warehouse operations into system workflows and supporting multi-project implementation environments."
         },
         "experience": {
             "title": "Professional Experience",
             "jobs": [
                 {
-                    "title": "Senior Functional Consultant – Blue Yonder WMS",
+                    "title": "Senior Blue Yonder Consultant",
                     "company": "Argano | 2025 – Present",
-                    "description": "• Supported blueprint workshops and functional requirement analysis for greenfield WMS implementations.\n• Configured receiving, inventory, and location management processes based on operational requirements.\n• Generated large-scale test datasets and supported mass testing activities prior to go-live.\n• Assisted integration validation between ERP and WMS through XML interface testing.\n• Delivered functional training sessions for warehouse users and operational teams."
+                    "description": "• Participated in Greenfield Blue Yonder WMS implementation for a U.S.-based distribution center, supporting requirement gathering workshops and inbound configuration activities.\n• Configured receiving workflows, item master structures, and inventory parameters based on operational requirements.\n• Supported integration validation and coordinated User Acceptance Testing (UAT) activities.\n• Delivered functional training sessions prior to go-live readiness."
                 },
                 {
-                    "title": "WMS Specialist & Developer",
+                    "title": "WMS Implementation Consultant",
                     "company": "Netlogistik | 2021 – 2024",
-                    "description": "• Supported end-to-end WMS implementation projects across multiple distribution centers.\n• Conducted warehouse process analysis sessions covering receiving, putaway, replenishment, picking, and shipping.\n• Configured system workflows and validated integrations with SAP Business One, Navision, and Epicor.\n• Led user testing coordination and provided post-go-live operational support.\n• Assisted in solution documentation and functional design validation."
+                    "description": "• Supported multiple concurrent WMS implementation projects across manufacturing and distribution operations in Mexico.\n• Conducted warehouse process analysis covering receiving, storage, replenishment, picking, and shipping.\n• Configured system workflows aligned with operational requirements.\n• Supported ERP integration validation using Web Services and flat-file interfaces.\n• Coordinated testing cycles and post-implementation stabilization activities."
                 }
             ]
         },
@@ -32,13 +32,24 @@ const sapProfile = {
             "title": "Selected Implementation Projects",
             "items": [
                 {
-                    "title": "WMS Implementations (Manufacturing & Distribution)",
-                    "description": "Multiple WMS implementations across manufacturing and distribution clients in Mexico. Participation in greenfield warehouse system deployment including configuration, testing, and go-live readiness."
+                    "title": "US-Based Greenfield Warehouse Deployment (Blue Yonder)",
+                    "description": "Participated in Greenfield WMS implementation for a U.S. distribution center. Supported blueprint sessions, configuration, testing coordination, and go-live readiness."
                 },
                 {
-                    "title": "ERP-WMS Integration Validation",
-                    "description": "Integration validation projects involving ERP-WMS data exchange through flat files and XML interfaces."
+                    "title": "Large-Scale Food Distribution Implementation – Mexico",
+                    "description": "Contributed to large-scale WMS deployment in high-volume food manufacturing and distribution operations. Supported process mapping, system configuration, and integration validation."
+                },
+                {
+                    "title": "Implementation Recovery & Stabilization – Mexico",
+                    "description": "Took ownership of configuration inconsistencies in an ongoing WMS deployment. Reorganized workflows and supported successful system stabilization prior to go-live."
                 }
+            ]
+        },
+        "certifications": {
+            "title": "Certifications",
+            "items": [
+                "Blue Yonder WMS Functional Certification",
+                "Certified Supply Chain Professional (CSCP) - In Progress"
             ]
         },
         "skills": {
@@ -47,29 +58,30 @@ const sapProfile = {
                 {
                     "name": "Implementation & Functional Skills",
                     "items": [
-                        "WMS Configuration",
-                        "Requirements Analysis",
+                        "Software Implementation",
+                        "Requirement Gathering",
+                        "System Configuration",
                         "Integration Testing",
                         "User Acceptance Testing (UAT)",
-                        "Go-Live Support",
-                        "Process Mapping",
-                        "Warehouse Operations"
+                        "Go-Live Coordination",
+                        "Warehouse Process Mapping",
+                        "Multi-Project Implementation Support"
                     ]
                 },
                 {
                     "name": "Technical Tools",
                     "items": [
                         "Blue Yonder WMS",
+                        "ERP Integrations",
+                        "XML / Web Services",
                         "SQL",
-                        "XML",
-                        "Python",
-                        "MOCA"
+                        "Python"
                     ]
                 }
             ],
             "items": [
-                "WMS Configuration", "Requirements Analysis", "Integration Testing", "User Acceptance Testing", "Go-Live Support",
-                "Blue Yonder WMS", "SQL", "XML", "Python", "MOCA"
+                "Software Implementation", "Requirement Gathering", "System Configuration", "Integration Testing", "User Acceptance Testing (UAT)",
+                "Blue Yonder WMS", "SQL", "XML", "Python"
             ]
         }
     },
@@ -78,24 +90,24 @@ const sapProfile = {
             "title": "Alejandro Arteaga",
             "profession": "Especialista en Implementación | Consultor Funcional WMS",
             "contactInfo": "Ciudad de México, México | alejandro_la1@outlook.com | +52 5563997582",
-            "description": "Especialista en Implementación y Consultor Funcional WMS con más de 4 años de experiencia apoyando implementaciones de sistemas de gestión de almacenes en entornos de logística, manufactura y distribución. Experimentado en análisis de requerimientos, configuración de sistemas, validación de integraciones, coordinación de pruebas y soporte post-arranque. Colaborador sólido con equipos técnicos y operativos para asegurar una adopción fluida del sistema y continuidad operativa."
+            "description": "Especialista en Implementación con más de 4 años de experiencia apoyando despliegues de Sistemas de Gestión de Almacenes (WMS) en entornos de distribución y manufactura en México y Estados Unidos. Experimentado en sesiones de levantamiento de requerimientos con clientes, configuración de sistemas, validación de integraciones, coordinación de pruebas y preparación para el arranque. Sólida experiencia traduciendo operaciones de almacén en flujos de trabajo del sistema y apoyando entornos de implementación multi-proyecto."
         },
         "profile": {
             "title": "Sobre mí",
-            "description": "Especialista en Implementación y Consultor Funcional WMS con más de 4 años de experiencia apoyando implementaciones de sistemas de gestión de almacenes en entornos de logística, manufactura y distribución. Experimentado en análisis de requerimientos, configuración de sistemas, validación de integraciones, coordinación de pruebas y soporte post-arranque. Colaborador sólido con equipos técnicos y operativos para asegurar una adopción fluida del sistema y continuidad operativa."
+            "description": "Especialista en Implementación con más de 4 años de experiencia apoyando despliegues de Sistemas de Gestión de Almacenes (WMS) en entornos de distribución y manufactura en México y Estados Unidos. Experimentado en sesiones de levantamiento de requerimientos con clientes, configuración de sistemas, validación de integraciones, coordinación de pruebas y preparación para el arranque. Sólida experiencia traduciendo operaciones de almacén en flujos de trabajo del sistema y apoyando entornos de implementación multi-proyecto."
         },
         "experience": {
             "title": "Experiencia Profesional",
             "jobs": [
                 {
-                    "title": "Consultor Funcional Senior – Blue Yonder WMS",
+                    "title": "Consultor Senior Blue Yonder",
                     "company": "Argano | 2025 – Presente",
-                    "description": "• Apoyé talleres de diseño (blueprint) y análisis de requerimientos funcionales para implementaciones WMS desde cero.\n• Configuré procesos de recibo, inventario y gestión de ubicaciones basado en requerimientos operativos.\n• Generé sets de datos de prueba a gran escala y apoyé actividades de pruebas masivas previo al arranque.\n• Asistí en la validación de integraciones entre ERP y WMS mediante pruebas de interfaces XML.\n• Impartí sesiones de capacitación funcional para usuarios de almacén y equipos operativos."
+                    "description": "• Participé en implementación Green-Field de Blue Yonder WMS para un centro de distribución basado en EE. UU., apoyando talleres de levantamiento de requerimientos y actividades de configuración de entrada (inbound).\n• Configuré flujos de trabajo de recibo, estructuras de maestro de artículos y parámetros de inventario basados en requerimientos operativos.\n• Apoyé la validación de integración y coordiné actividades de Pruebas de Aceptación de Usuario (UAT).\n• Impartí sesiones de capacitación funcional previas a la preparación del arranque."
                 },
                 {
-                    "title": "Desarrollador y Especialista WMS",
+                    "title": "Consultor de Implementación WMS",
                     "company": "Netlogistik | 2021 – 2024",
-                    "description": "• Apoyé proyectos de implementación WMS de punta a punta en múltiples centros de distribución.\n• Conduje sesiones de análisis de procesos de almacén cubriendo recibo, acomodo, reabastecimiento, surtido y embarque.\n• Configuré flujos de trabajo del sistema y validé integraciones con SAP Business One, Navision y Epicor.\n• Lideré la coordinación de pruebas de usuario y brindé soporte operativo post-arranque.\n• Asistí en la documentación de soluciones y validación de diseño funcional."
+                    "description": "• Apoyé múltiples proyectos simultáneos de implementación WMS en operaciones de manufactura y distribución en México.\n• Conduje análisis de procesos de almacén cubriendo recibo, almacenamiento, reabastecimiento, surtido y embarque.\n• Configuré flujos de trabajo del sistema alineados con requerimientos operativos.\n• Apoyé la validación de integración ERP usando Servicios Web e interfaces de archivos planos.\n• Coordiné ciclos de pruebas y actividades de estabilización post-implementación."
                 }
             ]
         },
@@ -103,13 +115,24 @@ const sapProfile = {
             "title": "Proyectos de Implementación Seleccionados",
             "items": [
                 {
-                    "title": "Implementaciones WMS (Manufactura y Distribución)",
-                    "description": "Múltiples implementaciones WMS en clientes de manufactura y distribución en México. Participación en despliegue de sistemas de almacén desde cero incluyendo configuración, pruebas y preparación para arranque."
+                    "title": "Despliegue de Almacén Green-Field en EE. UU. (Blue Yonder)",
+                    "description": "Participé en implementación WMS Green-Field para un centro de distribución en EE. UU. Apoyé sesiones de blueprint, configuración, coordinación de pruebas y preparación para el arranque."
                 },
                 {
-                    "title": "Validación de Integración ERP-WMS",
-                    "description": "Proyectos de validación de integración involucrando intercambio de datos ERP-WMS a través de archivos planos e interfaces XML."
+                    "title": "Implementación de Distribución de Alimentos a Gran Escala – México",
+                    "description": "Contribuí al despliegue de WMS a gran escala en operaciones de manufactura y distribución de alimentos de alto volumen. Apoyé mapeo de procesos, configuración de sistema y validación de integración."
+                },
+                {
+                    "title": "Recuperación y Estabilización de Implementación – México",
+                    "description": "Tomé propiedad de inconsistencias de configuración en un despliegue WMS en curso. Reorganicé flujos de trabajo y apoyé la estabilización exitosa del sistema previo al arranque."
                 }
+            ]
+        },
+        "certifications": {
+            "title": "Certificaciones",
+            "items": [
+                "Certificación Funcional Blue Yonder WMS",
+                "Certified Supply Chain Professional (CSCP) - En Progreso"
             ]
         },
         "skills": {
@@ -118,29 +141,30 @@ const sapProfile = {
                 {
                     "name": "Habilidades Funcionales y de Implementación",
                     "items": [
-                        "Configuración WMS",
-                        "Análisis de Requerimientos",
+                        "Implementación de Software",
+                        "Levantamiento de Requerimientos",
+                        "Configuración de Sistemas",
                         "Pruebas de Integración",
                         "Pruebas de Aceptación de Usuario (UAT)",
-                        "Soporte Go-Live",
-                        "Mapeo de Procesos",
-                        "Operaciones de Almacén"
+                        "Coordinación de Go-Live",
+                        "Mapeo de Procesos de Almacén",
+                        "Soporte de Implementación Multi-proyecto"
                     ]
                 },
                 {
                     "name": "Herramientas Técnicas",
                     "items": [
                         "Blue Yonder WMS",
+                        "Integraciones ERP",
+                        "XML / Servicios Web",
                         "SQL",
-                        "XML",
-                        "Python",
-                        "MOCA"
+                        "Python"
                     ]
                 }
             ],
             "items": [
-                "Configuración WMS", "Análisis de Requerimientos", "Pruebas de Integración", "Pruebas de Usuario (UAT)", "Soporte Go-Live",
-                "Blue Yonder WMS", "SQL", "XML", "Python", "MOCA"
+                "Implementación de Software", "Levantamiento de Requerimientos", "Configuración de Sistemas", "Pruebas de Integración", "Pruebas de Usuario (UAT)",
+                "Blue Yonder WMS", "SQL", "XML", "Python"
             ]
         }
     }
