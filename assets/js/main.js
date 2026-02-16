@@ -180,15 +180,53 @@ function updateLanguage(lang) {
     });
 
     // Update skills
-    const skillItems = document.querySelectorAll('.skills__name');
-    translations[lang].skills.items.forEach((skill, index) => {
-        if (skillItems[index]) {
-            const circle = skillItems[index].querySelector('.skills__circle');
-            skillItems[index].innerHTML = '';
-            if (circle) skillItems[index].appendChild(circle);
-            skillItems[index].appendChild(document.createTextNode(skill));
+    const skillsSection = document.getElementById('skills');
+    if (skillsSection) {
+        const skillsContent = skillsSection.querySelector('.skills__content');
+        skillsContent.innerHTML = ''; // Clear existing static content
+
+        const skillsData = translations[lang].skills;
+
+        if (skillsData.categories) {
+            // Render Categories
+            skillsSection.querySelector('.section-title').textContent = skillsData.title;
+
+            skillsData.categories.forEach(category => {
+                // Category Title
+                const catTitle = document.createElement('h3');
+                catTitle.className = 'skills__subtitle';
+                catTitle.style.marginBottom = '1rem';
+                catTitle.style.marginTop = '1.5rem';
+                catTitle.style.color = 'var(--text-color)';
+                catTitle.textContent = category.name;
+                skillsContent.appendChild(catTitle);
+
+                // Category Items
+                const list = document.createElement('ul');
+                list.className = 'skills__data';
+                list.style.marginBottom = '1rem';
+
+                category.items.forEach(skill => {
+                    const item = document.createElement('li');
+                    item.className = 'skills__name';
+                    item.innerHTML = `<span class="skills__circle"></span>${skill}`;
+                    list.appendChild(item);
+                });
+                skillsContent.appendChild(list);
+            });
+        } else if (skillsData.items) {
+            // Fallback to flat list (legacy/simple profiles)
+            const list = document.createElement('ul');
+            list.className = 'skills__data';
+            skillsData.items.forEach(skill => {
+                const item = document.createElement('li');
+                item.className = 'skills__name';
+                item.innerHTML = `<span class="skills__circle"></span>${skill}`;
+                list.appendChild(item);
+            });
+            skillsContent.appendChild(list);
         }
-    });
+    }
 
     // Update education
     const eduTitle = document.querySelector('.education__title');

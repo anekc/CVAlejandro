@@ -27,17 +27,24 @@ const blueYonderProfile = {
         },
         skills: {
             title: "Technical Skills",
+            categories: [
+                {
+                    name: "WMS & Supply Chain",
+                    items: ["Blue Yonder WMS", "Warehouse Process Design", "Supply Chain Execution", "WMS Implementations"]
+                },
+                {
+                    name: "Integrations & Architecture",
+                    items: ["ERP Integrations (SAP, Navision, Epicor)", "EDI / Web Services", "Interface Design"]
+                },
+                {
+                    name: "Technical",
+                    items: ["Python (Automation)", "SQL (Optimization)", "Node.js / Angular"]
+                }
+            ],
+            // Keep flat items for backup/compatibility or PDF generation if needed
             items: [
-                "Blue Yonder WMS",
-                "Warehouse Process Design",
-                "Supply Chain Execution",
-                "WMS Implementations",
-                "ERP Integrations (SAP, Navision, Epicor)",
-                "EDI / Web Services",
-                "Interface Design",
-                "Python (Automation)",
-                "SQL (Optimization)",
-                "Node.js / Angular"
+                "Blue Yonder WMS", "Warehouse Process Design", "Supply Chain Execution",
+                "ERP Integrations", "EDI / Web Services", "Python", "SQL"
             ]
         }
     },
@@ -66,17 +73,23 @@ const blueYonderProfile = {
         },
         skills: {
             title: "Habilidades Técnicas",
+            categories: [
+                {
+                    name: "WMS y Cadena de Suministro",
+                    items: ["Blue Yonder WMS", "Diseño de Procesos de Almacén", "Ejecución de Cadena de Suministro", "Implementaciones WMS"]
+                },
+                {
+                    name: "Integraciones y Arquitectura",
+                    items: ["Integraciones ERP (SAP, Navision, Epicor)", "EDI / Servicios Web", "Diseño de Interfaces"]
+                },
+                {
+                    name: "Técnico",
+                    items: ["Python (Automatización)", "SQL (Optimización)", "Node.js / Angular"]
+                }
+            ],
             items: [
-                "Blue Yonder WMS",
-                "Diseño de Procesos de Almacén",
-                "Ejecución de Cadena de Suministro",
-                "Implementaciones WMS",
-                "Integraciones ERP (SAP, Navision, Epicor)",
-                "EDI / Servicios Web",
-                "Diseño de Interfaces",
-                "Python (Automatización)",
-                "SQL (Optimización)",
-                "Node.js / Angular"
+                "Blue Yonder WMS", "Diseño de Procesos de Almacén", "Ejecución de Cadena de Suministro",
+                "Integraciones ERP", "EDI / Servicios Web", "Python", "SQL"
             ]
         }
     }
