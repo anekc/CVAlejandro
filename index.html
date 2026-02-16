@@ -10,6 +10,7 @@
 
     <!--========== CSS ==========-->
     <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/print.css" media="print">
 
     <title>Alejandro Arteaga CV</title>
 </head>
@@ -18,59 +19,40 @@
     <!--========== HEADER ==========-->
     <header class="l-header" id="header">
         <nav class="nav bd-container">
-            <a class="nav__logo" href="#">Alejandro
-            </a>
+            <a class="nav__logo" href="#">Alejandro Arteaga</a>
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
                     <li class="nav__item">
                         <a class="nav__link active_link" href="#home">
-                            <i class='bx bx-home nav__icon'></i>Inicio
+                            <i class='bx bx-home nav__icon'></i><span data-lang="nav.home">Home</span>
                         </a>
                     </li>
-
                     <li class="nav__item">
                         <a class="nav__link" href="#profile">
-                            <i class='bx bx-user nav__icon'></i>Sobre mí
+                            <i class='bx bx-user nav__icon'></i><span data-lang="nav.profile">Profile</span>
                         </a>
                     </li>
-
                     <li class="nav__item">
-                        <a class="nav__link" href="#education">
-                            <i class='bx bx-book nav__icon'></i>Educación
+                        <a class="nav__link" href="#experience">
+                            <i class='bx bx-briefcase nav__icon'></i><span data-lang="nav.experience">Experience</span>
                         </a>
                     </li>
-
-                    <li class="nav__item">
-                        <a class="nav__link" href="#software">
-                            <i class='bx bx-laptop nav__icon'></i>Software
-                        </a>
-                    </li>
-
                     <li class="nav__item">
                         <a class="nav__link" href="#skills">
-                            <i class='bx bx-award nav__icon'></i>Habilidades
+                            <i class='bx bx-award nav__icon'></i><span data-lang="nav.skills">Skills</span>
                         </a>
                     </li>
-
                     <li class="nav__item">
                         <a class="nav__link" href="#languages">
-                            <i class='bx bx-world nav__icon'></i>Idiomas
+                            <i class='bx bx-world nav__icon'></i><span data-lang="nav.languages">Languages</span>
                         </a>
                     </li>
-
-                    <li class="nav__item">
-                        <a class="nav__link" href="#interests">
-                            <i class='bx bx-equalizer nav__icon'></i>Intereses
-                        </a>
-                    </li>
-
                 </ul>
             </div>
             <div class="nav__toggle" id="nav-toggle">
                 <i class='bx bx-grid-alt nav__icon'></i>
             </div>
         </nav>
-
     </header>
 
     <main class="l-main bd-container">
@@ -81,36 +63,33 @@
                 <section class="home" id="home">
                     <div class="home__container section bd-grid">
                         <div class="home__data bd-grid">
-                            <img class="home__img" src="assets/img/perfil.jpg" alt="">
-                            <h1 class="home__title">Alejandro <b> Arteaga </b></h1>
-                            <h3 class="home__profession">Desarrollador Web</h3>
+                            <h1 class="home__title" data-lang="home.name">Alejandro Arteaga</h1>
+                            <h3 class="home__profession" data-lang="home.profession">Senior Supply Chain Consultant</h3>
 
                             <!-- Button to generate and download the pdf. Available for desktop. -->
                             <div>
-                                <a download="" href="assets/pdf/CVAlejandroLopez.pdf" class="home__button-movil">Descargar</a>
+                                <a download="" href="#" class="home__button-movil"
+                                    data-lang="home.download">Download</a>
                             </div>
                         </div>
                         <div class="home__adress bd-grid">
                             <span class="home__information">
-                                <i class='bx bxs-map  home__icon' ></i> Coyoacán | CDMX | México
+                                <i class='bx bxs-map  home__icon'></i> Coyoacán | CDMX | México
                             </span>
-
                             <span class="home__information">
-                                <i class='bx bx-envelope home__icon' ></i> alejandro_la1@outlook.com
+                                <i class='bx bx-envelope home__icon'></i> alejandro_la1@outlook.com
                             </span>
-
                             <span class="home__information">
-                                <i class='bx bx-phone home__icon' ></i> 5563997582
+                                <i class='bx bx-phone home__icon'></i> 5563997582
                             </span>
                         </div>
                     </div>
-                    <!-- Theme change button -->
-
-                    <i class='bx bx-moon change-theme' title="Theme" id="theme-button"></i>
-
-                    <!--Button to generate and download PDF--->
-                    <i class='bx bxs-download generate-pdf' title="Generate PDF" id="resume-button"></i>
-
+                    <!-- Control buttons -->
+                    <div class="home__controls">
+                        <i class='bx bx-world language-toggle' title="Language" id="language-button"></i>
+                        <i class='bx bx-moon change-theme' title="Theme" id="theme-button"></i>
+                        <i class='bx bxs-download generate-pdf' title="Generate PDF" id="resume-button"></i>
+                    </div>
                 </section>
 
                 <!--========== SOCIAL ==========-->
@@ -120,15 +99,11 @@
                         <a class="social__link" href="https://www.linkedin.com/in/aelart/" target="_blank">
                             <i class='bx bxl-linkedin-square social__icon '></i> linkedin.com/in/aelart/
                         </a>
-
                         <a class="social__link" href="https://github.com/anekc" target="_blank">
                             <i class='bx bxl-github social__icon'></i> github.com/anekc
                         </a>
-
                     </div>
                 </section>
-
-
             </div>
 
             <div class="resume__right ">
@@ -136,170 +111,130 @@
 
                 <!--========== PERFIL ==========-->
 
-                <section class="profile section " id="profile">
+                <!--========== PROFILE ==========-->
+                <section class="profile section" id="profile">
                     <h2 class="section-title">Sobre mí</h2>
                     <p class="profile__description">
-                        Estudiante de ultimo semestre de ingeniería en computación con ganas de contribuir al éxito de proyectos diversos a través del trabajo duro, la atención al detalle y una excelente capacidad de organización, motivado para aprender, crecer y sobresalir
-                        en el Desarrollo Web.
+                        Consultor Senior de WMS con una sólida trayectoria en la implementación de soluciones logísticas
+                        de clase mundial.
+                        Certificado funcionalmente en <b>Blue Yonder WMS</b>, combino experiencia operativa con un
+                        fuerte background técnico en desarrollo de software (Python, Node.js, SQL).
+                        Especialista en automatización de procesos, integraciones complejas con ERPs y gestión de ciclo
+                        completo de proyectos.
                     </p>
-
                 </section>
 
-                <!--========== EDUCACIÓN ==========-->
-                <section class="education section " id="education">
+                <!--========== EXPERIENCE ==========-->
+                <section class="experience section" id="experience">
+                    <h2 class="section-title">Experiencia</h2>
+                    <div class="experience__container bd-grid">
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">Senior Blue Yonder Consultant</h3>
+                                <span class="experience__company">Argano (Adq. Netlogistik) | 2021 - Presente</span>
+                                <p class="experience__description">
+                                    - <b>Implementación Green-Field (CFS):</b> Lideré análisis y diseño (Blueprint).
+                                    Configuración fase recibo, items, inbound interfaces/orders.<br>
+                                    - <b>Soporte y Pruebas Masivas (Metro):</b> Desarrollé script en <b>Python</b> para
+                                    automatizar generación de miles de archivos de prueba, reduciendo tiempos
+                                    drásticamente.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <!-- <span class="experience__line"></span> -->
+                            </div>
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">WMS Specialist & Developer</h3>
+                                <span class="experience__company">Netlogistik | 3.5 Años</span>
+                                <p class="experience__description">
+                                    - Implementación de WMS propietario "WEP" (Angular/Node.js) en farmacéutica,
+                                    alimentos y electrónica.<br>
+                                    - Integraciones con ERPs (SAP B1, Navision, Epicor) vía Web Services y archivos
+                                    planos.<br>
+                                    - Clientes: Naturasol, Nyjisa, Nissin, Sodexo.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!--========== SKILLS ==========-->
+                <section class="skills section" id="skills">
+                    <h2 class="section-title">Habilidades</h2>
+                    <div class="skills__content bd-grid">
+                        <ul class="skills__data">
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>Blue Yonder WMS (Functional)
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>Supply Chain Execution
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>WMS Implementation
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>ERP Integrations
+                            </li>
+                        </ul>
+                        <ul class="skills__data">
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>Python (Automation)
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>SQL (Queries/Optimization)
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>JavaScript (Node/Angular)
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>Web Services/EDI
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!--========== EDUCATION ==========-->
+                <section class="education section" id="education">
                     <h2 class="section-title">Educación</h2>
                     <div class="education__container bd-grid">
-                        <div class=" education__content ">
-                            <div class="education__time ">
-                                <span class="education__rounder "> </span>
-                                <span class="education__line "></span>
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <span class="education__line"></span>
                             </div>
-                            <div class="education__data bd-grid ">
-                                <h3 class="education__title ">Ingeniería en computación</h3>
-                                <span class="education__studies ">Instituto Politécnico Nacional</span>
-                                <span class="education__year ">2015-2021(Mayo)</span>
+                            <div class="education__data bd-grid">
+                                <h3 class="education__title">Ingeniería en Computación</h3>
+                                <span class="education__studies">Instituto Politécnico Nacional</span>
+                                <span class="education__year">2015 - 2021</span>
                             </div>
                         </div>
                     </div>
-
                 </section>
 
-                <!--========== SOFTWARE  ==========-->
-                <section class="skills section " id="software">
-                    <h2 class="section-title ">SOFTWARE</h2>
-                    <div class="skills__content bd-grid ">
-                        <ul class="skills__data ">
-                            <li class="skills__name ">
-                                <span class="skills__circle "></span>HTML
+                <!--========== LANGUAGES ==========-->
+                <section class="languages section" id="languages">
+                    <h2 class="section-title">Idiomas</h2>
+                    <div class="languages__container">
+                        <ul class="languages__content bd-grid">
+                            <li class="languages__name">
+                                <span class="languages__circle"></span>Español (Nativo)
                             </li>
-
-
-                            <li class="skills__name ">
-                                <span class="skills__circle "></span>CSS
+                            <li class="languages__name">
+                                <span class="languages__circle"></span>Inglés (B2 - Profesional)
                             </li>
-
-
-                            <li class="skills__name ">
-                                <span class="skills__circle "></span>Javascript
-                            </li>
-
-                            <li class="skills__name ">
-                                <span class="skills__circle "></span>SQL
-                            </li>
-
-
-                        </ul>
-
-                        <ul class="skills__data ">
-                            <li class="skills__name ">
-                                <span class="skills__circle "></span>MongoDB
-                            </li>
-
-
-                            <li class="skills__name ">
-                                <span class="skills__circle "></span>Express
-                            </li>
-
-
-                            <li class="skills__name ">
-                                <span class="skills__circle "></span>Angular
-                            </li>
-
-                            <li class="skills__name ">
-                                <span class="skills__circle "></span>Node
-                            </li>
-
-
                         </ul>
                     </div>
                 </section>
 
 
-                <!--========== HABILIDADES  ==========-->
-                <section class="skills section " id="skills">
-                    <h2 class="section-title ">Habilidades</h2>
-                    <div class="skills__content1 bd-grid ">
-                        <ul class="skills__data ">
-                            <li class="skills__name ">
-                                <span class="skills__circle "></span>Orientado a resultados
-
-                            </li>
-
-
-                            <li class="skills__name ">
-                                <span class="skills__circle "></span>Responsable
-                            </li>
-
-
-                            <li class="skills__name ">
-                                <span class="skills__circle "></span>Liderazgo
-
-                            </li>
-
-                            <li class="skills__name ">
-                                <span class="skills__circle "></span>Pensamiento crítico
-                            </li>
-
-                        </ul>
-
-                        <ul class="skills__data ">
-                            <li class="skills__name ">
-                                <span class="skills__circle "></span>Gestión de Equipos
-                            </li>
-
-
-                            <li class="skills__name ">
-                                <span class="skills__circle "></span>Proactivo
-                            </li>
-
-                        </ul>
-                    </div>
-                </section>
-
-                <!--========== IDIOMAS ==========-->
-                <section class="languages section " id="languages">
-                    <h2 class="section-title ">Idiomas</h2>
-
-                    <div class="languages__container ">
-                        <ul class="languages__content bd-grid ">
-                            <li class="languages__name ">
-                                <span class="languages__circle "> </span>Francés
-                            </li>
-
-                            <li class="languages__name ">
-                                <span class="languages__circle "></span>Inglés
-                            </li>
-
-
-                        </ul>
-                    </div>
-                </section>
-
-                <!--========== INTERESES ==========-->
-                <section class="interests section " id="interests">
-                    <h2 class="section-title ">Intereses</h2>
-                    <div class="interests__container bd-grid ">
-                        <div class="interests__content ">
-                            <i class='bx bx-headphone interests__icon '></i>
-                            <span class="interests__name ">Música</span>
-                        </div>
-
-                        <div class="interests__content ">
-                            <i class='bx bxs-plane-alt interests__icon '></i>
-                            <i class='interests__name'></i>Viajes</span>
-                        </div>
-
-                        <div class="interests__content ">
-                            <i class='bx bx-book-reader interests__icon '></i>
-                            <span class="interests__name ">Leer</span>
-                        </div>
-
-                        <div class="interests__content ">
-                            <i class='bx bx-dumbbell interests__icon '></i>
-                            <span class="interests__name ">Fitness</span>
-                        </div>
-                    </div>
-                </section>
             </div>
         </div>
     </main>
@@ -312,6 +247,9 @@
 
     <!--========== Librería HTML2PDF ==========-->
     <script src="assets/js/html2pdf.bundle.min.js "></script>
+
+    <!--========== Translations ==========-->
+    <script src="assets/js/translations.js"></script>
 
     <!--========== JS principal ==========-->
     <script src="assets/js/main.js "></script>
