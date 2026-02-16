@@ -61,7 +61,7 @@ function loadProfile() {
 }
 
 // Override translations with profile-specific content
-var translations = loadProfile();
+translations = loadProfile();
 
 /*==================== SHOW MENU ====================*/
 
