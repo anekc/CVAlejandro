@@ -5,7 +5,8 @@ const blueYonderProfile = {
     en: {
         home: {
             title: "Alejandro Arteaga",
-            profession: "Senior Blue Yonder WMS Consultant | Supply Chain Execution Specialist",
+            profession: "Senior Blue Yonder WMS Consultant | Supply Chain Execution",
+            contactInfo: "Mexico City, Mexico | alejandro_la1@outlook.com | +52 5563997582",
             description: "Certified Blue Yonder WMS Consultant delivering enterprise-scale implementations across logistics and distribution. Specialized in green-field projects, warehouse process optimization, and ERP integrations with measurable business impact."
         },
         profile: {
@@ -71,7 +72,8 @@ const blueYonderProfile = {
     es: {
         home: {
             title: "Alejandro Arteaga",
-            profession: "Consultor Senior Blue Yonder WMS | Especialista en Ejecución de Cadena de Suministro",
+            profession: "Consultor Senior Blue Yonder WMS | Ejecución de Cadena de Suministro",
+            contactInfo: "Ciudad de México, México | alejandro_la1@outlook.com | +52 5563997582",
             description: "Consultor Certificado Blue Yonder WMS entregando implementaciones a escala empresarial en logística y distribución. Especializado en proyectos green-field, optimización de procesos de almacén e integraciones ERP con impacto de negocio medible."
         },
         profile: {
