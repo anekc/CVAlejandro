@@ -8,9 +8,11 @@ let translations = {
             "languages": "Languages"
         },
         "home": {
-            "name": "Alejandro Arteaga",
-            "profession": "Senior Supply Chain Consultant",
-            "location": "Coyoacán | CDMX | Mexico",
+            "title": "Alejandro Arteaga",
+            "profession": "Logistics Project Manager | SAP & WMS Specialist",
+            "address": "Mexico City, Mexico",
+            "phone": "+52 5563997582",
+            "description": "Industrial Engineer with 5+ years of experience...",
             "download": "Download CV"
         },
         "social": {
