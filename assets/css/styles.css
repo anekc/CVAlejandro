@@ -822,8 +822,8 @@
             body {
                 margin: 0;
                 padding: 0;
-                zoom: 0.9;
-                /* Slight zoom out to fit more */
+                zoom: 0.8;
+                /* Stronger zoom out */
                 -webkit-print-color-adjust: exact;
             }
 
@@ -840,45 +840,70 @@
             }
 
             .section {
-                padding: 0.5rem 0 !important;
-                /* Drastically reduce section padding */
+                padding: 0.2rem 0 !important;
+                /* Minimal section padding */
             }
 
             .section-title {
-                margin-bottom: 0.5rem !important;
-                font-size: 1.1rem !important;
+                margin-bottom: 0.25rem !important;
+                font-size: 1rem !important;
                 /* Smaller titles */
+                margin-top: 0.5rem !important;
             }
 
             /* Reduce specific margins */
             .home__container {
-                gap: 0.5rem !important;
+                gap: 0.25rem !important;
             }
 
             .home__data {
-                margin-top: 1rem !important;
-                /* Move content up */
+                margin-top: 0 !important;
+                /* Remove top margin */
+                padding-top: 1rem;
             }
 
+            .home__title {
+                font-size: 1.5rem !important;
+                margin-bottom: 0 !important;
+            }
+
+            .home__profession {
+                font-size: 1rem !important;
+                margin-bottom: 0.1rem !important;
+            }
+
+            /* Compact Experience/Project Items */
             .experience__container {
-                gap: 0.5rem !important;
+                gap: 0.25rem !important;
             }
 
             .experience__content,
             .education__content {
-                margin-bottom: 0.5rem !important;
+                margin-bottom: 0.35rem !important;
                 break-inside: avoid;
+            }
+
+            .experience__title {
+                font-size: 10pt !important;
+            }
+
+            .experience__description {
+                font-size: 9pt;
+                line-height: 1.2;
+                /* Tighter lines */
+                margin-top: 0.1rem;
+                margin-bottom: 0.1rem;
             }
 
             /* Skills layout for print - Force Horizontal */
             .skills__content {
                 display: block !important;
-                margin-bottom: 0.5rem;
+                margin-bottom: 0.25rem;
             }
 
             .skills__group {
                 width: 100%;
-                margin-bottom: 0.25rem;
+                margin-bottom: 0.1rem;
                 break-inside: avoid;
             }
 
@@ -887,27 +912,25 @@
                 font-weight: 700;
                 color: #000;
                 margin-bottom: 0.1rem;
-                margin-top: 0.25rem;
+                margin-top: 0.1rem;
                 text-transform: uppercase;
             }
 
             ul.skills__data {
                 display: flex !important;
-                /* Use flex for robust wrapping */
                 flex-wrap: wrap !important;
-                gap: 8px 12px !important;
-                /* Row Gap 8px, Col Gap 12px */
-                margin-bottom: 0.25rem;
+                gap: 4px 10px !important;
+                /* Tighter gap */
+                margin-bottom: 0.1rem;
                 padding-left: 0;
                 list-style: none !important;
             }
 
             li.skills__name {
                 display: block !important;
-                /* Flex items are blockified */
                 width: auto !important;
-                /* Fit content */
-                font-size: 9pt;
+                font-size: 8.5pt !important;
+                /* Slightly smaller skill text */
                 color: #333;
                 margin: 0 !important;
             }
@@ -916,19 +939,21 @@
                 display: none !important;
             }
 
-            /* Separator logic (visual only, since flex gap handles spacing) */
-            /* We'll use a border-right or pseudo element, but gap is cleaner. 
-           If user wants dots, we can use ::after 
-        */
             li.skills__name::after {
                 content: "•";
                 display: inline-block;
-                margin-left: 12px;
+                margin-left: 10px;
                 color: #999;
             }
 
             li.skills__name:last-child::after {
                 display: none;
+            }
+
+            /* Spacing and page breaks */
+            .section {
+                page-break-inside: avoid;
+                padding: 0.2rem 0;
             }
         }
 
