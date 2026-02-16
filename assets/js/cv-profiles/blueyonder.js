@@ -25,6 +25,26 @@ const blueYonderProfile = {
                 description: "• Configured end-to-end RF workflows for receiving, putaway, picking, and inventory management across multiple distribution centers.\n• Designed slotting optimization strategies in collaboration with warehouse operations, improving pick path efficiency by 25%.\n• Led SAP ERP integration design for real-time order and inventory synchronization, reducing order processing delays."
             }
         },
+        projects: {
+            title: "Key Projects",
+            items: [
+                {
+                    title: "Cold Storage Green-Field Implementation",
+                    description: "End-to-end WMS deployment for a major cold chain logistics provider. Designed RF receiving and putaway strategies for temperature-controlled zones."
+                },
+                {
+                    title: "Automated Interface Testing Framework",
+                    description: "Built a Python/SQL tool to generate 5,000+ EDI test files/hour, enabling full-scale performance testing of ERP-WMS integrations before go-live."
+                }
+            ]
+        },
+        certifications: {
+            title: "Certifications",
+            items: [
+                "Blue Yonder WMS Functional Certification",
+                "Certified Supply Chain Professional (CSCP) - In Progress"
+            ]
+        },
         skills: {
             title: "Technical Skills",
             categories: [
@@ -70,6 +90,26 @@ const blueYonderProfile = {
                 company: "Firma Consultora | 2023 – 2024",
                 description: "• Configuré flujos RF end-to-end para recepción, putaway, picking y gestión de inventario en múltiples centros de distribución.\n• Diseñé estrategias de optimización de slotting en colaboración con operaciones de almacén, mejorando eficiencia de rutas de picking en 25%.\n• Lideré diseño de integración con SAP ERP para sincronización en tiempo real de órdenes e inventario, reduciendo retrasos en procesamiento de órdenes."
             }
+        },
+        projects: {
+            title: "Proyectos Clave",
+            items: [
+                {
+                    title: "Implementación Green-Field en Cadena de Frío",
+                    description: "Despliegue WMS de punta a punta para proveedor logístico. Diseñé estrategias RF de recepción y acomodo para zonas de temperatura controlada."
+                },
+                {
+                    title: "Framework Automatizado de Pruebas de Interfaz",
+                    description: "Herramienta Python/SQL para generar 5,000+ archivos EDI de prueba/hora, permitiendo pruebas de rendimiento completas de integraciones ERP-WMS."
+                }
+            ]
+        },
+        certifications: {
+            title: "Certificaciones",
+            items: [
+                "Certificación Funcional Blue Yonder WMS",
+                "Certified Supply Chain Professional (CSCP) - En Progreso"
+            ]
         },
         skills: {
             title: "Habilidades Técnicas",
