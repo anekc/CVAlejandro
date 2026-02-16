@@ -48,8 +48,7 @@ const sapProfile = {
         "certifications": {
             "title": "Certifications",
             "items": [
-                "Blue Yonder WMS Functional Certification",
-                "Certified Supply Chain Professional (CSCP) - In Progress"
+                "Blue Yonder WMS Functional Certification"
             ]
         },
         "skills": {
@@ -131,8 +130,7 @@ const sapProfile = {
         "certifications": {
             "title": "Certificaciones",
             "items": [
-                "Certificación Funcional Blue Yonder WMS",
-                "Certified Supply Chain Professional (CSCP) - En Progreso"
+                "Certificación Funcional Blue Yonder WMS"
             ]
         },
         "skills": {
