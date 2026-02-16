@@ -1,87 +1,143 @@
-// SAP/ERP Integration Consultant Profile
-// Emphasizes: ERP integration expertise, SAP Business One, web services, EDI
+// Implementation Specialist Profile
+// Focus: WMS Implementation, Functional Consulting, User Support, Go-Live
 
 const sapProfile = {
     "en": {
+        "home": {
+            "title": "Alejandro Arteaga",
+            "profession": "Implementation Specialist | WMS Functional Consultant",
+            "contactInfo": "Mexico City, Mexico | alejandro_la1@outlook.com | +52 5563997582",
+            "description": "Implementation Specialist and WMS Functional Consultant with 4+ years of experience supporting warehouse management system implementations across logistics, manufacturing, and distribution environments. Experienced in requirements analysis, system configuration, integration validation, testing coordination, and go-live support. Strong collaborator with technical and operational teams to ensure smooth system adoption and operational continuity."
+        },
         "profile": {
-            "description": "Senior Supply Chain Consultant with deep expertise in ERP integrations and supply chain execution systems. Specialized in designing and implementing complex integrations between WMS and leading ERPs (SAP Business One, Microsoft Navision, Epicor). Strong technical background in web services, EDI, and automated data exchange for seamless supply chain operations."
+            "title": "About Me",
+            "description": "Implementation Specialist and WMS Functional Consultant with 4+ years of experience supporting warehouse management system implementations across logistics, manufacturing, and distribution environments. Experienced in requirements analysis, system configuration, integration validation, testing coordination, and go-live support. Strong collaborator with technical and operational teams to ensure smooth system adoption and operational continuity."
         },
         "experience": {
+            "title": "Professional Experience",
             "job1": {
-                "title": "Senior Supply Chain Consultant",
-                "company": "Argano (Acq. Netlogistik) | Jan 2025 - Present",
-                "description": "- Green-Field WMS Implementation: Leading solution design for warehouse management system with complex ERP integration requirements.\n- Integration Automation (Metro): Developed Python scripts to automate interface testing and data validation, ensuring seamless ERP-WMS communication for high-volume operations."
+                "title": "Senior Functional Consultant – Blue Yonder WMS",
+                "company": "Argano | 2025 – Present",
+                "description": "• Supported blueprint workshops and functional requirement analysis for greenfield WMS implementations.\n• Configured receiving, inventory, and location management processes based on operational requirements.\n• Generated large-scale test datasets and supported mass testing activities prior to go-live.\n• Assisted integration validation between ERP and WMS through XML interface testing.\n• Delivered functional training sessions for warehouse users and operational teams."
             },
             "job2": {
-                "title": "WMS Integration Specialist",
-                "company": "Netlogistik | Sep 2021 - Dec 2024",
-                "description": "- Design and execution of integrations with leading ERPs: SAP Business One, Microsoft Navision, Epicor.\n- Implementation of bi-directional interfaces using Web Services (SOAP/REST), flat files, and EDI standards.\n- Developed proprietary WMS (Angular/Node.js) with robust ERP connectivity in pharmaceutical, food, and electronics industries.\n- Key integration projects: Naturasol (SAP), Nyjisa (Navision), Nissin (Epicor), Sodexo."
+                "title": "WMS Specialist & Developer",
+                "company": "Netlogistik | 2021 – 2024",
+                "description": "• Supported end-to-end WMS implementation projects across multiple distribution centers.\n• Conducted warehouse process analysis sessions covering receiving, putaway, replenishment, picking, and shipping.\n• Configured system workflows and validated integrations with SAP Business One, Navision, and Epicor.\n• Led user testing coordination and provided post-go-live operational support.\n• Assisted in solution documentation and functional design validation."
             }
         },
+        "projects": {
+            "title": "Selected Implementation Projects",
+            "items": [
+                {
+                    "title": "WMS Implementations (Manufacturing & Distribution)",
+                    "description": "Multiple WMS implementations across manufacturing and distribution clients in Mexico. Participation in greenfield warehouse system deployment including configuration, testing, and go-live readiness."
+                },
+                {
+                    "title": "ERP-WMS Integration Validation",
+                    "description": "Integration validation projects involving ERP-WMS data exchange through flat files and XML interfaces."
+                }
+            ]
+        },
         "skills": {
-            "functional": {
-                "title": "Functional",
-                "list": [
-                    "ERP Integrations (SAP, Navision, Epicor)",
-                    "Supply Chain Execution",
-                    "WMS Implementation",
-                    "EDI & Data Exchange Standards",
-                    "Business Process Automation",
-                    "Blue Yonder WMS"
-                ]
-            },
-            "technical": {
-                "title": "Technical",
-                "list": [
-                    "Web Services (SOAP/REST)",
-                    "Python (Integration Automation)",
-                    "SQL (Data Mapping & Validation)",
-                    "JavaScript (Node.js/Angular)",
-                    "SAP Business One API",
-                    "EDI Standards"
-                ]
-            }
+            "title": "Skills",
+            "categories": [
+                {
+                    "name": "Implementation & Functional Skills",
+                    "items": [
+                        "WMS Configuration",
+                        "Requirements Analysis",
+                        "Integration Testing",
+                        "User Acceptance Testing (UAT)",
+                        "Go-Live Support",
+                        "Process Mapping",
+                        "Warehouse Operations"
+                    ]
+                },
+                {
+                    "name": "Technical Tools",
+                    "items": [
+                        "Blue Yonder WMS",
+                        "SQL",
+                        "XML",
+                        "Python",
+                        "MOCA"
+                    ]
+                }
+            ],
+            "items": [
+                "WMS Configuration", "Requirements Analysis", "Integration Testing", "User Acceptance Testing", "Go-Live Support",
+                "Blue Yonder WMS", "SQL", "XML", "Python", "MOCA"
+            ]
         }
     },
     "es": {
+        "home": {
+            "title": "Alejandro Arteaga",
+            "profession": "Especialista en Implementación | Consultor Funcional WMS",
+            "contactInfo": "Ciudad de México, México | alejandro_la1@outlook.com | +52 5563997582",
+            "description": "Especialista en Implementación y Consultor Funcional WMS con más de 4 años de experiencia apoyando implementaciones de sistemas de gestión de almacenes en entornos de logística, manufactura y distribución. Experimentado en análisis de requerimientos, configuración de sistemas, validación de integraciones, coordinación de pruebas y soporte post-arranque. Colaborador sólido con equipos técnicos y operativos para asegurar una adopción fluida del sistema y continuidad operativa."
+        },
         "profile": {
-            "description": "Consultor Senior de Supply Chain con experiencia profunda en integraciones ERP y sistemas de ejecución de cadena de suministro. Especializado en diseñar e implementar integraciones complejas entre WMS y ERPs líderes (SAP Business One, Microsoft Navision, Epicor). Sólido background técnico en web services, EDI e intercambio automatizado de datos para operaciones seamless de cadena de suministro."
+            "title": "Sobre mí",
+            "description": "Especialista en Implementación y Consultor Funcional WMS con más de 4 años de experiencia apoyando implementaciones de sistemas de gestión de almacenes en entornos de logística, manufactura y distribución. Experimentado en análisis de requerimientos, configuración de sistemas, validación de integraciones, coordinación de pruebas y soporte post-arranque. Colaborador sólido con equipos técnicos y operativos para asegurar una adopción fluida del sistema y continuidad operativa."
         },
         "experience": {
+            "title": "Experiencia Profesional",
             "job1": {
-                "title": "Consultor Senior de Supply Chain",
-                "company": "Argano (Acq. Netlogistik) | Ene 2025 - Presente",
-                "description": "- Implementación Green-Field de WMS: Liderando diseño de solución para sistema de gestión de almacén con requisitos complejos de integración ERP.\n- Automatización de Integraciones (Metro): Desarrollé scripts en Python para automatizar testing de interfaces y validación de datos, asegurando comunicación seamless ERP-WMS para operaciones de alto volumen."
+                "title": "Consultor Funcional Senior – Blue Yonder WMS",
+                "company": "Argano | 2025 – Presente",
+                "description": "• Apoyé talleres de diseño (blueprint) y análisis de requerimientos funcionales para implementaciones WMS desde cero.\n• Configuré procesos de recibo, inventario y gestión de ubicaciones basado en requerimientos operativos.\n• Generé sets de datos de prueba a gran escala y apoyé actividades de pruebas masivas previo al arranque.\n• Asistí en la validación de integraciones entre ERP y WMS mediante pruebas de interfaces XML.\n• Impartí sesiones de capacitación funcional para usuarios de almacén y equipos operativos."
             },
             "job2": {
-                "title": "Especialista en Integraciones WMS",
-                "company": "Netlogistik | Sep 2021 - Dic 2024",
-                "description": "- Diseño y ejecución de integraciones con ERPs líderes: SAP Business One, Microsoft Navision, Epicor.\n- Implementación de interfaces bi-direccionales usando Web Services (SOAP/REST), archivos planos y estándares EDI.\n- Desarrollé WMS propietario (Angular/Node.js) con conectividad robusta a ERP en industrias farmacéutica, alimentos y electrónica.\n- Proyectos clave de integración: Naturasol (SAP), Nyjisa (Navision), Nissin (Epicor), Sodexo."
+                "title": "Desarrollador y Especialista WMS",
+                "company": "Netlogistik | 2021 – 2024",
+                "description": "• Apoyé proyectos de implementación WMS de punta a punta en múltiples centros de distribución.\n• Conduje sesiones de análisis de procesos de almacén cubriendo recibo, acomodo, reabastecimiento, surtido y embarque.\n• Configuré flujos de trabajo del sistema y validé integraciones con SAP Business One, Navision y Epicor.\n• Lideré la coordinación de pruebas de usuario y brindé soporte operativo post-arranque.\n• Asistí en la documentación de soluciones y validación de diseño funcional."
             }
         },
+        "projects": {
+            "title": "Proyectos de Implementación Seleccionados",
+            "items": [
+                {
+                    "title": "Implementaciones WMS (Manufactura y Distribución)",
+                    "description": "Múltiples implementaciones WMS en clientes de manufactura y distribución en México. Participación en despliegue de sistemas de almacén desde cero incluyendo configuración, pruebas y preparación para arranque."
+                },
+                {
+                    "title": "Validación de Integración ERP-WMS",
+                    "description": "Proyectos de validación de integración involucrando intercambio de datos ERP-WMS a través de archivos planos e interfaces XML."
+                }
+            ]
+        },
         "skills": {
-            "functional": {
-                "title": "Funcional",
-                "list": [
-                    "Integraciones ERP (SAP, Navision, Epicor)",
-                    "Ejecución de Cadena de Suministro",
-                    "Implementación WMS",
-                    "EDI y Estándares de Intercambio de Datos",
-                    "Automatización de Procesos de Negocio",
-                    "Blue Yonder WMS"
-                ]
-            },
-            "technical": {
-                "title": "Técnico",
-                "list": [
-                    "Web Services (SOAP/REST)",
-                    "Python (Automatización de Integraciones)",
-                    "SQL (Mapeo y Validación de Datos)",
-                    "JavaScript (Node.js/Angular)",
-                    "SAP Business One API",
-                    "Estándares EDI"
-                ]
-            }
+            "title": "Habilidades",
+            "categories": [
+                {
+                    "name": "Habilidades Funcionales y de Implementación",
+                    "items": [
+                        "Configuración WMS",
+                        "Análisis de Requerimientos",
+                        "Pruebas de Integración",
+                        "Pruebas de Aceptación de Usuario (UAT)",
+                        "Soporte Go-Live",
+                        "Mapeo de Procesos",
+                        "Operaciones de Almacén"
+                    ]
+                },
+                {
+                    "name": "Herramientas Técnicas",
+                    "items": [
+                        "Blue Yonder WMS",
+                        "SQL",
+                        "XML",
+                        "Python",
+                        "MOCA"
+                    ]
+                }
+            ],
+            "items": [
+                "Configuración WMS", "Análisis de Requerimientos", "Pruebas de Integración", "Pruebas de Usuario (UAT)", "Soporte Go-Live",
+                "Blue Yonder WMS", "SQL", "XML", "Python", "MOCA"
+            ]
         }
     }
 };
