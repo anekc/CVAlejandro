@@ -198,6 +198,60 @@ function updateLanguage(lang) {
     if (eduStudies) eduStudies.textContent = translations[lang].education.institution;
     if (eduYear) eduYear.textContent = translations[lang].education.years;
 
+    // Update Projects
+    const projectsContainer = document.querySelector('.projects');
+    if (projectsContainer) {
+        if (translations[lang].projects && translations[lang].projects.items && translations[lang].projects.items.length > 0) {
+            projectsContainer.style.display = 'block';
+            projectsContainer.querySelector('.section-title').textContent = translations[lang].projects.title;
+            const container = projectsContainer.querySelector('.experience__container');
+            container.innerHTML = '';
+
+            translations[lang].projects.items.forEach(project => {
+                const projectHTML = `
+                    <div class="experience__content">
+                        <div class="experience__time">
+                            <span class="experience__rounder"></span>
+                            <span class="experience__line"></span>
+                        </div>
+                        <div class="experience__data bd-grid">
+                            <h3 class="experience__title">${project.title}</h3>
+                            <p class="experience__description">${project.description}</p>
+                        </div>
+                    </div>
+                `;
+                container.insertAdjacentHTML('beforeend', projectHTML);
+            });
+        } else {
+            projectsContainer.style.display = 'none';
+        }
+    }
+
+    // Update Certifications
+    const certSection = document.getElementById('certifications');
+    if (certSection) {
+        if (translations[lang].certifications && translations[lang].certifications.items && translations[lang].certifications.items.length > 0) {
+            certSection.style.display = 'block';
+            certSection.querySelector('.section-title').textContent = translations[lang].certifications.title;
+            const container = certSection.querySelector('.certificate__container');
+            container.innerHTML = '';
+
+            const list = document.createElement('ul');
+            list.className = 'skills__data'; // Reusing skills style for clean list
+            list.style.gridTemplateColumns = '1fr'; // Force single column
+
+            translations[lang].certifications.items.forEach(cert => {
+                const item = document.createElement('li');
+                item.className = 'skills__name';
+                item.innerHTML = `<span class="skills__circle"></span>${cert}`;
+                list.appendChild(item);
+            });
+            container.appendChild(list);
+        } else {
+            certSection.style.display = 'none';
+        }
+    }
+
     // Update languages
     const langItems = document.querySelectorAll('.languages__name');
     translations[lang].languages.items.forEach((language, index) => {

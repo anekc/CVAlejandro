@@ -54,6 +54,14 @@ let translations = {
             "institution": "National Polytechnic Institute",
             "years": "2015 - 2021"
         },
+        "projects": {
+            "title": "Projects",
+            "items": []
+        },
+        "certifications": {
+            "title": "Certifications",
+            "items": []
+        },
         "languages": {
             "title": "Languages",
             "items": [
@@ -116,6 +124,14 @@ let translations = {
             "degree": "Ingeniería en Computación",
             "institution": "Instituto Politécnico Nacional",
             "years": "2015 - 2021"
+        },
+        "projects": {
+            "title": "Proyectos",
+            "items": []
+        },
+        "certifications": {
+            "title": "Certificaciones",
+            "items": []
         },
         "languages": {
             "title": "Idiomas",
