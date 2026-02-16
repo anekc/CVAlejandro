@@ -852,17 +852,13 @@
         /* Skills layout for print */
         /* Skills layout for print - using Flexbox for reliability */
         .skills__content {
-            display: flex !important;
-            flex-direction: row;
-            flex-wrap: wrap;
-            justify-content: space-between;
-            gap: 1rem;
-            margin-bottom: 0;
+            display: block !important;
+            /* Stack groups vertically */
+            margin-bottom: 0.5rem;
         }
 
         .skills__group {
-            width: 48%;
-            /* Force 2 columns */
+            width: 100%;
             margin-bottom: 0.5rem;
             break-inside: avoid;
             page-break-inside: avoid;
@@ -872,12 +868,16 @@
             font-size: 10pt;
             font-weight: 700;
             color: #000;
-            margin-bottom: 0.25rem;
-            margin-top: 0.5rem;
+            margin-bottom: 0.1rem;
+            margin-top: 0.25rem;
+            text-transform: uppercase;
+            /* Match section title style */
         }
 
         .skills__data {
-            margin-bottom: 0.5rem;
+            margin-bottom: 0.25rem;
+            padding-left: 0;
+            list-style: none;
         }
 
         .skills__name {
