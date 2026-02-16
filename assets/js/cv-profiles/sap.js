@@ -18,8 +18,8 @@ const sapProfile = {
             "jobs": [
                 {
                     "title": "Senior Blue Yonder Consultant",
-                    "company": "Argano | 2025 – Present",
-                    "description": "• Participated in Greenfield Blue Yonder WMS implementation for a U.S.-based distribution center, supporting requirement gathering workshops and inbound configuration activities.\n• Configured receiving workflows, item master structures, and inventory parameters based on operational requirements.\n• Supported integration validation and coordinated User Acceptance Testing (UAT) activities.\n• Delivered functional training sessions prior to go-live readiness."
+                    "company": "Argano (Acq. Netlogistik) | Jan 2025 - Present",
+                    "description": "- **Greenfield WMS Implementation (US):** Led the blueprint and configuration for a new distribution center in the US, ensuring full system readiness from receiving to shipping.\\n- **Inbound & Integration Strategy:** Configured critical inbound workflows and validated interfaces between Blue Yonder and the host ERP.\\n- **UAT & Testing Coordination:** Managed User Acceptance Testing (UAT) cycles, tracking defects and ensuring successful resolution prior to go-live.\\n- **Training & Documentation:** Created comprehensive technical documentation and conducted training sessions for super users to ensure smooth adoption."
                 },
                 {
                     "title": "WMS Implementation Consultant",
@@ -100,8 +100,8 @@ const sapProfile = {
             "jobs": [
                 {
                     "title": "Consultor Senior Blue Yonder",
-                    "company": "Argano | 2025 – Presente",
-                    "description": "• Participé en implementación Green-Field de Blue Yonder WMS para un centro de distribución basado en EE. UU., apoyando talleres de levantamiento de requerimientos y actividades de configuración de entrada (inbound).\n• Configuré flujos de trabajo de recibo, estructuras de maestro de artículos y parámetros de inventario basados en requerimientos operativos.\n• Apoyé la validación de integración y coordiné actividades de Pruebas de Aceptación de Usuario (UAT).\n• Impartí sesiones de capacitación funcional previas a la preparación del arranque."
+                    "company": "Argano (Adq. Netlogistik) | Ene 2025 - Presente",
+                    "description": "- **Implementación WMS Greenfield (EE. UU.):** Lideré el diseño (blueprint) y configuración para un nuevo centro de distribución en EE. UU., asegurando la preparación del sistema de recibo a embarque.\\n- **Estrategia de Entrada e Integración:** Configuré flujos de trabajo críticos de entrada y validé interfaces entre Blue Yonder y el ERP host.\\n- **Coordinación de UAT y Pruebas:** Gestioné ciclos de Pruebas de Aceptación de Usuario (UAT), rastreando defectos y asegurando su resolución antes de la salida en vivo.\\n- **Capacitación y Documentación:** Creé documentación técnica integral y realicé sesiones de capacitación para super usuarios."
                 },
                 {
                     "title": "Consultor de Implementación WMS",
