@@ -485,7 +485,20 @@
 
     .skills__content {
         grid-template-columns: repeat(2, 1fr);
-        align-items: center;
+        align-items: flex-start;
+        /* Align to top to prevent gaps */
+        gap: 2rem;
+    }
+
+    .skills__group {
+        /* Container for title + list */
+    }
+
+    .skills__subtitle {
+        font-size: var(--h3-font-size);
+        color: var(--text-color-light);
+        margin-bottom: var(--mb-2);
+        font-weight: var(--font-semi-bold);
     }
 
     .skills__content1 {

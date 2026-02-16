@@ -192,19 +192,21 @@ function updateLanguage(lang) {
             skillsSection.querySelector('.section-title').textContent = skillsData.title;
 
             skillsData.categories.forEach(category => {
+                const group = document.createElement('div');
+                group.className = 'skills__group';
+
                 // Category Title
                 const catTitle = document.createElement('h3');
                 catTitle.className = 'skills__subtitle';
-                catTitle.style.marginBottom = '1rem';
-                catTitle.style.marginTop = '1.5rem';
+                catTitle.style.marginBottom = 'var(--mb-2)'; // Increased margin for visual separation
                 catTitle.style.color = 'var(--text-color)';
                 catTitle.textContent = category.name;
-                skillsContent.appendChild(catTitle);
+                group.appendChild(catTitle);
 
                 // Category Items
                 const list = document.createElement('ul');
                 list.className = 'skills__data';
-                list.style.marginBottom = '1rem';
+                list.style.marginBottom = 'var(--mb-2)'; // Consistent margin
 
                 category.items.forEach(skill => {
                     const item = document.createElement('li');
@@ -212,7 +214,8 @@ function updateLanguage(lang) {
                     item.innerHTML = `<span class="skills__circle"></span>${skill}`;
                     list.appendChild(item);
                 });
-                skillsContent.appendChild(list);
+                group.appendChild(list);
+                skillsContent.appendChild(group);
             });
         } else if (skillsData.items) {
             // Fallback to flat list (legacy/simple profiles)
