@@ -1,4 +1,70 @@
+/*==================== PROFILE LOADING SYSTEM ====================*/
+// Deep merge function to combine base translations with profile customizations
+function deepMerge(target, source) {
+    const output = Object.assign({}, target);
+    if (isObject(target) && isObject(source)) {
+        Object.keys(source).forEach(key => {
+            if (isObject(source[key])) {
+                if (!(key in target))
+                    Object.assign(output, { [key]: source[key] });
+                else
+                    output[key] = deepMerge(target[key], source[key]);
+            } else {
+                Object.assign(output, { [key]: source[key] });
+            }
+        });
+    }
+    return output;
+}
+
+function isObject(item) {
+    return item && typeof item === 'object' && !Array.isArray(item);
+}
+
+// Load profile based on URL parameter
+function loadProfile() {
+    // Get profile type from URL (e.g., ?v=a3f9b2)
+    const profileType = typeof getProfileFromUrl === 'function' ? getProfileFromUrl() : null;
+
+    if (!profileType) {
+        // No profile specified, use base translations
+        return translations;
+    }
+
+    // Map profile type to profile data
+    let profileData = null;
+    switch (profileType) {
+        case 'blueyonder':
+            profileData = typeof blueYonderProfile !== 'undefined' ? blueYonderProfile : null;
+            break;
+        case 'sap':
+            profileData = typeof sapProfile !== 'undefined' ? sapProfile : null;
+            break;
+        case 'logistics':
+            profileData = typeof logisticsProfile !== 'undefined' ? logisticsProfile : null;
+            break;
+    }
+
+    if (!profileData) {
+        console.warn(`Profile "${profileType}" not found, using base translations`);
+        return translations;
+    }
+
+    // Merge profile with base translations
+    const mergedTranslations = {
+        en: deepMerge(translations.en, profileData.en || {}),
+        es: deepMerge(translations.es, profileData.es || {})
+    };
+
+    console.log(`Loaded profile: ${profileType}`);
+    return mergedTranslations;
+}
+
+// Override translations with profile-specific content
+var translations = loadProfile();
+
 /*==================== SHOW MENU ====================*/
+
 
 const showMenu = (toggleId, navId) => {
     const toggle = document.getElementById(toggleId),
@@ -150,6 +216,9 @@ function updateLanguage(lang) {
 // Apply saved language on load
 if (currentLang) {
     updateLanguage(currentLang);
+} else {
+    // If no saved language, still trigger update to apply profile content
+    updateLanguage('en');
 }
 
 // Toggle language on button click

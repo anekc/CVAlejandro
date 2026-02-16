@@ -1,0 +1,73 @@
+# CV Profile Reference
+
+## Profile URLs
+
+Use these URLs to load different CV versions:
+
+### General CV (Default)
+**URL:** `yourdomain.com/cv`  
+**Use for:** General applications, LinkedIn profile link
+
+---
+
+### Blue Yonder WMS Specialist
+**URL:** `yourdomain.com/cv?v=a3f9b2`  
+**Hash:** `a3f9b2`  
+**Use for:**
+- Blue Yonder implementation roles
+- WMS consultant positions
+- RF configuration projects
+- CFS/LM implementation
+
+**Key Differences:**
+- Profile emphasizes Blue Yonder certification
+- Experience highlights CFS green-field implementation
+- Skills prioritize WMS configuration and RF workflows
+
+---
+
+### SAP/ERP Integration Consultant
+**URL:** `yourdomain.com/cv?v=k7x2m9`  
+**Hash:** `k7x2m9`  
+**Use for:**
+- SAP integration roles
+- ERP consultant positions
+- Integration architect roles
+- Web services/EDI projects
+
+**Key Differences:**
+- Profile emphasizes ERP integration expertise
+- Experience highlights SAP, Navision, Epicor integrations
+- Skills prioritize web services, EDI, and API development
+
+---
+
+### General Logistics/Supply Chain
+**URL:** `yourdomain.com/cv?v=p5n8w1`  
+**Hash:** `p5n8w1`  
+**Use for:**
+- Broad supply chain roles
+- Multi-industry positions
+- Process automation focus
+
+**Key Differences:**
+- Balanced supply chain experience
+- General WMS implementation
+- Process automation emphasis
+
+---
+
+## Application Tracking
+
+| Company | Position | Profile Used | URL Sent | Date |
+|---------|----------|--------------|----------|------|
+| Example Co. | Blue Yonder Consultant | Blue Yonder | ?v=a3f9b2 | 2026-02-15 |
+
+---
+
+## Technical Notes
+
+- All profiles are **bilingual** (English/Spanish)
+- Profiles merge with base `translations.js`
+- URLs are discrete - no obvious customization visible
+- Each profile preserved all core data, only emphasis changes
