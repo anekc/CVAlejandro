@@ -818,76 +818,118 @@
             padding-right: 0;
         }
 
-        .experience__content,
-        .education__content {
-            display: block;
-            margin-bottom: 0.75rem;
-        }
+        @media print {
+            body {
+                margin: 0;
+                padding: 0;
+                zoom: 0.9;
+                /* Slight zoom out to fit more */
+                -webkit-print-color-adjust: exact;
+            }
 
-        .experience__title,
-        .education__title {
-            font-size: 11pt;
-            font-weight: 600;
-            margin-bottom: 0.1rem;
-        }
+            .l-header,
+            .home__controls {
+                display: none !important;
+            }
 
-        .experience__company,
-        .education__studies {
-            font-size: 10pt;
-            font-weight: 500;
-            margin-bottom: 0.1rem;
-        }
+            .bd-container {
+                width: 100%;
+                max-width: 100%;
+                margin: 0;
+                padding: 0 1rem;
+            }
 
-        .education__year {
-            font-size: 9pt;
-            color: #666;
-        }
+            .section {
+                padding: 0.5rem 0 !important;
+                /* Drastically reduce section padding */
+            }
 
-        .experience__description {
-            font-size: 9pt;
-            line-height: 1.4;
-            margin-top: 0.25rem;
-        }
+            .section-title {
+                margin-bottom: 0.5rem !important;
+                font-size: 1.1rem !important;
+                /* Smaller titles */
+            }
 
-        /* Skills layout for print */
-        /* Skills layout for print - using Flexbox for reliability */
-        .skills__content {
-            display: block !important;
-            /* Stack groups vertically */
-            margin-bottom: 0.5rem;
-        }
+            /* Reduce specific margins */
+            .home__container {
+                gap: 0.5rem !important;
+            }
 
-        .skills__group {
-            width: 100%;
-            margin-bottom: 0.5rem;
-            break-inside: avoid;
-            page-break-inside: avoid;
-        }
+            .home__data {
+                margin-top: 1rem !important;
+                /* Move content up */
+            }
 
-        .skills__subtitle {
-            font-size: 10pt;
-            font-weight: 700;
-            color: #000;
-            margin-bottom: 0.1rem;
-            margin-top: 0.25rem;
-            text-transform: uppercase;
-            /* Match section title style */
-        }
+            .experience__container {
+                gap: 0.5rem !important;
+            }
 
-        .skills__data {
-            margin-bottom: 0.25rem;
-            padding-left: 0;
-            list-style: none;
-        }
+            .experience__content,
+            .education__content {
+                margin-bottom: 0.5rem !important;
+                break-inside: avoid;
+            }
 
-        .skills__name {
-            font-size: 9pt;
-            margin-bottom: 0.25rem;
-        }
+            /* Skills layout for print - Force Horizontal */
+            .skills__content {
+                display: block !important;
+                margin-bottom: 0.5rem;
+            }
 
-        .skills__name::before {
-            content: "• ";
-            margin-right: 0.25rem;
+            .skills__group {
+                width: 100%;
+                margin-bottom: 0.25rem;
+                break-inside: avoid;
+            }
+
+            .skills__subtitle {
+                font-size: 9pt;
+                font-weight: 700;
+                color: #000;
+                margin-bottom: 0.1rem;
+                margin-top: 0.25rem;
+                text-transform: uppercase;
+            }
+
+            ul.skills__data {
+                display: flex !important;
+                /* Use flex for robust wrapping */
+                flex-wrap: wrap !important;
+                gap: 8px 12px !important;
+                /* Row Gap 8px, Col Gap 12px */
+                margin-bottom: 0.25rem;
+                padding-left: 0;
+                list-style: none !important;
+            }
+
+            li.skills__name {
+                display: block !important;
+                /* Flex items are blockified */
+                width: auto !important;
+                /* Fit content */
+                font-size: 9pt;
+                color: #333;
+                margin: 0 !important;
+            }
+
+            li.skills__name span.skills__circle {
+                display: none !important;
+            }
+
+            /* Separator logic (visual only, since flex gap handles spacing) */
+            /* We'll use a border-right or pseudo element, but gap is cleaner. 
+           If user wants dots, we can use ::after 
+        */
+            li.skills__name::after {
+                content: "•";
+                display: inline-block;
+                margin-left: 12px;
+                color: #999;
+            }
+
+            li.skills__name:last-child::after {
+                display: none;
+            }
         }
 
         /* Languages */
