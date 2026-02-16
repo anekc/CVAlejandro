@@ -19,12 +19,12 @@ const sapProfile = {
                 {
                     "title": "Senior Blue Yonder Consultant",
                     "company": "Argano (Acq. Netlogistik) | Jan 2025 - Present",
-                    "description": "• Participated in Greenfield Blue Yonder WMS implementation for a U.S.-based distribution center, supporting requirement gathering workshops and inbound configuration activities.\\n• Configured receiving workflows, item master structures, and inventory parameters based on operational requirements.\\n• Supported integration validation and coordinated User Acceptance Testing (UAT) activities.\\n• Delivered functional training sessions prior to go-live readiness."
+                    "description": "• Participated in Greenfield Blue Yonder WMS implementation for a U.S.-based distribution center, supporting requirement gathering workshops and inbound configuration activities.<br>• Configured receiving workflows, item master structures, and inventory parameters based on operational requirements.<br>• Supported integration validation and coordinated User Acceptance Testing (UAT) activities.<br>• Delivered functional training sessions prior to go-live readiness."
                 },
                 {
                     "title": "WMS Implementation Consultant",
                     "company": "Netlogistik | 2021 – 2024",
-                    "description": "• Supported multiple concurrent WMS implementation projects across manufacturing and distribution operations in Mexico.\\n• Conducted warehouse process analysis covering receiving, storage, replenishment, picking, and shipping.\\n• Configured system workflows aligned with operational requirements.\\n• Supported ERP integration validation using Web Services and flat-file interfaces.\\n• Coordinated testing cycles and post-implementation stabilization activities."
+                    "description": "• Supported multiple concurrent WMS implementation projects across manufacturing and distribution operations in Mexico.<br>• Conducted warehouse process analysis covering receiving, storage, replenishment, picking, and shipping.<br>• Configured system workflows aligned with operational requirements.<br>• Supported ERP integration validation using Web Services and flat-file interfaces.<br>• Coordinated testing cycles and post-implementation stabilization activities."
                 }
             ]
         },
@@ -101,12 +101,12 @@ const sapProfile = {
                 {
                     "title": "Consultor Senior Blue Yonder",
                     "company": "Argano (Adq. Netlogistik) | Ene 2025 - Presente",
-                    "description": "• Participé en implementación Green-Field de Blue Yonder WMS para un centro de distribución basado en EE. UU., apoyando talleres de levantamiento de requerimientos y actividades de configuración de entrada (inbound).\\n• Configuré flujos de trabajo de recibo, estructuras de maestro de artículos y parámetros de inventario basados en requerimientos operativos.\\n• Apoyé la validación de integración y coordiné actividades de Pruebas de Aceptación de Usuario (UAT).\\n• Impartí sesiones de capacitación funcional previas a la preparación del arranque."
+                    "description": "• Participé en implementación Green-Field de Blue Yonder WMS para un centro de distribución basado en EE. UU., apoyando talleres de levantamiento de requerimientos y actividades de configuración de entrada (inbound).<br>• Configuré flujos de trabajo de recibo, estructuras de maestro de artículos y parámetros de inventario basados en requerimientos operativos.<br>• Apoyé la validación de integración y coordiné actividades de Pruebas de Aceptación de Usuario (UAT).<br>• Impartí sesiones de capacitación funcional previas a la preparación del arranque."
                 },
                 {
                     "title": "Consultor de Implementación WMS",
                     "company": "Netlogistik | 2021 – 2024",
-                    "description": "• Apoyé múltiples proyectos simultáneos de implementación WMS en operaciones de manufactura y distribución en México.\\n• Conduje análisis de procesos de almacén cubriendo recibo, almacenamiento, reabastecimiento, surtido y embarque.\\n• Configuré flujos de trabajo del sistema alineados con requerimientos operativos.\\n• Apoyé la validación de integración ERP usando Servicios Web e interfaces de archivos planos.\\n• Coordiné ciclos de pruebas y actividades de estabilización post-implementación."
+                    "description": "• Apoyé múltiples proyectos simultáneos de implementación WMS en operaciones de manufactura y distribución en México.<br>• Conduje análisis de procesos de almacén cubriendo recibo, almacenamiento, reabastecimiento, surtido y embarque.<br>• Configuré flujos de trabajo del sistema alineados con requerimientos operativos.<br>• Apoyé la validación de integración ERP usando Servicios Web e interfaces de archivos planos.<br>• Coordiné ciclos de pruebas y actividades de estabilización post-implementación."
                 }
             ]
         },
