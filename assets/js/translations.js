@@ -1,4 +1,4 @@
-const translations = {
+let translations = {
     "en": {
         "nav": {
             "home": "Home",
