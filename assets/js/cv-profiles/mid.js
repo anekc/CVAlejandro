@@ -1,7 +1,7 @@
 // Implementation Specialist Profile
 // Focus: WMS Implementation, Functional Consulting, User Support, Go-Live
 
-const sapProfile = {
+const midProfile = {
     "en": {
         "home": {
             "title": "Alejandro Arteaga",

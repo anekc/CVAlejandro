@@ -37,8 +37,8 @@ function loadProfile() {
         case 'blueyonder':
             profileData = typeof blueYonderProfile !== 'undefined' ? blueYonderProfile : null;
             break;
-        case 'sap':
-            profileData = typeof sapProfile !== 'undefined' ? sapProfile : null;
+        case 'mid':
+            profileData = typeof midProfile !== 'undefined' ? midProfile : null;
             break;
         case 'logistics':
             profileData = typeof logisticsProfile !== 'undefined' ? logisticsProfile : null;
