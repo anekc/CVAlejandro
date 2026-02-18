@@ -53,7 +53,7 @@ const knNewProfile = {
                         "ERP–WMS Integrations",
                         "Web Services, XML & Flat-File Interfaces",
                         "Interface Mapping & Validation",
-                        "Python (Test automation)"
+                        "Python (Test Data Creation & Automation)"
                     ]
                 },
                 {
@@ -132,7 +132,7 @@ const knNewProfile = {
                         "Integraciones ERP–WMS",
                         "Web Services, XML e Interfaces de Archivo Plano",
                         "Mapeo y Validación de Interfaces",
-                        "Python (Automatización de pruebas)"
+                        "Python (Creación de Datos de Prueba y Automatización)"
                     ]
                 },
                 {
