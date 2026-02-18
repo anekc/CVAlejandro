@@ -3,77 +3,139 @@
 
 const saasProfile = {
     "en": {
+        "home": {
+            "profession": "Implementation Consultant | Enterprise Software Integrations & Workflow Automation"
+        },
         "profile": {
-            "description": "Senior Supply Chain Consultant with a proven track record in implementing world-class logistics solutions. Functionally certified in Blue Yonder WMS, I combine operational experience with a strong technical background in software development (Python, Node.js, SQL). Specialist in process automation, complex ERP integrations, and full project lifecycle management."
+            "title": "About Me",
+            "description": "Implementation Consultant with 4+ years of experience supporting enterprise software deployments across distribution and manufacturing environments. Specialized in system configuration, business process mapping, workflow automation, and integration validation using XML, SQL, and Python-based tools. Experienced working with cross-functional teams to coordinate testing, user training, and go-live readiness in multi-project implementation environments."
         },
         "experience": {
-            "job1": {
-                "title": "Senior Blue Yonder Consultant",
-                "company": "Argano (Acq. Netlogistik) | Jan 2025 - Present",
-                "description": "- Green-Field Implementation (CFS): Led analysis and solution design (Blueprint). Configured Phase I (Receiving): locations, items, inbound interfaces/orders.\n- Support and Mass Testing (Metro): Developed Python automation script to drastically reduce test data creation time. The script processed Excel data to generate thousands of interface files needed for stress testing before Go-Live."
-            },
-            "job2": {
-                "title": "WMS Specialist & Developer",
-                "company": "Netlogistik | Sep 2021 - Dec 2024",
-                "description": "- Implementation of proprietary \"WEP\" WMS (Angular/Node.js) in pharmaceutical, food, and electronics industries.\n- Design and execution of integrations with leading ERPs (SAP Business One, Microsoft Navision, Epicor) via Web Services and flat files.\n- Key clients: Naturasol, Nyjisa, Nissin, Sodexo."
-            }
+            "title": "Professional Experience",
+            "jobs": [
+                {
+                    "title": "Senior Blue Yonder Consultant",
+                    "company": "Argano | 2025 – 2026",
+                    "description": "• Supported enterprise software implementation activities including requirements analysis, system configuration, and workflow validation.<br>• Configured inbound and inventory management workflows aligned with operational requirements.<br>• Executed data uploads and system configuration using structured templates and automation scripts.<br>• Supported integration validation through XML interface testing and troubleshooting.<br>• Coordinated User Acceptance Testing (UAT) and delivered functional training sessions prior to go-live readiness."
+                },
+                {
+                    "title": "Implementation Consultant",
+                    "company": "Netlogistik | 2021 – 2024",
+                    "description": "• Supported multiple enterprise system implementation projects across manufacturing and distribution organizations in Mexico.<br>• Conducted business process analysis sessions and translated operational workflows into system configurations.<br>• Designed and validated system integrations using Web Services, flat files, and XML-based interfaces.<br>• Supported testing cycles, configuration adjustments, and post-implementation stabilization.<br>• Collaborated with cross-functional implementation teams to ensure timely delivery of deployment milestones."
+                }
+            ]
+        },
+        "projects": {
+            "title": "Selected Implementation Projects",
+            "items": [
+                {
+                    "title": "US-Based Enterprise Software Deployment",
+                    "description": "Participated in Greenfield implementation supporting requirement workshops, configuration, testing coordination, and go-live readiness."
+                },
+                {
+                    "title": "Large-Scale Distribution System Implementation – Mexico",
+                    "description": "Supported enterprise system deployment for high-volume distribution operations including workflow configuration and integration validation."
+                },
+                {
+                    "title": "Implementation Recovery & Stabilization Project",
+                    "description": "Identified configuration inconsistencies in an ongoing deployment and supported workflow restructuring to ensure operational continuity."
+                }
+            ]
         },
         "skills": {
-            "functional": {
-                "title": "Functional",
-                "list": [
-                    "Blue Yonder WMS (Functional)",
-                    "Supply Chain Execution",
-                    "WMS Implementation",
-                    "ERP Integrations"
-                ]
-            },
-            "technical": {
-                "title": "Technical",
-                "list": [
-                    "Python (Automation)",
-                    "SQL",
-                    "JavaScript (Node/Angular)",
-                    "Web Services/EDI"
-                ]
-            }
+            "title": "Skills",
+            "categories": [
+                {
+                    "name": "Implementation & SaaS Consulting",
+                    "items": [
+                        "Software Implementation",
+                        "Workflow Automation",
+                        "Business Process Mapping",
+                        "System Configuration",
+                        "Integration Testing",
+                        "User Acceptance Testing (UAT)",
+                        "Go-Live Coordination"
+                    ]
+                },
+                {
+                    "name": "Technical",
+                    "items": [
+                        "Enterprise SaaS Platforms (Blue Yonder WMS)",
+                        "System Integrations (XML / APIs / Web Services)",
+                        "SQL",
+                        "Python",
+                        "ERP Integrations"
+                    ]
+                }
+            ]
         }
     },
     "es": {
+        "home": {
+            "profession": "Consultor de Implementación | Integraciones de Software Empresarial y Automatización"
+        },
         "profile": {
-            "description": "Consultor Senior de WMS con una sólida trayectoria en la implementación de soluciones logísticas de clase mundial. Certificado funcionalmente en Blue Yonder WMS, combino experiencia operativa con un sólido background técnico en desarrollo de software (Python, Node.js, SQL). Especialista en automatización de procesos, integraciones complejas ERP y gestión completa del ciclo de vida del proyecto."
+            "title": "Sobre Mí",
+            "description": "Consultor de Implementación con más de 4 años de experiencia apoyando despliegues de software empresarial en entornos de distribución y manufactura. Especializado en configuración de sistemas, mapeo de procesos de negocio, automatización de flujos de trabajo y validación de integraciones usando XML, SQL y herramientas basadas en Python. Experiencia trabajando con equipos multifuncionales para coordinar pruebas, capacitación de usuarios y preparación para el arranque en entornos de implementación multiproyecto."
         },
         "experience": {
-            "job1": {
-                "title": "Consultor Senior Blue Yonder",
-                "company": "Argano (Acq. Netlogistik) | Ene 2025 - Presente",
-                "description": "- Implementación Green-Field (CFS): Lideré análisis y diseño de solución (Blueprint). Configuré Fase I (Recepción): ubicaciones, artículos, interfaces/órdenes de entrada.\n- Soporte y Mass Testing (Metro): Desarrollé script de automatización en Python para reducir drásticamente el tiempo de creación de datos de prueba. El script procesó datos de Excel para generar miles de archivos de interface necesarios para stress testing antes del Go-Live."
-            },
-            "job2": {
-                "title": "Especialista WMS & Desarrollador",
-                "company": "Netlogistik | Sep 2021 - Dic 2024",
-                "description": "- Implementación de WMS propietario \"WEP\" (Angular/Node.js) en industrias farmacéutica, alimentos y electrónica.\n- Diseño y ejecución de integraciones con ERPs líderes (SAP Business One, Microsoft Navision, Epicor) vía Web Services y archivos planos.\n- Clientes clave: Naturasol, Nyjisa, Nissin, Sodexo."
-            }
+            "title": "Experiencia Profesional",
+            "jobs": [
+                {
+                    "title": "Consultor Senior Blue Yonder",
+                    "company": "Argano | 2025 – 2026",
+                    "description": "• Apoyé actividades de implementación de software empresarial incluyendo análisis de requerimientos, configuración del sistema y validación de flujos de trabajo.<br>• Configuré flujos de trabajo de entrada y gestión de inventario alineados con requerimientos operativos.<br>• Ejecuté cargas de datos y configuración del sistema usando plantillas estructuradas y scripts de automatización.<br>• Apoyé la validación de integración a través de pruebas de interfaces XML y solución de problemas.<br>• Coordiné Pruebas de Aceptación de Usuario (UAT) e impartí sesiones de capacitación funcional previas a la preparación del arranque."
+                },
+                {
+                    "title": "Consultor de Implementación",
+                    "company": "Netlogistik | 2021 – 2024",
+                    "description": "• Apoyé múltiples proyectos de implementación de sistemas empresariales en organizaciones de manufactura y distribución en México.<br>• Conduje sesiones de análisis de procesos de negocio y traduje flujos de trabajo operativos en configuraciones del sistema.<br>• Diseñé y validé integraciones de sistemas usando Servicios Web, archivos planos e interfaces basadas en XML.<br>• Apoyé ciclos de pruebas, ajustes de configuración y estabilización post-implementación.<br>• Colaboré con equipos de implementación multifuncionales para asegurar la entrega oportuna de hitos de despliegue."
+                }
+            ]
+        },
+        "projects": {
+            "title": "Proyectos de Implementación Seleccionados",
+            "items": [
+                {
+                    "title": "Despliegue de Software Empresarial Basado en EE. UU.",
+                    "description": "Participé en implementación Greenfield apoyando talleres de requerimientos, configuración, coordinación de pruebas y preparación para el arranque."
+                },
+                {
+                    "title": "Implementación de Sistema de Distribución a Gran Escala – México",
+                    "description": "Apoyé el despliegue de sistema empresarial para operaciones de distribución de alto volumen incluyendo configuración de flujos de trabajo y validación de integración."
+                },
+                {
+                    "title": "Proyecto de Recuperación y Estabilización de Implementación",
+                    "description": "Identifiqué inconsistencias de configuración en un despliegue en curso y apoyé la reestructuración de flujos de trabajo para asegurar la continuidad operativa."
+                }
+            ]
         },
         "skills": {
-            "functional": {
-                "title": "Funcional",
-                "list": [
-                    "Blue Yonder WMS (Funcional)",
-                    "Ejecución de Cadena de Suministro",
-                    "Implementación WMS",
-                    "Integraciones ERP"
-                ]
-            },
-            "technical": {
-                "title": "Técnico",
-                "list": [
-                    "Python (Automatización)",
-                    "SQL",
-                    "JavaScript (Node/Angular)",
-                    "Web Services/EDI"
-                ]
-            }
+            "title": "Habilidades",
+            "categories": [
+                {
+                    "name": "Implementación y Consultoría SaaS",
+                    "items": [
+                        "Implementación de Software",
+                        "Automatización de Flujos de Trabajo",
+                        "Mapeo de Procesos de Negocio",
+                        "Configuración de Sistemas",
+                        "Pruebas de Integración",
+                        "Pruebas de Aceptación de Usuario (UAT)",
+                        "Coordinación de Go-Live"
+                    ]
+                },
+                {
+                    "name": "Técnico",
+                    "items": [
+                        "Plataformas SaaS Empresariales (Blue Yonder WMS)",
+                        "Integraciones de Sistemas (XML / APIs / Web Services)",
+                        "SQL",
+                        "Python",
+                        "Integraciones ERP"
+                    ]
+                }
+            ]
         }
     }
 };
