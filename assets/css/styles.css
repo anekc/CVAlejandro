@@ -427,8 +427,8 @@
     .profile__description {
         text-align: justify;
         margin-bottom: 1.2rem;
-        font-size: 1.2rem;
-        /* Increased visibility per user request */
+        font-size: 1.35rem !important;
+        /* Force large size per user request */
         line-height: 1.6;
     }
 
@@ -851,6 +851,11 @@
             width: 100%;
             max-width: 100%;
             margin: 0;
+        }
+
+        .profile__description {
+            font-size: 11pt !important;
+            margin-bottom: 0.5rem;
         }
     }
 
