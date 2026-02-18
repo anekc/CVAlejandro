@@ -11,7 +11,7 @@ const knNewProfile = {
         },
         "profile": {
             "title": "Professional Summary",
-            "description": "WMS Functional Consultant with 4+ years of experience in Contract Logistics and warehouse technology across Mexico and the United States. Specialized in Blue Yonder WMS and experienced in full-lifecycle implementations, including system configuration, ERP–WMS integrations, and functional testing (SIT/UAT). Proven ability to translate operational requirements into scalable technical solutions, leveraging a strong engineering background in SQL and Python to drive process improvements."
+            "description": "WMS Functional Consultant with 4+ years of experience in Contract Logistics and warehouse technology across Mexico and the United States. Specialized in Blue Yonder WMS and experienced in full-lifecycle implementations, including system configuration, ERP–WMS integrations, and functional testing (SIT/UAT). Proven ability to translate operational requirements into scalable technical solutions, leveraging a strong engineering background in SQL to drive process improvements."
         },
         "experience": {
             "title": "Professional Experience",
@@ -90,7 +90,7 @@ const knNewProfile = {
         },
         "profile": {
             "title": "Resumen Profesional",
-            "description": "Consultor Funcional WMS con más de 4 años de experiencia en Logística por Contrato y tecnología de almacenes en México y Estados Unidos. Especializado en Blue Yonder WMS y con experiencia en implementaciones de ciclo completo, incluyendo configuración, integraciones ERP–WMS y pruebas funcionales (SIT/UAT). Probada capacidad para traducir requerimientos operativos en soluciones técnicas escalables, aprovechando una sólida formación en ingeniería en SQL y Python para impulsar mejoras de procesos."
+            "description": "Consultor Funcional WMS con más de 4 años de experiencia en Logística por Contrato y tecnología de almacenes en México y Estados Unidos. Especializado en Blue Yonder WMS y con experiencia en implementaciones de ciclo completo, incluyendo configuración, integraciones ERP–WMS y pruebas funcionales (SIT/UAT). Probada capacidad para traducir requerimientos operativos en soluciones técnicas escalables, aprovechando una sólida formación en ingeniería en SQL para impulsar mejoras de procesos."
         },
         "experience": {
             "title": "Experiencia Profesional",
