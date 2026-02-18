@@ -11,7 +11,7 @@ const knNewProfile = {
         },
         "profile": {
             "title": "Professional Summary",
-            "description": "WMS Functional Consultant with 4+ years of experience in Contract Logistics and warehouse systems across Mexico and the United States. Experienced in designing, configuring, and optimizing Blue Yonder WMS solutions aligned with operational and supply chain requirements. Strong background in system enhancements, ERP–WMS integrations, SQL-based data validation, and support during SIT/UAT and phased go-live implementations. Proven ability to collaborate with operations and IT teams to deliver scalable and process-driven technology solutions."
+            "description": "WMS Functional Consultant with 4+ years of experience in Contract Logistics and warehouse systems across Mexico and the United States. Specialized in Blue Yonder WMS implementation and optimization, aligning solutions with operational and supply chain requirements. Strong background in system enhancements, ERP–WMS integrations, SQL-based data validation, and support during SIT/UAT and phased go-live implementations. Proven ability to collaborate with operations and IT teams to deliver scalable and process-driven technology solutions."
         },
         "experience": {
             "title": "Professional Experience",
