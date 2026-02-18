@@ -6,7 +6,8 @@ const profileMap = {
     'x9z1y4': 'prompt',  // AI & Prompt Engineering focus
     'm4k9j1': 'kn',       // Kuehne + Nagel (KN) focus
     'a8t1s9': 'byats',   // Blue Yonder ATS Optimized focus
-    'b7y2a1': 'atsby'    // ATSWA (ATS Blue Yonder) - No Projects
+    'b7y2a1': 'atsby',   // ATSWA (ATS Blue Yonder) - No Projects
+    'k7n1v2': 'kn_new'   // K+N Targeted (New)
 };
 
 // Get profile from URL parameter

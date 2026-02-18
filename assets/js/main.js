@@ -55,6 +55,9 @@ function loadProfile() {
         case 'atsby':
             profileData = typeof atsbyProfile !== 'undefined' ? atsbyProfile : null;
             break;
+        case 'kn_new':
+            profileData = typeof knNewProfile !== 'undefined' ? knNewProfile : null;
+            break;
     }
 
     if (!profileData) {
