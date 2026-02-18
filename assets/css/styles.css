@@ -427,6 +427,9 @@
     .profile__description {
         text-align: justify;
         margin-bottom: 1.2rem;
+        font-size: 1.05rem;
+        /* Slightly larger than normal text for emphasis */
+        line-height: 1.6;
     }
 
     /*========== EDUCATION AND EXPERIENCE ==========*/
