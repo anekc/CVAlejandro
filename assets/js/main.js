@@ -43,6 +43,9 @@ function loadProfile() {
         case 'saas':
             profileData = typeof saasProfile !== 'undefined' ? saasProfile : null;
             break;
+        case 'prompt':
+            profileData = typeof promptProfile !== 'undefined' ? promptProfile : null;
+            break;
     }
 
     if (!profileData) {
