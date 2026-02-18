@@ -427,8 +427,8 @@
     .profile__description {
         text-align: justify;
         margin-bottom: 1.2rem;
-        font-size: 1.05rem;
-        /* Slightly larger than normal text for emphasis */
+        font-size: 1.2rem;
+        /* Increased visibility per user request */
         line-height: 1.6;
     }
 
