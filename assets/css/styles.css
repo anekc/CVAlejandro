@@ -692,6 +692,10 @@
         body {
             background-color: white;
             color: black;
+            font-size: 9pt;
+            /* Explicitly smaller body text */
+            margin: 0;
+            padding: 0;
         }
 
         /* Hide web-only elements */
@@ -709,14 +713,17 @@
             display: block !important;
             grid-template-columns: 1fr !important;
             box-shadow: none;
-            max-width: 800px;
-            margin: 0 auto;
+            max-width: 100%;
+            margin: 0;
+            padding: 0 0.5cm !important;
+            /* Minimal side padding */
         }
 
         .resume__left,
         .resume__right {
             background-color: white !important;
             padding: 0 !important;
+            border: none !important;
         }
 
         /* Reorder sections for Harvard format */
@@ -732,281 +739,326 @@
             order: 3;
         }
 
-        .skills {
+        .projects {
             order: 4;
         }
 
-        .education {
+        /* Ensure projects are included */
+        .skills {
             order: 5;
         }
 
-        .languages {
+        .education {
             order: 6;
+        }
+
+        .languages {
+            order: 7;
+        }
+
+        .certifications {
+            order: 8;
         }
 
         .social,
         .interests {
             display: none;
-            /* Hide for cleaner professional PDF */
         }
 
-        /* Typography adjustments */
+        /* Typography adjustments - Compact */
+        .section {
+            padding: 0.2rem 0;
+            /* Very tight section padding */
+        }
+
         .section-title {
-            font-size: 14pt;
-            letter-spacing: 0.1rem;
-            margin-bottom: 0.5rem;
-            margin-top: 1rem;
+            font-size: 11pt;
+            letter-spacing: 0.05rem;
+            margin-bottom: 0.2rem;
+            margin-top: 0.5rem;
             border-bottom: 1px solid #333;
-            padding-bottom: 0.25rem;
+            padding-bottom: 0.1rem;
+            text-transform: uppercase;
         }
 
         .home__title {
-            font-size: 20pt;
-            margin-bottom: 0.25rem;
+            font-size: 16pt;
+            margin-bottom: 0;
+            text-align: center;
         }
 
         .home__profession {
-            font-size: 12pt;
-            margin-bottom: 0.5rem;
+            font-size: 10pt;
+            margin-bottom: 0.2rem;
+            text-align: center;
         }
 
         .home__information {
             font-size: 9pt;
-            margin-bottom: 0.1rem;
+            margin: 0;
         }
 
-        .home__icon,
-        .social__icon,
-        .nav__icon,
-        .skills__circle,
-        .languages__circle {
-            display: none;
-            /* Remove decorative elements for ATS */
-        }
-
-        /* Contact Info: Single Line with Pipes for Print */
         .home__adress {
             display: flex !important;
             flex-direction: row;
             justify-content: center;
             flex-wrap: wrap;
             gap: 0.5rem;
-            margin-top: 0.25rem;
+            margin-top: 0.1rem;
+            margin-bottom: 0.5rem;
         }
 
-        .home__information {
-            font-size: 9pt;
-            display: inline-block;
+        /* Tighten Lists and Paragraphs */
+        p,
+        ul,
+        li {
+            margin: 0;
+            padding: 0;
+            line-height: 1.3;
         }
 
-        .home__information:not(:last-child)::after {
-            content: " |";
-            margin-left: 0.5rem;
-            color: #333;
+        /* Specific adjustments for experience/projects */
+        .experience__company,
+        .projects__title {
+            font-weight: bold;
+            font-size: 9.5pt;
+            margin-top: 0.2rem;
         }
 
-        /* Experience and Education timeline adjustments */
+        .education__container,
+        .skills__content {
+            gap: 0.2rem;
+        }
+
+        /* Remove decorative elements for ATS */
+        .home__icon,
+        .social__icon,
+        .nav__icon,
+        .skills__circle,
+        .languages__circle,
         .experience__rounder,
         .education__rounder,
         .experience__line,
         .education__line {
+            display: none !important;
+        }
+
+        /* Ensure content width is maximized */
+        .bd-container {
+            width: 100%;
+            max-width: 100%;
+            margin: 0;
+        }
+    }
+
+    .home__information:not(:last-child)::after {
+        content: " |";
+        margin-left: 0.5rem;
+        color: #333;
+    }
+
+    /* Experience and Education timeline adjustments */
+    .experience__rounder,
+    .education__rounder,
+    .experience__line,
+    .education__line {
+        display: none;
+        /* Remove decorative timeline for cleaner look */
+    }
+
+    .experience__time,
+    .education__time {
+        padding-right: 0;
+    }
+
+    @media print {
+        body {
+            margin: 0;
+            padding: 0;
+            zoom: 0.8;
+            /* Stronger zoom out */
+            -webkit-print-color-adjust: exact;
+        }
+
+        .l-header,
+        .home__controls {
+            display: none !important;
+        }
+
+        .bd-container {
+            width: 100%;
+            max-width: 100%;
+            margin: 0;
+            padding: 0 1rem;
+        }
+
+        .section {
+            padding: 0.2rem 0 !important;
+            /* Minimal section padding */
+        }
+
+        .section-title {
+            margin-bottom: 0.25rem !important;
+            font-size: 1rem !important;
+            /* Smaller titles */
+            margin-top: 0.5rem !important;
+        }
+
+        /* Reduce specific margins */
+        .home__container {
+            gap: 0.25rem !important;
+        }
+
+        .home__data {
+            margin-top: 0 !important;
+            /* Remove top margin */
+            padding-top: 1rem;
+        }
+
+        .home__title {
+            font-size: 1.5rem !important;
+            margin-bottom: 0 !important;
+        }
+
+        .home__profession {
+            font-size: 1rem !important;
+            margin-bottom: 0.1rem !important;
+        }
+
+        /* Compact Experience/Project Items */
+        .experience__container {
+            gap: 0.25rem !important;
+        }
+
+        .experience__content,
+        .education__content {
+            margin-bottom: 0.35rem !important;
+            break-inside: avoid;
+        }
+
+        .experience__title {
+            font-size: 10pt !important;
+        }
+
+        .experience__description {
+            font-size: 9pt;
+            line-height: 1.2;
+            /* Tighter lines */
+            margin-top: 0.1rem;
+            margin-bottom: 0.1rem;
+        }
+
+        /* Skills layout for print - Force Horizontal & Compact */
+        .skills__content {
+            display: block !important;
+            margin-bottom: 0.2rem;
+        }
+
+        .skills__group {
+            width: 100%;
+            margin-bottom: 0.1rem;
+            break-inside: avoid;
+            /* Try to put title and list on same line if they fit, or just very tight stacking */
+            display: flex !important;
+            flex-direction: column;
+        }
+
+        .skills__subtitle {
+            font-size: 9pt;
+            font-weight: bold !important;
+            /* Standard bold */
+            color: black !important;
+            /* Keyword black */
+            margin-bottom: 0 !important;
+            margin-top: 0.1rem;
+            text-transform: none !important;
+            /* Force mixed case */
+            width: 100%;
+        }
+
+        ul.skills__data {
+            display: flex !important;
+            flex-wrap: wrap !important;
+            gap: 2px 8px !important;
+            /* Minimal gap */
+            margin: 0 !important;
+            padding-left: 0;
+            list-style: none !important;
+        }
+
+        li.skills__name {
+            display: inline-block !important;
+            /* Back to inline-block for tight fit */
+            width: auto !important;
+            font-size: 8.5pt !important;
+            color: #333;
+            margin: 0 !important;
+            line-height: 1.2;
+        }
+
+        li.skills__name span.skills__circle {
+            display: none !important;
+        }
+
+        /* Fix double bullets: Ensure no list-style */
+        li.skills__name::marker {
+            content: none;
+        }
+
+        /* Add separator nicely */
+        li.skills__name:not(:last-child)::after {
+            content: " •";
+            color: #999;
+            margin-left: 5px;
+        }
+
+        li.skills__name::before {
+            content: none !important;
+            /* Remove any existing before content */
+        }
+
+        /* Hide the last separator */
+        li.skills__name:last-child::after {
             display: none;
-            /* Remove decorative timeline for cleaner look */
-        }
-
-        .experience__time,
-        .education__time {
-            padding-right: 0;
-        }
-
-        @media print {
-            body {
-                margin: 0;
-                padding: 0;
-                zoom: 0.8;
-                /* Stronger zoom out */
-                -webkit-print-color-adjust: exact;
-            }
-
-            .l-header,
-            .home__controls {
-                display: none !important;
-            }
-
-            .bd-container {
-                width: 100%;
-                max-width: 100%;
-                margin: 0;
-                padding: 0 1rem;
-            }
-
-            .section {
-                padding: 0.2rem 0 !important;
-                /* Minimal section padding */
-            }
-
-            .section-title {
-                margin-bottom: 0.25rem !important;
-                font-size: 1rem !important;
-                /* Smaller titles */
-                margin-top: 0.5rem !important;
-            }
-
-            /* Reduce specific margins */
-            .home__container {
-                gap: 0.25rem !important;
-            }
-
-            .home__data {
-                margin-top: 0 !important;
-                /* Remove top margin */
-                padding-top: 1rem;
-            }
-
-            .home__title {
-                font-size: 1.5rem !important;
-                margin-bottom: 0 !important;
-            }
-
-            .home__profession {
-                font-size: 1rem !important;
-                margin-bottom: 0.1rem !important;
-            }
-
-            /* Compact Experience/Project Items */
-            .experience__container {
-                gap: 0.25rem !important;
-            }
-
-            .experience__content,
-            .education__content {
-                margin-bottom: 0.35rem !important;
-                break-inside: avoid;
-            }
-
-            .experience__title {
-                font-size: 10pt !important;
-            }
-
-            .experience__description {
-                font-size: 9pt;
-                line-height: 1.2;
-                /* Tighter lines */
-                margin-top: 0.1rem;
-                margin-bottom: 0.1rem;
-            }
-
-            /* Skills layout for print - Force Horizontal & Compact */
-            .skills__content {
-                display: block !important;
-                margin-bottom: 0.2rem;
-            }
-
-            .skills__group {
-                width: 100%;
-                margin-bottom: 0.1rem;
-                break-inside: avoid;
-                /* Try to put title and list on same line if they fit, or just very tight stacking */
-                display: flex !important;
-                flex-direction: column;
-            }
-
-            .skills__subtitle {
-                font-size: 9pt;
-                font-weight: bold !important;
-                /* Standard bold */
-                color: black !important;
-                /* Keyword black */
-                margin-bottom: 0 !important;
-                margin-top: 0.1rem;
-                text-transform: none !important;
-                /* Force mixed case */
-                width: 100%;
-            }
-
-            ul.skills__data {
-                display: flex !important;
-                flex-wrap: wrap !important;
-                gap: 2px 8px !important;
-                /* Minimal gap */
-                margin: 0 !important;
-                padding-left: 0;
-                list-style: none !important;
-            }
-
-            li.skills__name {
-                display: inline-block !important;
-                /* Back to inline-block for tight fit */
-                width: auto !important;
-                font-size: 8.5pt !important;
-                color: #333;
-                margin: 0 !important;
-                line-height: 1.2;
-            }
-
-            li.skills__name span.skills__circle {
-                display: none !important;
-            }
-
-            /* Fix double bullets: Ensure no list-style */
-            li.skills__name::marker {
-                content: none;
-            }
-
-            /* Add separator nicely */
-            li.skills__name:not(:last-child)::after {
-                content: " •";
-                color: #999;
-                margin-left: 5px;
-            }
-
-            li.skills__name::before {
-                content: none !important;
-                /* Remove any existing before content */
-            }
-
-            /* Hide the last separator */
-            li.skills__name:last-child::after {
-                display: none;
-            }
-
-            /* Spacing and page breaks */
-            .section {
-                page-break-inside: avoid;
-                padding: 0.1rem 0 !important;
-            }
-        }
-
-        /* Languages */
-        .languages__content {
-            display: block;
-        }
-
-        .languages__name {
-            font-size: 9pt;
-            margin-bottom: 0.25rem;
-        }
-
-        .languages__name::before {
-            content: "• ";
-            margin-right: 0.25rem;
-        }
-
-        /* Profile section */
-        .profile__description {
-            font-size: 9pt;
-            line-height: 1.4;
-            text-align: left;
         }
 
         /* Spacing and page breaks */
         .section {
             page-break-inside: avoid;
-            padding: 0.5rem 0;
+            padding: 0.1rem 0 !important;
         }
+    }
 
-        .experience__content,
-        .education__content {
-            page-break-inside: avoid;
-        }
+    /* Languages */
+    .languages__content {
+        display: block;
+    }
+
+    .languages__name {
+        font-size: 9pt;
+        margin-bottom: 0.25rem;
+    }
+
+    .languages__name::before {
+        content: "• ";
+        margin-right: 0.25rem;
+    }
+
+    /* Profile section */
+    .profile__description {
+        font-size: 9pt;
+        line-height: 1.4;
+        text-align: left;
+    }
+
+    /* Spacing and page breaks */
+    .section {
+        page-break-inside: avoid;
+        padding: 0.5rem 0;
+    }
+
+    .experience__content,
+    .education__content {
+        page-break-inside: avoid;
+    }
     }
