@@ -24,9 +24,9 @@
         --font-medium: 500;
         --font-semi-bold: 600;
         /*========== Margenes ==========*/
-        --mb-1: .5rem;
-        --mb-2: 1rem;
-        --mb-3: 1.5rem;
+        --mb-1: .4rem;
+        --mb-2: .8rem;
+        --mb-3: 1rem;
         /*========== z index ==========*/
         --z-tooltip: 10;
         --z-fixed: 100;
@@ -85,12 +85,12 @@
     /*========== Font size variables to scale cv ==========*/
 
     body.scale-cv {
-        --h1-font-size: .938rem;
-        --h2-font-size: .938rem;
-        --h3-font-size: .875rem;
-        --normal-font-size: .813rem;
-        --small-font-size: .75rem;
-        --smaller-font-size: .688rem;
+        --h1-font-size: .9rem;
+        --h2-font-size: .9rem;
+        --h3-font-size: .8rem;
+        --normal-font-size: .75rem;
+        --small-font-size: .7rem;
+        --smaller-font-size: .65rem;
     }
 
     /*========== Generate PDF button ==========*/
@@ -109,7 +109,7 @@
     }
 
     .scale-cv .section {
-        padding: .80rem 0 .2rem;
+        padding: .5rem 0 .1rem;
     }
 
     .scale-cv .section-title {
@@ -624,7 +624,8 @@
 
     @media screen and (min-width:968px) {
         body {
-            margin: 3rem, 0;
+            margin: 0;
+            padding: 1.5rem 0;
         }
 
         .bd-container {
