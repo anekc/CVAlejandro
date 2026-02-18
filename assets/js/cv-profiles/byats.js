@@ -18,7 +18,7 @@ const byatsProfile = {
             "jobs": [
                 {
                     "title": "Senior Blue Yonder Consultant",
-                    "company": "Argano (Acq. Netlogistik) | Jan 2025 – Present",
+                    "company": "Argano (Acq. Netlogistik) | Jan 2025 – Feb 2026",
                     "description": "• Participated in Greenfield Blue Yonder WMS implementation for a U.S.-based distribution center, supporting requirement workshops and inbound configuration activities.<br>• Configured receiving workflows, item master structures, and inventory parameters aligned with operational requirements.<br>• Supported SIT and UAT testing cycles, troubleshooting configuration and integration issues.<br>• Validated inbound XML interfaces and supported configuration-level adjustments to align system logic with client operational requirements.<br>• Supported change management activities and system enhancements aligned with operational needs.<br>• Delivered functional training sessions for key users prior to go-live readiness.<br>• Developed Python scripts to automate large-scale test data preparation, improving testing efficiency.<br>• Collaborated with solution architects, developers, and operations teams during phased implementation activities."
                 },
                 {
@@ -110,7 +110,7 @@ const byatsProfile = {
             "jobs": [
                 {
                     "title": "Consultor Senior Blue Yonder",
-                    "company": "Argano (Acq. Netlogistik) | Ene 2025 – Presente",
+                    "company": "Argano (Acq. Netlogistik) | Ene 2025 – Feb 2026",
                     "description": "• Participé en implementación Greenfield de Blue Yonder WMS para un centro de distribución en EE. UU., apoyando talleres de requerimientos y actividades de configuración de entrada.<br>• Configuré flujos de trabajo de recepción, estructuras de maestros de artículos y parámetros de inventario alineados con requerimientos operativos.<br>• Apoyé ciclos de pruebas SIT y UAT, solucionando problemas de configuración e integración.<br>• Validé interfaces XML de entrada y apoyé ajustes a nivel configuración para alinear la lógica del sistema con requerimientos operativos del cliente.<br>• Apoyé actividades de gestión del cambio y mejoras del sistema alineadas con necesidades operativas.<br>• Impartí sesiones de capacitación funcional a usuarios clave previo a la preparación del arranque.<br>• Desarrollé scripts en Python para automatizar preparación masiva de datos de prueba, mejorando eficiencia de pruebas.<br>• Colaboré con arquitectos de solución, desarrolladores y equipos de operaciones durante fases de implementación."
                 },
                 {

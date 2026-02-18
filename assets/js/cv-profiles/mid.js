@@ -18,7 +18,7 @@ const midProfile = {
             "jobs": [
                 {
                     "title": "Senior Blue Yonder Consultant",
-                    "company": "Argano (Acq. Netlogistik) | Jan 2025 - Present",
+                    "company": "Argano (Acq. Netlogistik) | Jan 2025 - Feb 2026",
                     "description": "• Participated in Greenfield Blue Yonder WMS implementation for a U.S.-based distribution center, supporting requirement gathering workshops and inbound configuration activities.<br>• Configured receiving workflows, item master structures, and inventory parameters based on operational requirements.<br>• Supported integration validation and coordinated User Acceptance Testing (UAT) activities.<br>• Delivered functional training sessions prior to go-live readiness."
                 },
                 {
@@ -100,7 +100,7 @@ const midProfile = {
             "jobs": [
                 {
                     "title": "Consultor Senior Blue Yonder",
-                    "company": "Argano (Adq. Netlogistik) | Ene 2025 - Presente",
+                    "company": "Argano (Adq. Netlogistik) | Ene 2025 - Feb 2026",
                     "description": "• Participé en implementación Green-Field de Blue Yonder WMS para un centro de distribución basado en EE. UU., apoyando talleres de levantamiento de requerimientos y actividades de configuración de entrada (inbound).<br>• Configuré flujos de trabajo de recibo, estructuras de maestro de artículos y parámetros de inventario basados en requerimientos operativos.<br>• Apoyé la validación de integración y coordiné actividades de Pruebas de Aceptación de Usuario (UAT).<br>• Impartí sesiones de capacitación funcional previas a la preparación del arranque."
                 },
                 {

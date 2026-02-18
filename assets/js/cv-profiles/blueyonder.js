@@ -17,7 +17,7 @@ const blueYonderProfile = {
             title: "Professional Experience",
             job1: {
                 title: "Senior Blue Yonder Consultant",
-                company: "Argano | 2025 – Present",
+                company: "Argano | Jan 2025 – Feb 2026",
                 description: "• Led green-field Blue Yonder WMS implementation, defining solution blueprint and configuring inbound processes for Phase 1 go-live.\n• Designed warehouse location and item configuration strategy improving inbound process readiness for operations start.\n• Developed Python automation scripts generating thousands of interface test files, reducing mass-testing preparation time by ~80%."
             },
             job2: {
@@ -83,7 +83,7 @@ const blueYonderProfile = {
             title: "Experiencia Profesional",
             job1: {
                 title: "Consultor Senior Blue Yonder",
-                company: "Argano | 2025 – Presente",
+                company: "Argano | Ene 2025 – Feb 2026",
                 description: "• Lideré implementación green-field de Blue Yonder WMS, definiendo blueprint de solución y configurando procesos inbound para go-live de Fase 1.\n• Diseñé estrategia de configuración de ubicaciones y artículos mejorando preparación de procesos inbound para inicio de operaciones.\n• Desarrollé scripts de automatización en Python generando miles de archivos de prueba de interfaces, reduciendo tiempo de preparación de mass-testing en ~80%."
             },
             job2: {
