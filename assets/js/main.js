@@ -40,8 +40,8 @@ function loadProfile() {
         case 'mid':
             profileData = typeof midProfile !== 'undefined' ? midProfile : null;
             break;
-        case 'logistics':
-            profileData = typeof logisticsProfile !== 'undefined' ? logisticsProfile : null;
+        case 'saas':
+            profileData = typeof saasProfile !== 'undefined' ? saasProfile : null;
             break;
     }
 

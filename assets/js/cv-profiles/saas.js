@@ -1,7 +1,7 @@
 // General Logistics & Supply Chain Profile
 // Emphasizes: Balanced supply chain experience, process automation, general WMS
 
-const logisticsProfile = {
+const saasProfile = {
     "en": {
         "profile": {
             "description": "Senior Supply Chain Consultant with a proven track record in implementing world-class logistics solutions. Functionally certified in Blue Yonder WMS, I combine operational experience with a strong technical background in software development (Python, Node.js, SQL). Specialist in process automation, complex ERP integrations, and full project lifecycle management."

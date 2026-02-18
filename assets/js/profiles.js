@@ -2,7 +2,7 @@
 const profileMap = {
     'a3f9b2': 'blueyonder',  // Blue Yonder WMS Specialist focus
     'k7x2m9': 'mid',         // Functionally focused profile (formerly SAP)
-    'p5n8w1': 'logistics'    // General Logistics/Supply Chain focus
+    'p5n8w1': 'saas'    // SaaS/Cloud focus (formerly Logistics)
 };
 
 // Get profile from URL parameter
