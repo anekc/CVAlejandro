@@ -46,8 +46,8 @@ function loadProfile() {
         case 'prompt':
             profileData = typeof promptProfile !== 'undefined' ? promptProfile : null;
             break;
-        case 'ka':
-            profileData = typeof kaProfile !== 'undefined' ? kaProfile : null;
+        case 'kn':
+            profileData = typeof knProfile !== 'undefined' ? knProfile : null;
             break;
     }
 
