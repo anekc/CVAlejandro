@@ -49,6 +49,9 @@ function loadProfile() {
         case 'kn':
             profileData = typeof knProfile !== 'undefined' ? knProfile : null;
             break;
+        case 'byats':
+            profileData = typeof byatsProfile !== 'undefined' ? byatsProfile : null;
+            break;
     }
 
     if (!profileData) {

@@ -4,7 +4,8 @@ const profileMap = {
     'k7x2m9': 'mid',         // Functionally focused profile (formerly SAP)
     'p5n8w1': 'saas',    // SaaS/Cloud focus (formerly Logistics)
     'x9z1y4': 'prompt',  // AI & Prompt Engineering focus
-    'm4k9j1': 'kn'       // Kuehne + Nagel (KN) focus
+    'm4k9j1': 'kn',       // Kuehne + Nagel (KN) focus
+    'a8t1s9': 'byats'    // Blue Yonder ATS Optimized focus
 };
 
 // Get profile from URL parameter
