@@ -52,6 +52,9 @@ function loadProfile() {
         case 'byats':
             profileData = typeof byatsProfile !== 'undefined' ? byatsProfile : null;
             break;
+        case 'atsby':
+            profileData = typeof atsbyProfile !== 'undefined' ? atsbyProfile : null;
+            break;
     }
 
     if (!profileData) {
