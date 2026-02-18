@@ -90,20 +90,20 @@ const knNewProfile = {
         },
         "profile": {
             "title": "Resumen Profesional",
-            "description": "Consultor Funcional WMS con más de 4 años de experiencia en Logística por Contrato y tecnología de almacenes en México y Estados Unidos. Especializado en Blue Yonder WMS y con experiencia en implementaciones de ciclo completo, incluyendo configuración, integraciones ERP–WMS y pruebas funcionales (SIT/UAT). Probada capacidad para traducir requerimientos operativos en soluciones técnicas escalables, aprovechando una sólida formación en ingeniería en SQL para impulsar mejoras de procesos."
+            "description": "Consultor Funcional WMS con más de 4 años de experiencia en Contract Logistics y tecnología de gestión de almacenes en México y Estados Unidos. Especializado en Blue Yonder WMS y con experiencia en implementaciones de ciclo completo, incluyendo configuración del sistema, integraciones ERP–WMS y pruebas funcionales (SIT/UAT).<br><br>Capacidad demostrada para traducir requerimientos operativos en soluciones técnicas escalables, respaldado por una sólida formación en ingeniería y experiencia en análisis de datos con SQL para impulsar mejoras operativas y optimización de procesos."
         },
         "experience": {
             "title": "Experiencia Profesional",
             "jobs": [
                 {
                     "title": "Consultor Senior Blue Yonder",
-                    "company": "Argano (Acq. Netlogistik) | Ene 2025 – Feb 2026",
-                    "description": "• Participé en una implementación intensiva Greenfield de Blue Yonder WMS para un centro de distribución en EE. UU.<br>• Apoyé en talleres de requerimientos y actividades de configuración de entrada para alinear la lógica del sistema con las necesidades del cliente.<br>• Configuré flujos de trabajo de recepción, estructuras de maestro de artículos y parámetros de inventario.<br>• Validé interfaces XML de entrada y realicé ajustes a nivel de configuración.<br>• Gestioné ciclos SIT y UAT, resolviendo problemas complejos de configuración e integración.<br>• Desarrollé scripts en Python para automatizar la preparación masiva de datos de prueba, aumentando la eficiencia de las pruebas.<br>• Impartí capacitación funcional a usuarios clave para asegurar la preparación operativa para el arranque.<br>• Colaboré con arquitectos de soluciones, desarrolladores y equipos de operaciones durante las actividades de implementación por fases."
+                    "company": "Argano (Adquisición de Netlogistik) | Ene 2025 – Feb 2026",
+                    "description": "• Participé en una implementación Greenfield de Blue Yonder WMS para un centro de distribución en Estados Unidos.<br>• Apoyé talleres de levantamiento de requerimientos y actividades de configuración de procesos de entrada (inbound), alineando la lógica del sistema con las necesidades del cliente.<br>• Configuré flujos de recepción, estructuras de maestro de artículos y parámetros de inventario.<br>• Validé interfaces XML de entrada y realicé ajustes a nivel de configuración.<br>• Gestioné ciclos de pruebas SIT y UAT, resolviendo incidencias complejas de configuración e integración.<br>• Desarrollé scripts en Python para automatizar la generación masiva de datos de prueba, incrementando la eficiencia del proceso de validación.<br>• Impartí capacitación funcional a usuarios clave para asegurar la preparación operativa previa al Go-Live.<br>• Colaboré con arquitectos de solución, desarrolladores y equipos operativos durante las distintas fases de implementación."
                 },
                 {
                     "title": "Consultor de Implementación WMS",
                     "company": "Netlogistik | 2021 – 2024",
-                    "description": "• Gestioné la implementación y soporte de soluciones WMS propietarias (WEP) en sectores de manufactura y distribución.<br>• Realicé análisis de procesos de almacén de extremo a extremo para recepción, almacenamiento, reabastecimiento, picking y embarque.<br>• Diseñé y configuré flujos de trabajo del sistema basados en requerimientos operativos específicos del negocio.<br>• Mapeé y probé integraciones ERP–WMS con SAP Business One (Web Services), Microsoft Navision e Intelisis (Flat-files).<br>• Ejecuté consultas SQL avanzadas para análisis de datos, validación de transacciones y solución de problemas de interfaces.<br>• Coordiné fases de pruebas SIT/UAT y proporcioné estabilización de producción post-implementación.<br>• Llevé a cabo capacitación de usuarios clave y facilité la transición a equipos de soporte a largo plazo."
+                    "description": "• Gestioné la implementación y soporte de soluciones WMS propietarias (WEP) en sectores de manufactura y distribución.<br>• Realicé análisis integral de procesos de almacén: recepción, almacenamiento, reabastecimiento, surtido (picking) y embarque.<br>• Diseñé y configuré flujos de trabajo del sistema con base en requerimientos operativos específicos del negocio.<br>• Mapeé y probé integraciones ERP–WMS con SAP Business One (Web Services), Microsoft Navision e Intelisis (interfaces mediante archivos planos).<br>• Ejecuté consultas SQL para análisis de datos, validación de transacciones y resolución de incidencias en interfaces.<br>• Coordiné fases de pruebas SIT/UAT y brindé soporte en la estabilización post-implementación en ambiente productivo.<br>• Impartí capacitación a usuarios clave y facilité la transición hacia equipos de soporte permanente."
                 }
             ]
         },
@@ -121,27 +121,27 @@ const knNewProfile = {
                         "Diseño de Procesos de Almacén",
                         "Levantamiento de Requerimientos y Análisis Fit-Gap",
                         "Coordinación SIT / UAT",
-                        "Soporte Go-Live y Estabilización",
-                        "Capacitación de Usuarios Clave"
+                        "Soporte a Go-Live y Estabilización",
+                        "Capacitación a Usuarios Clave"
                     ]
                 },
                 {
                     "name": "Integración y Técnico",
                     "items": [
-                        "SQL (Análisis de datos, reportes, troubleshooting)",
+                        "SQL (Análisis de datos, reportes y troubleshooting)",
                         "Integraciones ERP–WMS",
                         "Web Services, XML e Interfaces de Archivo Plano",
                         "Mapeo y Validación de Interfaces",
-                        "Python (Creación de Datos de Prueba y Automatización)"
+                        "Python (Generación y Automatización de Datos de Prueba)"
                     ]
                 },
                 {
-                    "name": "Soporte Operativo y de Sistema",
+                    "name": "Soporte Operativo y de Sistemas",
                     "items": [
                         "Gestión de Incidentes",
                         "Gestión del Cambio",
                         "Soporte en Producción",
-                        "Mejora de Procesos"
+                        "Mejora Continua de Procesos"
                     ]
                 }
             ]
@@ -157,7 +157,7 @@ const knNewProfile = {
         },
         "languages": {
             "title": "Idiomas",
-            "items": ["Español (Nativo)", "Inglés (B2 - Profesional)"]
+            "items": ["Español (Nativo)", "Inglés (Nivel B2 – Profesional)"]
         }
     }
 };
