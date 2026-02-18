@@ -78,7 +78,7 @@ const knNewProfile = {
         },
         "languages": {
             "title": "Languages",
-            "items": ["Spanish (Native)", "English (Professional Working Proficiency)"]
+            "items": ["Spanish (Native)", "English (B2 - Professional)"]
         }
     },
     "es": {
@@ -157,7 +157,7 @@ const knNewProfile = {
         },
         "languages": {
             "title": "Idiomas",
-            "items": ["Español (Nativo)", "Inglés (Competencia Profesional Laboral)"]
+            "items": ["Español (Nativo)", "Inglés (B2 - Profesional)"]
         }
     }
 };
