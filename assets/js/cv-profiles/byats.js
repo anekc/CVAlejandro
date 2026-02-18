@@ -65,7 +65,7 @@ const byatsProfile = {
                         "ERP Integrations (SAP B1, Navision, Intelisis)",
                         "Web Services, XML & Flat-File Interfaces",
                         "Interface Mapping & Validation",
-                        "SQL (Basic Querying)",
+                        "SQL (Data querying, reporting, troubleshooting)",
                         "Python (Automation Support)"
                     ]
                 },
@@ -157,7 +157,7 @@ const byatsProfile = {
                         "Integraciones ERP (SAP B1, Navision, Intelisis)",
                         "Web Services, XML e Interfaces de Archivo Plano",
                         "Mapeo y Validación de Interfaces",
-                        "SQL (Consultas Básicas)",
+                        "SQL (Data querying, reporting, troubleshooting)",
                         "Python (Soporte Automatización)"
                     ]
                 },
