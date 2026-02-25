@@ -5,8 +5,11 @@
 Use these URLs to load different CV versions:
 
 ### General CV (Default)
-**URL:** `yourdomain.com/cv`  
+**URL:** `yourdomain.com/cv?v=d3f4u1`
+**Hash:** `d3f4u1`
 **Use for:** General applications, LinkedIn profile link
+
+> **Note:** Accessing the CV without a `?v=` hash shows a 404 page.
 
 ---
 
@@ -71,3 +74,5 @@ Use these URLs to load different CV versions:
 - Profiles merge with base `translations.js`
 - URLs are discrete - no obvious customization visible
 - Each profile preserved all core data, only emphasis changes
+- **No hash = 404 page** — prevents anyone from seeing the generic CV
+- Invalid hashes also show 404

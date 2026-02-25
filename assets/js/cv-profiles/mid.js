@@ -167,3 +167,5 @@ const midProfile = {
         }
     }
 };
+
+registerProfile('mid', midProfile);

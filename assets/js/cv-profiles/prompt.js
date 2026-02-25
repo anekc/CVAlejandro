@@ -91,3 +91,5 @@ const promptProfile = {
         }
     }
 };
+
+registerProfile('prompt', promptProfile);

@@ -161,3 +161,5 @@ const knNewProfile = {
         }
     }
 };
+
+registerProfile('kn_new', knNewProfile);

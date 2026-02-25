@@ -134,3 +134,5 @@ const blueYonderProfile = {
         }
     }
 };
+
+registerProfile('blueyonder', blueYonderProfile);

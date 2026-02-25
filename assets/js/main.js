@@ -26,42 +26,18 @@ function loadProfile() {
     // Get profile type from URL (e.g., ?v=a3f9b2)
     const profileType = typeof getProfileFromUrl === 'function' ? getProfileFromUrl() : null;
 
-    if (!profileType) {
-        // No profile specified, use base translations
-        return translations;
+    // No hash or invalid hash → show 404
+    if (profileType === '__no_hash__' || profileType === '__invalid__') {
+        show404();
+        return translations; // return base so no JS errors downstream
     }
 
-    // Map profile type to profile data
-    let profileData = null;
-    switch (profileType) {
-        case 'blueyonder':
-            profileData = typeof blueYonderProfile !== 'undefined' ? blueYonderProfile : null;
-            break;
-        case 'mid':
-            profileData = typeof midProfile !== 'undefined' ? midProfile : null;
-            break;
-        case 'saas':
-            profileData = typeof saasProfile !== 'undefined' ? saasProfile : null;
-            break;
-        case 'prompt':
-            profileData = typeof promptProfile !== 'undefined' ? promptProfile : null;
-            break;
-        case 'kn':
-            profileData = typeof knProfile !== 'undefined' ? knProfile : null;
-            break;
-        case 'byats':
-            profileData = typeof byatsProfile !== 'undefined' ? byatsProfile : null;
-            break;
-        case 'atsby':
-            profileData = typeof atsbyProfile !== 'undefined' ? atsbyProfile : null;
-            break;
-        case 'kn_new':
-            profileData = typeof knNewProfile !== 'undefined' ? knNewProfile : null;
-            break;
-    }
+    // Look up profile from registry (profiles self-register via registerProfile())
+    const profileData = profileRegistry[profileType] || null;
 
     if (!profileData) {
-        console.warn(`Profile "${profileType}" not found, using base translations`);
+        console.warn(`Profile "${profileType}" not found in registry`);
+        show404();
         return translations;
     }
 
@@ -113,7 +89,7 @@ function scrollActive() {
     sections.forEach(current => {
         const sectionHeight = current.offsetHeight;
         const sectionTop = current.offsetTop - 50;
-        sectionId = current.getAttribute('id');
+        const sectionId = current.getAttribute('id');
 
         if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
             document.querySelector('.nav__menu a[href*=' + sectionId + ']').classList.add('active-link');
@@ -176,7 +152,7 @@ function updateLanguage(lang) {
     // Update profile description
     const profileDesc = document.querySelector('.profile__description');
     if (profileDesc) {
-        profileDesc.textContent = translations[lang].profile.description;
+        profileDesc.innerHTML = translations[lang].profile.description;
     }
 
     // Update experience

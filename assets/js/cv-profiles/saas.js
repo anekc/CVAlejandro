@@ -139,3 +139,5 @@ const saasProfile = {
         }
     }
 };
+
+registerProfile('saas', saasProfile);

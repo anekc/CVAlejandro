@@ -1066,3 +1066,33 @@
         page-break-inside: avoid;
     }
     }
+
+    /*========== 404 PAGE ==========*/
+    #cv-404 {
+        position: fixed;
+        inset: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--body-color);
+        z-index: 9999;
+    }
+
+    .cv-404__container {
+        text-align: center;
+        font-family: var(--body-font);
+    }
+
+    .cv-404__code {
+        display: block;
+        font-size: 6rem;
+        font-weight: var(--font-semi-bold);
+        color: var(--title-color);
+        line-height: 1;
+        margin-bottom: var(--mb-2);
+    }
+
+    .cv-404__text {
+        font-size: var(--normal-font-size);
+        color: var(--text-color-light);
+    }

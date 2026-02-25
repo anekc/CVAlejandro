@@ -187,3 +187,5 @@ const byatsProfile = {
         }
     }
 };
+
+registerProfile('byats', byatsProfile);

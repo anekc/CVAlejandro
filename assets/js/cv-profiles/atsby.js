@@ -161,3 +161,5 @@ const atsbyProfile = {
         }
     }
 };
+
+registerProfile('atsby', atsbyProfile);
