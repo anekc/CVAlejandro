@@ -45,6 +45,22 @@ Use these URLs to load different CV versions:
 
 ---
 
+### Full Career History (WMS/Supply Chain)
+**URL:** `yourdomain.com/cv?v=x9z1y4`
+**Hash:** `x9z1y4`
+**Use for:**
+- General WMS/Supply Chain roles
+- Positions that value breadth of experience
+- When you want to show the full story (8+ implementations)
+
+**Key Differences:**
+- Complete career narrative from Jr. to Senior
+- Lists all key client implementations (Nissin recovery, Sodexo, Naturasol, CFS)
+- Projects section with 4 highlighted implementations
+- Balanced WMS + technical skills
+
+---
+
 ### General Logistics/Supply Chain
 **URL:** `yourdomain.com/cv?v=p5n8w1`  
 **Hash:** `p5n8w1`  
