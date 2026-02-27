@@ -14,14 +14,9 @@ const stripeProfile = {
             "title": "Professional Experience",
             "jobs": [
                 {
-                    "title": "Senior Implementation Consultant",
-                    "company": "Argano | 2025 – 2026",
-                    "description": "• Managed complex implementation cycles for enterprise customers, defining integration architectures and strategic timelines.<br>• Collaborated with operations and technical teams to craft tailored solutions that met complex business requirements.<br>• Developed Python-based automation to generate test data (XML), reducing manual work and streamlining UAT testing phases.<br>• Led knowledge transfer and training sessions, ensuring clients achieved maximum value from their platform investment."
-                },
-                {
-                    "title": "Implementation Consultant",
-                    "company": "Netlogistik | 2021 – 2024",
-                    "description": "• Owned the full onboarding cycle for multiple strategic clients in pharmaceutical, electronics, and distribution sectors.<br>• Translated ambiguous operational needs into scalable technical configurations and managed post-launch stabilization.<br>• Mapped and validated integrations utilizing Web Services, APIs, and flat files between legacy ERPs and modern platforms.<br>• Executed advanced SQL queries to troubleshoot interfaces, validate data, and solve internal process inefficiencies.<br>• Rescued a failing deployment by restructuring the project timeline, analyzing gaps, and leading a successful go-live."
+                    "title": "Senior Implementation Consultant (Promoted from Consultant)",
+                    "company": "Argano (Acq. Netlogistik) | 2021 – Feb 2026",
+                    "description": "• Owned the full onboarding cycle for multiple strategic enterprise clients in pharmaceutical, electronics, and distribution sectors.<br>• Managed complex implementation cycles including defining integration architectures and strategic timelines.<br>• Developed Python-based automation to generate test data (XML), reducing manual work and streamlining UAT testing phases.<br>• Translated ambiguous operational needs into scalable technical configurations and managed post-launch stabilization.<br>• Mapped and validated integrations utilizing Web Services, APIs, and flat files between legacy ERPs and modern platforms.<br>• Rescued a failing deployment by restructuring the project timeline, analyzing gaps, and leading a successful go-live."
                 }
             ]
         },
@@ -81,14 +76,9 @@ const stripeProfile = {
             "title": "Experiencia Profesional",
             "jobs": [
                 {
-                    "title": "Consultor Senior de Implementación",
-                    "company": "Argano | 2025 – 2026",
-                    "description": "• Gestioné ciclos de implementación complejos para clientes enterprise, definiendo arquitecturas de integración y cronogramas estratégicos.<br>• Colaboré con equipos operativos y técnicos para diseñar soluciones a la medida que cumplieran con requisitos de negocio complejos.<br>• Desarrollé automatizaciones en Python para generar datos de prueba (XML), reduciendo el trabajo manual y optimizando las fases de prueba UAT.<br>• Lideré la transferencia de conocimiento y sesiones de capacitación, asegurando que los clientes obtuvieran el máximo valor de la plataforma."
-                },
-                {
-                    "title": "Consultor de Implementación",
-                    "company": "Netlogistik | 2021 – 2024",
-                    "description": "• Gestioné el ciclo completo de onboarding para múltiples clientes estratégicos en los sectores farmacéutico, electrónico y de distribución.<br>• Traduje necesidades operativas ambiguas en configuraciones técnicas escalables y gestioné la estabilización post-lanzamiento.<br>• Mapeé y validé integraciones utilizando Web Services, APIs y archivos planos entre ERPs heredados y plataformas modernas.<br>• Ejecuté consultas SQL avanzadas para solucionar problemas de interfaces, validar datos y resolver ineficiencias de procesos internos.<br>• Rescaté un despliegue fallido reestructurando el cronograma del proyecto y liderando un lanzamiento exitoso."
+                    "title": "Consultor Senior de Implementación (Promovido de Consultor)",
+                    "company": "Argano (Acq. Netlogistik) | 2021 – Feb 2026",
+                    "description": "• Gestioné el ciclo completo de onboarding para múltiples clientes estratégicos en los sectores farmacéutico, electrónico y de distribución.<br>• Gestioné ciclos de implementación complejos, incluyendo la definición de arquitecturas de integración y cronogramas estratégicos.<br>• Desarrollé automatizaciones en Python para generar datos de prueba (XML), reduciendo el trabajo manual y optimizando las fases de prueba UAT.<br>• Traduje necesidades operativas ambiguas en configuraciones técnicas escalables y gestioné la estabilización post-lanzamiento.<br>• Mapeé y validé integraciones utilizando Web Services, APIs y archivos planos entre ERPs heredados y plataformas modernas.<br>• Rescaté un despliegue fallido reestructurando el cronograma del proyecto y liderando un lanzamiento exitoso."
                 }
             ]
         },
