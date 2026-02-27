@@ -14,7 +14,7 @@ const stripeProfile = {
             "title": "Professional Experience",
             "jobs": [
                 {
-                    "title": "Senior Implementation Consultant (Promoted from Consultant)",
+                    "title": "Senior Implementation Consultant",
                     "company": "Argano (Acq. Netlogistik) | 2021 – Feb 2026",
                     "description": "• Owned the full onboarding cycle for multiple strategic enterprise clients in pharmaceutical, electronics, and distribution sectors.<br>• Managed complex implementation cycles including defining integration architectures and strategic timelines.<br>• Developed Python-based automation to generate test data (XML), reducing manual work and streamlining UAT testing phases.<br>• Translated ambiguous operational needs into scalable technical configurations and managed post-launch stabilization.<br>• Mapped and validated integrations utilizing Web Services, APIs, and flat files between legacy ERPs and modern platforms.<br>• Rescued a failing deployment by restructuring the project timeline, analyzing gaps, and leading a successful go-live."
                 }
@@ -76,7 +76,7 @@ const stripeProfile = {
             "title": "Experiencia Profesional",
             "jobs": [
                 {
-                    "title": "Consultor Senior de Implementación (Promovido de Consultor)",
+                    "title": "Consultor Senior de Implementación",
                     "company": "Argano (Acq. Netlogistik) | 2021 – Feb 2026",
                     "description": "• Gestioné el ciclo completo de onboarding para múltiples clientes estratégicos en los sectores farmacéutico, electrónico y de distribución.<br>• Gestioné ciclos de implementación complejos, incluyendo la definición de arquitecturas de integración y cronogramas estratégicos.<br>• Desarrollé automatizaciones en Python para generar datos de prueba (XML), reduciendo el trabajo manual y optimizando las fases de prueba UAT.<br>• Traduje necesidades operativas ambiguas en configuraciones técnicas escalables y gestioné la estabilización post-lanzamiento.<br>• Mapeé y validé integraciones utilizando Web Services, APIs y archivos planos entre ERPs heredados y plataformas modernas.<br>• Rescaté un despliegue fallido reestructurando el cronograma del proyecto y liderando un lanzamiento exitoso."
                 }
