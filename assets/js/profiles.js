@@ -9,8 +9,10 @@ const profileMap = {
     'b7y2a1': 'atsby',   // ATSWA (ATS Blue Yonder) - No Projects
     'k7n1v2': 'kn_new',  // K+N Targeted (New)
     's8t2r5': 'stripe',  // Stripe Implementation Consultant
+    't4h8m2': 'thompson', // Thompson Implementation Consultant
     'd3f4u1': 'default'  // General CV (base translations)
 };
+
 
 // Auto-registration registry - profiles register themselves here
 const profileRegistry = {};
