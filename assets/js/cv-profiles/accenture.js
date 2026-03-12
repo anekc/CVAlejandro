@@ -28,15 +28,15 @@ const accentureProfile = {
             "items": [
                 {
                     "title": "US Distribution Center — Blue Yonder Greenfield Deployment",
-                    "description": "Supported requirements workshops, system configuration, ERP interface validation, testing coordination, and go-live readiness for a Blue Yonder WMS implementation in a high-volume distribution environment."
+                    "description": "Supported delivery of a Blue Yonder WMS greenfield implementation for a U.S. distribution center by contributing to requirements workshops, system configuration, ERP integration validation, testing coordination, and go-live readiness."
                 },
                 {
                     "title": "Large-Scale Food Distribution Implementation — Mexico",
-                    "description": "Contributed to high-volume WMS implementation including warehouse process mapping, system configuration, ERP integration validation, and testing cycles."
+                    "description": "Contributed to the implementation of a high-volume WMS environment by conducting warehouse process analysis, supporting system configuration, validating ERP integrations, and coordinating testing cycles to ensure operational readiness."
                 },
                 {
                     "title": "Implementation Stabilization Project — Mexico",
-                    "description": "Supported resolution of configuration and integration inconsistencies in an ongoing deployment and contributed to successful system stabilization prior to go-live."
+                    "description": "Supported stabilization of an ongoing WMS deployment by identifying configuration and integration inconsistencies, coordinating issue resolution with technical teams, and contributing to successful system readiness prior to go-live."
                 }
             ]
         },
@@ -96,15 +96,15 @@ const accentureProfile = {
             "items": [
                 {
                     "title": "Centro de Distribución en EE. UU. — Despliegue Greenfield de Blue Yonder",
-                    "description": "Apoyé talleres de requerimientos, configuración del sistema, validación de interfaz ERP, coordinación de pruebas y preparación de go-live para una implementación de Blue Yonder WMS en un entorno de distribución de alto volumen."
+                    "description": "Apoyé la entrega de una implementación greenfield de Blue Yonder WMS para un centro de distribución en EE. UU., contribuyendo en talleres de requerimientos, configuración del sistema, validación de integración ERP, coordinación de pruebas y preparación para la salida a producción."
                 },
                 {
                     "title": "Implementación de Distribución de Alimentos a Gran Escala — México",
-                    "description": "Contribuí a la implementación de WMS de alto volumen, incluyendo el mapeo de procesos de almacén, configuración del sistema, validación de la integración ERP y ciclos de prueba."
+                    "description": "Contribuí a la implementación en un entorno WMS de alto volumen mediante la realización de análisis de procesos de almacén, el apoyo a la configuración del sistema, la validación de integraciones ERP y la coordinación de ciclos de prueba para garantizar la preparación operativa."
                 },
                 {
                     "title": "Proyecto de Estabilización de Implementación — México",
-                    "description": "Apoyé la resolución de inconsistencias de configuración e integración en un despliegue en curso y contribuí a la estabilización exitosa del sistema antes del go-live."
+                    "description": "Apoyé la estabilización de un despliegue de WMS en curso mediante la identificación de inconsistencias en la configuración e integración, la coordinación de la resolución de problemas con equipos técnicos y la contribución a la preparación exitosa del sistema antes de la salida a producción."
                 }
             ]
         },
