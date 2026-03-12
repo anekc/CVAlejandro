@@ -60,11 +60,9 @@ const accentureProfile = {
                         "ERP Integrations (SAP Business One, Navision, Intelisis)",
                         "Web Services & XML Interfaces",
                         "System Integration Testing (SIT/UAT)",
-                        "Blue Yonder WMS",
-                        "SQL Data Validation & Querying",
-                        "API Testing (Postman)",
-                        "Python (Test Automation Scripts)",
-                        "Advanced Excel"
+                        "SQL Data Validation",
+                        "API Testing",
+                        "Blue Yonder WMS"
                     ]
                 }
             ]
@@ -130,11 +128,9 @@ const accentureProfile = {
                         "Integraciones ERP (SAP Business One, Navision, Intelisis)",
                         "Servicios Web e Interfaces XML",
                         "Pruebas de Integración de Sistemas (SIT/UAT)",
-                        "Blue Yonder WMS",
-                        "Validación de Datos y Consultas SQL",
-                        "Pruebas de API (Postman)",
-                        "Python (Scripts de Automatización de Pruebas)",
-                        "Excel Avanzado"
+                        "Validación de Datos SQL",
+                        "Pruebas de API",
+                        "Blue Yonder WMS"
                     ]
                 }
             ]
