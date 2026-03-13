@@ -13,12 +13,12 @@ const salesforceAgentForceProfile = {
             "jobs": [
                 {
                     "title": "Senior Blue Yonder Consultant",
-                    "company": "Argano (Acq. Netlogistik) | Jan 2025 – Feb 2026",
+                    "company": "Argano (Acq. Netlogistik) | Oct 2024 – Feb 2026",
                     "description": "• Served as a technical point of contact for client stakeholders, supporting investigation and resolution of system issues during implementation and testing phases.<br>• Diagnosed operational incidents by analyzing system behavior and validating transactional data using SQL queries.<br>• Managed issue resolution workflows during System Integration Testing (SIT) and User Acceptance Testing (UAT), coordinating with development and architecture teams to resolve defects.<br>• Validated XML-based integration interfaces between ERP and WMS platforms to ensure accurate data exchange and transaction processing.<br>• Collaborated with cross-functional teams including developers, architects, and operations stakeholders to resolve configuration and integration issues.<br>• Provided operational guidance and system training to key users to ensure successful system adoption.<br>• Developed Python scripts to automate test data preparation and improve testing efficiency."
                 },
                 {
                     "title": "WMS Implementation Consultant",
-                    "company": "Netlogistik | 2021 – 2024",
+                    "company": "Netlogistik | Sep 2021 – Oct 2024",
                     "description": "• Supported enterprise WMS deployments across distribution and manufacturing operations in Mexico.<br>• Conducted operational and system analysis to identify process inefficiencies and system configuration issues.<br>• Investigated and resolved configuration, data, and integration issues affecting warehouse system workflows.<br>• Supported ERP integrations with SAP Business One, Microsoft Navision, and Intelisis.<br>• Validated Web Service and flat-file interfaces supporting ERP–WMS data exchange.<br>• Coordinated System Integration Testing (SIT) and User Acceptance Testing (UAT) activities.<br>• Documented system behaviors, troubleshooting steps, and configuration adjustments to support issue resolution.<br>• Assisted operational users during go-live phases and system stabilization periods."
                 }
             ]
@@ -82,13 +82,13 @@ const salesforceAgentForceProfile = {
             "jobs": [
                 {
                     "title": "Consultor Senior Blue Yonder",
-                    "company": "Argano (Acq. Netlogistik) | Ene 2025 – Feb 2026",
+                    "company": "Argano (Acq. Netlogistik) | Oct 2024 – Feb 2026",
                     "description": "• Actué como punto de contacto técnico para los clientes, apoyando la investigación y resolución de problemas del sistema durante las fases de implementación y pruebas.<br>• Diagnostiqué incidentes operativos analizando el comportamiento del sistema y validando datos transaccionales mediante consultas SQL.<br>• Gestioné flujos de resolución de problemas durante las Pruebas de Integración del Sistema (SIT) y las Pruebas de Aceptación del Usuario (UAT), coordinando con los equipos de desarrollo y arquitectura para resolver defectos.<br>• Validé interfaces de integración basadas en XML entre plataformas ERP y WMS para asegurar un intercambio de datos y procesamiento de transacciones precisos.<br>• Colaboré con equipos multidisciplinarios, incluyendo desarrolladores, arquitectos y personal de operaciones, para resolver problemas de configuración e integración.<br>• Proporcioné orientación operativa y capacitación del sistema a usuarios clave para asegurar una adopción exitosa del sistema.<br>• Desarrollé scripts en Python para automatizar la preparación de datos de prueba y mejorar la eficiencia de las pruebas."
                 },
                 {
                     "title": "Consultor de Implementación WMS",
-                    "company": "Netlogistik | 2021 – 2024",
-                    "description": "• Apoyé despliegues de WMS empresariales en operaciones de distribución y manufactura en México.<br>• Realicé análisis operativos y de sistema para identificar ineficiencias en los procesos y problemas de configuración del sistema.<br>• Investigué y resolví problemas de configuración, datos e integración que afectaban los flujos de trabajo del sistema de almacén.<br>• Apoyé integraciones de ERP con SAP Business One, Microsoft Navision e Intelisis.<br>• Validé interfaces de Web Service y archivos planos que soportan el intercambio de datos ERP-WMS.<br>• Coordiné actividades de System Integration Testing (SIT) y User Acceptance Testing (UAT).<br>• Documenté comportamientos del sistema, pasos de resolución de problemas y ajustes de configuración para apoyar la resolución de incidentes.<br>• Asistí a los usuarios operativos durante las fases de salida a producción y periodos de estabilización del sistema."
+                    "company": "Netlogistik | Sep 2021 – Oct 2024",
+                    "description": "• Apoyé despliegues de WMS empresariales en operaciones de distribución y manufactura en México.<br>• Realicé análisis operativos y de sistema para identificar ineficiencias en los procesos y problemas de configuración del sistema.<br>• Investigué y resolví problemas de configuración, datos e integración que afectaban los flujos de trabajo del sistema de almacén.<br>• Apoyé integraciones de ERP con SAP Business One, Microsoft Navision e Intelisis.<br>• Validé interfaces de Web Service y archivos planos que soportan el intercambio de datos ERP-WMS.<br>• Coordiné actividades de System Integration Testing (SIT) y User Acceptance Testing (UAT).<br>• Documented comportamientos del sistema, pasos de resolución de problemas y ajustes de configuración para apoyar la resolución de incidentes.<br>• Asistí a los usuarios operativos durante las fases de salida a producción y periodos de estabilización del sistema."
                 }
             ]
         },
