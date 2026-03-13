@@ -11,6 +11,7 @@ const profileMap = {
     's8t2r5': 'stripe',  // Stripe Implementation Consultant
     't4h8m2': 'thompson', // Thompson Implementation Consultant
     'c8v2n1': 'accenture', // Accenture Technology Consultant
+    's4f2a1': 'salesforceAgentForce', // Salesforce AgentForce Technical Support
     'd3f4u1': 'default'  // General CV (base translations)
 };
 
