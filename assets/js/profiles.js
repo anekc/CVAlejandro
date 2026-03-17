@@ -13,6 +13,7 @@ const profileMap = {
     'c8v2n1': 'accenture', // Accenture Technology Consultant
     's4f2a1': 'salesforceAgentForce', // Salesforce AgentForce Technical Support
     's4f2c1': 'technicalSalesforce', // Technical Consultant focus
+    't3c1l4': 'tecla', // Tecla Technical Consultant profile
     'd3f4u1': 'default'  // General CV (base translations)
 };
 
