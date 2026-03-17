@@ -18,7 +18,7 @@ const teclaProfile = {
                 },
                 {
                     "title": "Technical Consultant – WMS Implementations | Netlogistik",
-                    "company": "2021 – 2024",
+                    "company": "Sep 2021 – Oct 2024",
                     "description": "• Delivered enterprise software implementations, translating business requirements into functional system configurations.<br>• Analyzed system workflows and identified configuration and data issues affecting platform performance.<br>• Investigated and resolved technical issues related to data flows, integrations, and system behavior.<br>• Supported integrations with ERP systems including SAP Business One, Microsoft Navision, and Intelisis.<br>• Validated Web Services, APIs, and flat-file interfaces for accurate system communication.<br>• Coordinated SIT and UAT phases, ensuring system readiness and quality assurance before go-live.<br>• Documented configurations, issue resolutions, and system behavior for internal and client reference.<br>• Supported end users during go-live and stabilization, ensuring smooth system adoption."
                 }
             ]
@@ -88,7 +88,7 @@ const teclaProfile = {
                 },
                 {
                     "title": "Consultor Técnico – Implementaciones WMS | Netlogistik",
-                    "company": "2021 – 2024",
+                    "company": "Sep 2021 – Oct 2024",
                     "description": "• Entregué implementaciones de software empresarial, traduciendo requerimientos de negocio en configuraciones funcionales del sistema.<br>• Analicé flujos de trabajo del sistema e identifiqué problemas de configuración y datos que afectaban el rendimiento de la plataforma.<br>• Investigué y resolví problemas técnicos relacionados con flujos de datos, integraciones y comportamiento del sistema.<br>• Apoyé integraciones con sistemas ERP incluyendo SAP Business One, Microsoft Navision e Intelisis.<br>• Validé Servicios Web, APIs e interfaces de archivos planos para una comunicación precisa del sistema.<br>• Coordiné las fases de SIT y UAT, asegurando la preparación del sistema y el aseguramiento de la calidad antes de la salida a producción.<br>• Documenté configuraciones, resoluciones de problemas y comportamiento del sistema para referencia interna y del cliente.<br>• Brindé soporte a usuarios finales durante la salida a producción y estabilización, asegurando una adopción fluida del sistema."
                 }
             ]
