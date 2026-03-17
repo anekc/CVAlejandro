@@ -13,7 +13,7 @@ const teclaProfile = {
             "jobs": [
                 {
                     "title": "Senior Technical Consultant – Blue Yonder | Argano (Acq. Netlogistik)",
-                    "company": "Jan 2025 – Feb 2026",
+                    "company": "Oct 2024 – Feb 2026",
                     "description": "• Acted as a technical point of contact for client stakeholders, supporting system configuration, issue investigation, and solution delivery during implementation phases.<br>• Diagnosed system issues by analyzing transactional data and system behavior using SQL queries.<br>• Led issue resolution workflows during System Integration Testing (SIT) and User Acceptance Testing (UAT), ensuring timely resolution of defects.<br>• Validated XML and API-based integrations between ERP and enterprise platforms, ensuring accurate data exchange and process execution.<br>• Collaborated with developers and architects to troubleshoot configuration and integration issues across systems.<br>• Provided system guidance and training to users, ensuring proper adoption and understanding of configured solutions.<br>• Developed Python scripts to automate data preparation and improve testing and validation processes."
                 },
                 {
@@ -83,7 +83,7 @@ const teclaProfile = {
             "jobs": [
                 {
                     "title": "Consultor Técnico Senior – Blue Yonder | Argano (Netlogistik)",
-                    "company": "Ene 2025 – Feb 2026",
+                    "company": "Oct 2024 – Feb 2026",
                     "description": "• Actué como punto de contacto técnico para los clientes, apoyando la configuración del sistema, investigación de problemas y entrega de soluciones durante las fases de implementación.<br>• Diagnostiqué problemas del sistema analizando datos transaccionales y el comportamiento del sistema mediante consultas SQL.<br>• Lideré flujos de resolución de problemas durante las pruebas de integración (SIT) y de aceptación de usuario (UAT), asegurando la resolución oportuna de defectos.<br>• Validé integraciones basadas en XML y APIs entre el ERP y las plataformas empresariales, asegurando un intercambio de datos preciso.<br>• Colaboré con desarrolladores y arquitectos para resolver problemas de configuración e integración en todos los sistemas.<br>• Brindé orientación técnica y capacitación a usuarios, asegurando la adopción y comprensión adecuada de las soluciones configuradas.<br>• Desarrollé scripts en Python para automatizar la preparación de datos y mejorar los procesos de prueba y validación."
                 },
                 {
