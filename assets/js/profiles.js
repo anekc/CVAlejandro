@@ -1,5 +1,5 @@
-// Profile hash mapping - keeps customization strategy discrete
 const profileMap = {
+    'm1o2t3': 'motive',      // Motive Profile
     'a3f9b2': 'blueyonder',  // Blue Yonder WMS Specialist focus
     'k7x2m9': 'mid',         // Functionally focused profile (formerly SAP)
     'p5n8w1': 'saas',    // SaaS/Cloud focus (formerly Logistics)
