@@ -2,8 +2,8 @@ const motiveProfile = {
     "en": {
         "home": {
             "title": "Alejandro Arteaga",
-            "profession": "Implementation Consultant | SaaS Onboarding & ERP Systems",
-            "contactInfo": "Mexico City, Mexico | alejow18@gmail.com | +52 5563997582",
+            "profession": "Enterprise Software Implementation Consultant | Integrations & ERP Systems",
+            "contactInfo": "Mexico City, Mexico | alejandro_la1@outlook.com | +52 5563997582",
             "description": "Implementation Consultant with 4+ years of experience delivering end-to-end enterprise software implementations for physical operations environments — warehousing, distribution, and supply chain. Experienced across full implementation lifecycles including requirements analysis, system configuration, ERP integrations, SIT/UAT, go-live support, and client onboarding. Strong background translating operational requirements into system configurations and integration workflows. Experienced working directly with end users and operations teams — including U.S.-based clients — to drive adoption and ensure successful go-lives. Hands-on experience with ERP integrations, interface validation, and cross-functional collaboration in complex deployment environments."
         },
         "profile": {
@@ -86,8 +86,8 @@ const motiveProfile = {
     "es": {
         "home": {
             "title": "Alejandro Arteaga",
-            "profession": "Consultor de Implementación | SaaS Onboarding y Sistemas ERP",
-            "contactInfo": "Ciudad de México, México | alejow18@gmail.com | +52 5563997582",
+            "profession": "Consultor de Implementación de Software Empresarial | Integraciones y Sistemas ERP",
+            "contactInfo": "Ciudad de México, México | alejandro_la1@outlook.com | +52 5563997582",
             "description": "Consultor de Implementación con más de 4 años de experiencia entregando implementaciones de software empresarial de principio a fin para entornos de operaciones físicas — almacenamiento, distribución y cadena de suministro. Experiencia en ciclos de vida completos de implementación, incluyendo análisis de requerimientos, configuración de sistemas, integraciones ERP, SIT/UAT, soporte de salida a producción y onboarding de clientes. Sólido background traduciendo requerimientos operativos en flujos de trabajo de configuración de sistemas e integración. Experiencia trabajando directamente con usuarios finales y equipos de operaciones — incluyendo clientes ubicados en EE.UU. — para impulsar la adopción y asegurar arranques exitosos. Experiencia práctica con integraciones ERP, validación de interfaces y colaboración interfuncional en entornos complejos de despliegue."
         },
         "profile": {
