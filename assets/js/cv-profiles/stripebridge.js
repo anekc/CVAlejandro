@@ -1,4 +1,4 @@
-const stripeProfile = {
+const stripebridgeProfile = {
     "en": {
         "home": {
             "title": "Alejandro Arteaga",
@@ -169,4 +169,4 @@ const stripeProfile = {
     }
 };
 
-registerProfile('stripe', stripeProfile);
+registerProfile('stripebridge', stripebridgeProfile);
