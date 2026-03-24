@@ -10,6 +10,7 @@ const profileMap = {
     'k7n1v2': 'kn_new',  // K+N Targeted (New)
     's8t2r5': 'stripe',  // Stripe Implementation Consultant
     's9t3r7': 'stripebridge', // Stripe Bridge Integration
+    'a1t2o3m': 'atom',        // Atom Profile
     't4h8m2': 'thompson', // Thompson Implementation Consultant
     'c8v2n1': 'accenture', // Accenture Technology Consultant
     's4f2a1': 'salesforceAgentForce', // Salesforce AgentForce Technical Support
