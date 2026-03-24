@@ -45,9 +45,14 @@ const motiveProfile = {
         "certifications": {
             "title": "Certification",
             "items": [
-                "Blue Yonder Certified – Warehouse Management Functional Consultant (Aug 2025)",
-                "Computer Engineering – National Polytechnic Institute (2015 – 2021)"
+                "Blue Yonder Certified – Warehouse Management Functional Consultant | Blue Yonder | Aug 2025"
             ]
+        },
+        "education": {
+            "title": "Education",
+            "degree": "Computer Engineering",
+            "institution": "National Polytechnic Institute",
+            "years": "2015 – 2021"
         },
         "skills": {
             "title": "Core Skills",
@@ -129,9 +134,14 @@ const motiveProfile = {
         "certifications": {
             "title": "Certificaciones",
             "items": [
-                "Consultor Funcional Certificado en Blue Yonder WMS (Ago 2025)",
-                "Ingeniería en Computación – Instituto Politécnico Nacional (2015 – 2021)"
+                "Certificación Funcional Blue Yonder WMS | Blue Yonder | Ago 2025"
             ]
+        },
+        "education": {
+            "title": "Educación",
+            "degree": "Ingeniería en Computación",
+            "institution": "Instituto Politécnico Nacional",
+            "years": "2015 – 2021"
         },
         "skills": {
             "title": "Habilidades Clave",
