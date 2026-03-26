@@ -13,6 +13,7 @@ const profileMap = {
     'a1t2o3m': 'atom',        // Atom Profile
     'v4i8s2o': 'viseo',       // VISEO Profile
     'z9d4s2k': 'zendesk',     // Zendesk Profile
+    'm9a4s2t': 'mastercard',  // Mastercard Profile
     't4h8m2': 'thompson', // Thompson Implementation Consultant
     'c8v2n1': 'accenture', // Accenture Technology Consultant
     's4f2a1': 'salesforceAgentForce', // Salesforce AgentForce Technical Support
