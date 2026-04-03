@@ -66,12 +66,12 @@ const gkswProfile = {
                 {
                     "name": "Technical",
                     "items": [
-                        "REST APIs (Postman, JSON, XML)", "System Integrations", "SQL (Intermediate)", "Python (Scripting & Automation)", "SAP Business One", "Blue Yonder WMS"
+                        "REST APIs (Postman, JSON, XML)", "System Integrations", "SQL (Intermediate)", "Python (Scripting & Automation)", "Blue Yonder WMS"
                     ]
                 }
             ],
             "items": [
-                "Requirements Gathering", "Business Process Analysis", "Solution Design", "Workshop Facilitation", "Stakeholder Management", "System Configuration", "SIT / UAT Coordination", "Go-Live Support", "REST APIs", "System Integrations", "SQL", "Python", "SAP Business One", "Blue Yonder WMS"
+                "Requirements Gathering", "Business Process Analysis", "Solution Design", "Workshop Facilitation", "Stakeholder Management", "System Configuration", "SIT / UAT Coordination", "Go-Live Support", "REST APIs", "System Integrations", "SQL", "Python", "Blue Yonder WMS"
             ]
         },
         "languages": {
@@ -149,12 +149,12 @@ const gkswProfile = {
                 {
                     "name": "Técnico",
                     "items": [
-                        "APIs REST (Postman, JSON, XML)", "Integraciones de Sistemas", "SQL (Intermedio)", "Python (Scripting y Automatización)", "SAP Business One", "Blue Yonder WMS"
+                        "APIs REST (Postman, JSON, XML)", "Integraciones de Sistemas", "SQL (Intermedio)", "Python (Scripting y Automatización)", "Blue Yonder WMS"
                     ]
                 }
             ],
             "items": [
-                "Levantamiento de Requerimientos", "Análisis de Procesos de Negocio", "Diseño de Soluciones", "Facilitación de Talleres", "Gestión de Stakeholders", "Configuración de Sistemas", "Coordinación SIT / UAT", "Soporte Go-Live", "APIs REST", "Integraciones de Sistemas", "SQL", "Python", "SAP Business One", "Blue Yonder WMS"
+                "Levantamiento de Requerimientos", "Análisis de Procesos de Negocio", "Diseño de Soluciones", "Facilitación de Talleres", "Gestión de Stakeholders", "Configuración de Sistemas", "Coordinación SIT / UAT", "Soporte Go-Live", "APIs REST", "Integraciones de Sistemas", "SQL", "Python", "Blue Yonder WMS"
             ]
         },
         "languages": {
