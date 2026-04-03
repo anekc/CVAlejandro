@@ -16,6 +16,7 @@ const profileMap = {
     'm9a4s2t': 'mastercard',  // Mastercard Profile
     'p2l5w8r': 'planisware',  // Planisware Profile
     'g5k8s2w': 'gksw',        // GKSW Profile
+    'b8f3s2t': 'baufest',     // Baufest Profile
     't4h8m2': 'thompson', // Thompson Implementation Consultant
     'c8v2n1': 'accenture', // Accenture Technology Consultant
     's4f2a1': 'salesforceAgentForce', // Salesforce AgentForce Technical Support
