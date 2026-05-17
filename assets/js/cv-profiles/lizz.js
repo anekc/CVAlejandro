@@ -214,19 +214,31 @@ registerProfile('lizz', lizzProfile);
                 '</a>';
         }
 
-        // 4. Inject 3rd experience entry (SEMARNAT - Experiencia Complementaria)
-        // main.js only updates existing .experience__content DOM elements (2 hardcoded),
-        // so we inject the 3rd job dynamically and keep it in sync on language toggle.
-        const expContainer = document.querySelector('.experience__container');
-        if (expContainer) {
-            var semarnatEl = document.createElement('div');
-            semarnatEl.className = 'experience__content';
-            semarnatEl.id = 'lizz-semarnat-entry';
+        // 4. Inject "Experiencia Complementaria" as a full section after #experience
+        // Using the same HTML structure + CSS classes as the main experience section
+        // so print.css renders it correctly.
+        var expSection = document.getElementById('experience');
+        if (expSection) {
+            var compSection = document.createElement('section');
+            compSection.className = 'experience section';
+            compSection.id = 'lizz-complementary-section';
+
+            var compTitle = document.createElement('h2');
+            compTitle.className = 'section-title';
+            compTitle.id = 'lizz-complementary-title';
+
+            var compContainer = document.createElement('div');
+            compContainer.className = 'experience__container bd-grid';
+
+            var compEntry = document.createElement('div');
+            compEntry.className = 'experience__content';
+            compEntry.id = 'lizz-semarnat-entry';
 
             function renderSemarnat(lang) {
                 var job = lizzProfile[lang] && lizzProfile[lang].experience.jobs[2];
                 if (!job) return;
-                semarnatEl.innerHTML =
+                compTitle.textContent = lang === 'es' ? 'Experiencia Complementaria' : 'Complementary Experience';
+                compEntry.innerHTML =
                     '<div class="experience__time"><span class="experience__rounder"></span></div>' +
                     '<div class="experience__data bd-grid">' +
                         '<h3 class="experience__title">' + job.title + '</h3>' +
@@ -235,31 +247,22 @@ registerProfile('lizz', lizzProfile);
                     '</div>';
             }
 
-            // Section title "Experiencia Complementaria"
-            var semarnatTitle = document.createElement('h3');
-            semarnatTitle.id = 'lizz-complementary-title';
-            semarnatTitle.style.cssText = 'font-size: var(--normal-font-size); color: var(--title-color); margin: var(--mb-2) 0 var(--mb-1) 0; font-weight: var(--font-semi-bold); text-transform: uppercase; letter-spacing: 0.05rem;';
-
-            function renderSemarnatTitle(lang) {
-                semarnatTitle.textContent = lang === 'es' ? 'Experiencia Complementaria' : 'Complementary Experience';
-            }
+            // Build and insert the section
+            compContainer.appendChild(compEntry);
+            compSection.appendChild(compTitle);
+            compSection.appendChild(compContainer);
+            expSection.insertAdjacentElement('afterend', compSection);
 
             // Render with current language
             var activeLang = localStorage.getItem('selected-lang') || 'es';
-            renderSemarnatTitle(activeLang);
             renderSemarnat(activeLang);
-            expContainer.appendChild(semarnatTitle);
-            expContainer.appendChild(semarnatEl);
 
             // Keep in sync when language is toggled
             var langBtn = document.getElementById('language-button');
             if (langBtn) {
                 langBtn.addEventListener('click', function () {
-                    // Language was already toggled by main.js; read the updated value
                     setTimeout(function () {
-                        var newLang = localStorage.getItem('selected-lang') || 'es';
-                        renderSemarnatTitle(newLang);
-                        renderSemarnat(newLang);
+                        renderSemarnat(localStorage.getItem('selected-lang') || 'es');
                     }, 0);
                 });
             }
