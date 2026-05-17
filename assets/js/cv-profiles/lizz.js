@@ -3,14 +3,14 @@ const lizzProfile = {
     "en": {
         "home": {
             "name": "Lizeth González Torres",
-            "profession": "Industrial Chemical Engineer | Quality | Audits | Operational Compliance | Safety & Hygiene",
+            "profession": "Industrial Chemical Engineer | Quality | Audits | Operational Compliance | Logistics Operations",
             "address": "Tultitlán, Estado de México",
             "email": "lizethgont@gmail.com",
             "phone": "5529318029"
         },
         "profile": {
             "title": "Professional Summary",
-            "description": "Industrial Chemical Engineer with experience in quality assurance, audits, material traceability, operational compliance, and environmental management within the electronics and industrial recycling industry.<br><br>Experienced in attending and following up on client, environmental, and security audits, as well as implementing document controls, operational procedures, and improvement actions to ensure regulatory and operational compliance.<br><br>Participation in activities related to safety and hygiene, industrial waste management, inventory control, exports, and regulatory compliance under IMMEX and non-IMMEX schemes.<br><br>Interested in continuing to develop in quality, management systems, audits, and continuous improvement within high-demand industrial and logistics environments."
+            "description": "Industrial Chemical Engineer with experience in quality assurance, audits, traceability, operational compliance, and document management within industrial and logistics environments.<br><br>Experienced in audit follow-up, inventory control, exports, operational procedures, and continuous improvement, participating in warehouse processes, regulatory compliance, and safety and hygiene.<br><br>Interested in continuing to develop in quality, operations, logistics, and management systems within high-demand industries."
         },
         "experience": {
             "title": "Professional Experience",
@@ -18,7 +18,7 @@ const lizzProfile = {
                 {
                     "title": "Quality Assurance Analyst | CRM Synergies Corp",
                     "company": "Cuautitlán, Estado de México | June 2023 – Present",
-                    "description": "• Attendance and follow-up of client, environmental, and security audits.<br>• Direct participation in in-person and remote audits, including follow-up and closure of findings and non-conformities.<br>• Development and implementation of procedures, formats, and document controls focused on traceability and operational compliance.<br>• Implementation of internal labeling controls to strengthen traceability of industrial waste and materials.<br>• Preparation of packing lists and operational documentation for exports of hazardous and special management waste under IMMEX and non-IMMEX schemes.<br>• Documentary and operational follow-up of regulatory requirements applicable to industrial waste handling and export.<br>• Participation in material segregation processes, inventory control, and operational compliance in the warehouse.<br>• Coordination of internal training related to security, safety and hygiene, and operational compliance.<br>• Participation in implementing corrective actions derived from audits and documentary compliance follow-up.<br>• Support in following up permits and environmental documentation.<br>• Supervision and coordination of operational personnel and warehouse assistants."
+                    "description": "• Attendance and follow-up of client, environmental, and security audits.<br>• Direct participation in in-person and remote audits, including follow-up and closure of findings and non-conformities.<br>• Development and implementation of procedures, formats, and document controls focused on traceability and operational compliance.<br>• Implementation of internal labeling controls to strengthen traceability of industrial waste and materials.<br>• Preparation of packing lists and operational documentation for exports of hazardous and special management waste under IMMEX and non-IMMEX schemes.<br>• Documentary and operational follow-up of regulatory requirements applicable to industrial waste handling and export.<br>• Participation in material segregation processes, inventory control, and operational compliance in the warehouse.<br>• Coordination of internal training related to safety and hygiene, operational compliance, and internal procedures.<br>• Participation in implementing corrective actions derived from audits and documentary compliance follow-up.<br>• Support in following up permits and environmental documentation.<br>• Supervision and coordination of operational personnel and warehouse assistants."
                 },
                 {
                     "title": "Quality Intern | CRM Synergies Corp",
@@ -32,6 +32,15 @@ const lizzProfile = {
                 }
             ]
         },
+        "logros": {
+            "title": "Relevant Achievements",
+            "items": [
+                "Participation in audits with follow-up and closure of findings and non-conformities.",
+                "Implementation of traceability controls for industrial waste and materials.",
+                "Support in documentary and operational compliance for exports under IMMEX and non-IMMEX schemes.",
+                "Participation in improvement of internal procedures and document controls."
+            ]
+        },
         "skills": {
             "title": "Key Skills",
             "categories": [
@@ -39,24 +48,24 @@ const lizzProfile = {
                     "name": "Quality & Management Systems",
                     "items": [
                         "Client Audits",
-                        "Document Control",
                         "Material Traceability",
                         "Non-Conformities & Corrective Actions",
-                        "Operational Compliance",
                         "Continuous Improvement",
                         "Operational Procedures",
-                        "Security Audits"
+                        "Operational Compliance",
+                        "Document Management"
                     ]
                 },
                 {
-                    "name": "Operations & Compliance",
+                    "name": "Operations & Logistics",
                     "items": [
-                        "Inventory & Warehouse Control",
+                        "Inventory Control",
+                        "Warehouse Operations",
                         "Hazardous & Special Waste Management",
-                        "IMMEX Compliance",
+                        "IMMEX",
                         "Export Documentation",
-                        "Safety & Hygiene",
-                        "Environmental & Regulatory Compliance"
+                        "Operational Coordination",
+                        "Safety & Hygiene"
                     ]
                 },
                 {
@@ -64,8 +73,19 @@ const lizzProfile = {
                     "items": [
                         "Excel",
                         "Microsoft Office",
+                        "Outlook",
+                        "Teams"
+                    ]
+                },
+                {
+                    "name": "Knowledge Areas",
+                    "items": [
                         "Document Control",
-                        "Environmental Regulatory Platforms"
+                        "Traceability",
+                        "Environmental Regulatory Documentation",
+                        "Regulatory Compliance",
+                        "Exports",
+                        "IMMEX"
                     ]
                 }
             ]
@@ -87,14 +107,14 @@ const lizzProfile = {
     "es": {
         "home": {
             "name": "Lizeth González Torres",
-            "profession": "Ingeniera Química Industrial | Calidad | Auditorías | Cumplimiento Operativo | Seguridad e Higiene",
+            "profession": "Ingeniera Química Industrial | Calidad | Auditorías | Cumplimiento Operativo | Operaciones Logísticas",
             "address": "Tultitlán, Estado de México",
             "email": "lizethgont@gmail.com",
             "phone": "5529318029"
         },
         "profile": {
             "title": "Perfil Profesional",
-            "description": "Ingeniera Química Industrial con experiencia en aseguramiento de calidad, auditorías, trazabilidad de materiales, cumplimiento operativo y gestión ambiental dentro de la industria electrónica y reciclaje industrial.<br><br>Experiencia en atención y seguimiento de auditorías de clientes, ambientales y seguridad patrimonial, así como en implementación de controles documentales, procedimientos operativos y acciones de mejora para asegurar cumplimiento regulatorio y operativo.<br><br>Participación en actividades relacionadas con seguridad e higiene, manejo de residuos industriales, control de inventarios, exportaciones y cumplimiento normativo bajo esquemas IMMEX y no IMMEX.<br><br>Interés en continuar desarrollándome en áreas de calidad, sistemas de gestión, auditorías y mejora continua dentro de entornos industriales y logísticos de alta exigencia."
+            "description": "Ingeniera Química Industrial con experiencia en aseguramiento de calidad, auditorías, trazabilidad, cumplimiento operativo y gestión documental dentro de entornos industriales y logísticos.<br><br>Experiencia en seguimiento de auditorías, control de inventarios, exportaciones, procedimientos operativos y mejora continua, participando en procesos relacionados con almacén, cumplimiento regulatorio y seguridad e higiene.<br><br>Con interés en continuar desarrollándome en áreas de calidad, operaciones, logística y sistemas de gestión dentro de industrias de alta exigencia."
         },
         "experience": {
             "title": "Experiencia Profesional",
@@ -102,7 +122,7 @@ const lizzProfile = {
                 {
                     "title": "Analista de Aseguramiento de Calidad | CRM Synergies Corp",
                     "company": "Cuautitlán, Estado de México | Junio 2023 – Actualidad",
-                    "description": "• Atención y seguimiento de auditorías de clientes, ambientales y seguridad patrimonial.<br>• Participación directa en auditorías presenciales y remotas, incluyendo seguimiento y cierre de hallazgos y no conformidades.<br>• Desarrollo e implementación de procedimientos, formatos y controles documentales enfocados en trazabilidad y cumplimiento operativo.<br>• Implementación de controles de etiquetado interno para fortalecer trazabilidad de residuos y materiales industriales.<br>• Elaboración de packing list y documentación operativa para exportaciones de residuos peligrosos y residuos de manejo especial bajo esquemas IMMEX y no IMMEX.<br>• Seguimiento documental y operativo de requisitos regulatorios aplicables a manejo y exportación de residuos industriales.<br>• Participación en procesos de segregación de materiales, control de inventarios y cumplimiento operativo en almacén.<br>• Coordinación de capacitaciones internas relacionadas con seguridad patrimonial, seguridad e higiene y cumplimiento operativo.<br>• Participación en implementación de acciones correctivas derivadas de auditorías y seguimiento de cumplimiento documental.<br>• Apoyo en seguimiento de permisos y documentación ambiental.<br>• Supervisión y coordinación de personal operativo y auxiliares de almacén."
+                    "description": "• Atención y seguimiento de auditorías de clientes, ambientales y de seguridad patrimonial.<br>• Participación directa en auditorías presenciales y remotas, incluyendo seguimiento y cierre de hallazgos y no conformidades.<br>• Desarrollo e implementación de procedimientos, formatos y controles documentales enfocados en trazabilidad y cumplimiento operativo.<br>• Implementación de controles de etiquetado interno para fortalecer la trazabilidad de residuos y materiales industriales.<br>• Elaboración de packing list y documentación operativa para exportaciones de residuos peligrosos y residuos de manejo especial bajo esquemas IMMEX y no IMMEX.<br>• Seguimiento documental y operativo de requisitos regulatorios aplicables al manejo y exportación de residuos industriales.<br>• Participación en procesos de segregación de materiales, control de inventarios y cumplimiento operativo en almacén.<br>• Coordinación de capacitaciones internas relacionadas con seguridad e higiene, cumplimiento operativo y procedimientos internos.<br>• Participación en implementación de acciones correctivas derivadas de auditorías y seguimiento de cumplimiento documental.<br>• Apoyo en seguimiento de permisos y documentación ambiental.<br>• Supervisión y coordinación de personal operativo y auxiliares de almacén."
                 },
                 {
                     "title": "Becaria de Calidad | CRM Synergies Corp",
@@ -116,6 +136,15 @@ const lizzProfile = {
                 }
             ]
         },
+        "logros": {
+            "title": "Logros Relevantes",
+            "items": [
+                "Participación en auditorías con seguimiento y cierre de hallazgos y no conformidades.",
+                "Implementación de controles de trazabilidad para residuos y materiales industriales.",
+                "Apoyo en cumplimiento documental y operativo para exportaciones bajo esquemas IMMEX y no IMMEX.",
+                "Participación en mejora de procedimientos y controles documentales internos."
+            ]
+        },
         "skills": {
             "title": "Habilidades Clave",
             "categories": [
@@ -123,24 +152,24 @@ const lizzProfile = {
                     "name": "Calidad y Sistemas de Gestión",
                     "items": [
                         "Auditorías de clientes",
-                        "Control documental",
                         "Trazabilidad de materiales",
                         "No conformidades y acciones correctivas",
-                        "Cumplimiento operativo",
                         "Mejora continua",
                         "Procedimientos operativos",
-                        "Seguridad patrimonial"
+                        "Cumplimiento operativo",
+                        "Gestión documental"
                     ]
                 },
                 {
-                    "name": "Operaciones y Cumplimiento",
+                    "name": "Operaciones y Logística",
                     "items": [
-                        "Inventarios y control de almacén",
-                        "Manejo de residuos peligrosos y manejo especial",
+                        "Control de inventarios",
+                        "Operación de almacén",
+                        "Manejo de residuos peligrosos y de manejo especial",
                         "IMMEX",
                         "Documentación de exportación",
-                        "Seguridad e higiene",
-                        "Cumplimiento ambiental y regulatorio"
+                        "Coordinación operativa",
+                        "Seguridad e higiene"
                     ]
                 },
                 {
@@ -148,8 +177,19 @@ const lizzProfile = {
                     "items": [
                         "Excel",
                         "Microsoft Office",
+                        "Outlook",
+                        "Teams"
+                    ]
+                },
+                {
+                    "name": "Conocimientos",
+                    "items": [
                         "Control documental",
-                        "Plataformas y documentación regulatoria ambiental"
+                        "Trazabilidad",
+                        "Documentación regulatoria ambiental",
+                        "Cumplimiento regulatorio",
+                        "Exportaciones",
+                        "IMMEX"
                     ]
                 }
             ]
@@ -247,7 +287,7 @@ registerProfile('lizz', lizzProfile);
                     '</div>';
             }
 
-            // Build and insert the section
+            // Build and insert the complementary section
             compContainer.appendChild(compEntry);
             compSection.appendChild(compTitle);
             compSection.appendChild(compContainer);
@@ -257,12 +297,49 @@ registerProfile('lizz', lizzProfile);
             var activeLang = localStorage.getItem('selected-lang') || 'es';
             renderSemarnat(activeLang);
 
-            // Keep in sync when language is toggled
+            // 5. Inject "Logros Relevantes" section after complementary section
+            var logrosSection = document.createElement('section');
+            logrosSection.className = 'experience section';
+            logrosSection.id = 'lizz-logros-section';
+
+            var logrosTitle = document.createElement('h2');
+            logrosTitle.className = 'section-title';
+            logrosTitle.id = 'lizz-logros-title';
+
+            var logrosContainer = document.createElement('div');
+            logrosContainer.className = 'experience__container bd-grid';
+
+            var logrosEntry = document.createElement('div');
+            logrosEntry.className = 'experience__content';
+            logrosEntry.id = 'lizz-logros-entry';
+
+            function renderLogros(lang) {
+                var data = lizzProfile[lang] && lizzProfile[lang].logros;
+                if (!data) return;
+                logrosTitle.textContent = data.title;
+                logrosEntry.innerHTML =
+                    '<div class="experience__data bd-grid">' +
+                        '<p class="experience__description">' +
+                            data.items.map(function (item) { return '• ' + item; }).join('<br>') +
+                        '</p>' +
+                    '</div>';
+            }
+
+            logrosContainer.appendChild(logrosEntry);
+            logrosSection.appendChild(logrosTitle);
+            logrosSection.appendChild(logrosContainer);
+            compSection.insertAdjacentElement('afterend', logrosSection);
+
+            renderLogros(activeLang);
+
+            // Keep both sections in sync when language is toggled
             var langBtn = document.getElementById('language-button');
             if (langBtn) {
                 langBtn.addEventListener('click', function () {
                     setTimeout(function () {
-                        renderSemarnat(localStorage.getItem('selected-lang') || 'es');
+                        var newLang = localStorage.getItem('selected-lang') || 'es';
+                        renderSemarnat(newLang);
+                        renderLogros(newLang);
                     }, 0);
                 });
             }
