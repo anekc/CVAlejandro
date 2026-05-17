@@ -191,11 +191,12 @@ registerProfile('lizz', lizzProfile);
         if (contactInfo) {
             contactInfo.querySelectorAll('.home__information').forEach(function (span) {
                 if (span.querySelector('.bx-envelope')) {
-                    span.childNodes.forEach(function (node) {
-                        if (node.nodeType === Node.TEXT_NODE) {
-                            node.textContent = ' lizethgont@gmail.com';
-                        }
+                    // Remove ALL existing text nodes (there can be more than one)
+                    Array.from(span.childNodes).forEach(function (node) {
+                        if (node.nodeType === Node.TEXT_NODE) node.remove();
                     });
+                    // Append exactly one clean text node with the correct email
+                    span.appendChild(document.createTextNode(' lizethgont@gmail.com'));
                 }
             });
         }
