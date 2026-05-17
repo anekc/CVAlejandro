@@ -23,6 +23,7 @@ const profileMap = {
     's4f2a1': 'salesforceAgentForce', // Salesforce AgentForce Technical Support
     's4f2c1': 'technicalSalesforce', // Technical Consultant focus
     't3c1l4': 'tecla', // Tecla Technical Consultant profile
+    'l1z2g3t': 'lizz',   // Lizz – Lizeth González Torres | Quality Assurance
     'd3f4u1': 'default'  // General CV (base translations)
 };
 

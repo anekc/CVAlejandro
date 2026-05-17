@@ -1,0 +1,167 @@
+// Profile for lizz: Lizeth González Torres | Quality Assurance Analyst
+const lizzProfile = {
+    "en": {
+        "home": {
+            "name": "Lizeth González Torres",
+            "profession": "Industrial Chemical Engineer | Quality | Audits | Operational Compliance | Safety & Hygiene",
+            "address": "Tultitlán, Estado de México",
+            "email": "lizethgont@gmail.com",
+            "phone": "5529318029"
+        },
+        "profile": {
+            "title": "Professional Summary",
+            "description": "Industrial Chemical Engineer with experience in quality assurance, audits, material traceability, operational compliance, and environmental management within the electronics and industrial recycling industry.<br><br>Experienced in attending and following up on client, environmental, and security audits, as well as implementing document controls, operational procedures, and improvement actions to ensure regulatory and operational compliance.<br><br>Participation in activities related to safety and hygiene, industrial waste management, inventory control, exports, and regulatory compliance under IMMEX and non-IMMEX schemes.<br><br>Interested in continuing to develop in quality, management systems, audits, and continuous improvement within high-demand industrial and logistics environments."
+        },
+        "experience": {
+            "title": "Professional Experience",
+            "jobs": [
+                {
+                    "title": "Quality Assurance Analyst | CRM Synergies Corp",
+                    "company": "Cuautitlán, Estado de México | June 2023 – Present",
+                    "description": "• Attendance and follow-up of client, environmental, and security audits.<br>• Direct participation in in-person and remote audits, including follow-up and closure of findings and non-conformities.<br>• Development and implementation of procedures, formats, and document controls focused on traceability and operational compliance.<br>• Implementation of internal labeling controls to strengthen traceability of industrial waste and materials.<br>• Preparation of packing lists and operational documentation for exports of hazardous and special management waste under IMMEX and non-IMMEX schemes.<br>• Documentary and operational follow-up of regulatory requirements applicable to industrial waste handling and export.<br>• Participation in material segregation processes, inventory control, and operational compliance in the warehouse.<br>• Coordination of internal training related to security, safety and hygiene, and operational compliance.<br>• Participation in implementing corrective actions derived from audits and documentary compliance follow-up.<br>• Support in following up permits and environmental documentation.<br>• Supervision and coordination of operational personnel and warehouse assistants."
+                },
+                {
+                    "title": "Quality Intern | CRM Synergies Corp",
+                    "company": "Cuautitlán, Estado de México | June 2022 – June 2023",
+                    "description": "• Support in quality processes, document control, and operational follow-up.<br>• Participation in material validation, inventory control, and environmental documentation.<br>• Support in activities related to safety and hygiene and industrial waste management.<br>• Participation in documentary follow-up and operational warehouse compliance."
+                },
+                {
+                    "title": "Social Service Provider | SEMARNAT",
+                    "company": "Secretaría de Medio Ambiente y Recursos Naturales",
+                    "description": "• Support in administrative and documentary activities related to environmental management and regulatory follow-up.<br>• Participation in processes related to environmental compliance and document management."
+                }
+            ]
+        },
+        "skills": {
+            "title": "Key Skills",
+            "categories": [
+                {
+                    "name": "Quality & Management Systems",
+                    "items": [
+                        "Client Audits",
+                        "Document Control",
+                        "Material Traceability",
+                        "Non-Conformities & Corrective Actions",
+                        "Operational Compliance",
+                        "Continuous Improvement",
+                        "Operational Procedures",
+                        "Security Audits"
+                    ]
+                },
+                {
+                    "name": "Operations & Compliance",
+                    "items": [
+                        "Inventory & Warehouse Control",
+                        "Hazardous & Special Waste Management",
+                        "IMMEX Compliance",
+                        "Export Documentation",
+                        "Safety & Hygiene",
+                        "Environmental & Regulatory Compliance"
+                    ]
+                },
+                {
+                    "name": "Tools",
+                    "items": [
+                        "Excel",
+                        "Microsoft Office",
+                        "Document Control",
+                        "Environmental Regulatory Platforms"
+                    ]
+                }
+            ]
+        },
+        "education": {
+            "title": "Education",
+            "degree": "Industrial Chemical Engineering",
+            "institution": "Escuela Superior de Ingeniería Química e Industrias Extractivas (ESIQIE) – Instituto Politécnico Nacional",
+            "years": "2021 | Graduated"
+        },
+        "languages": [
+            { "name": "Spanish", "level": "Native" },
+            { "name": "English", "level": "Intermediate" }
+        ]
+    },
+    "es": {
+        "home": {
+            "name": "Lizeth González Torres",
+            "profession": "Ingeniera Química Industrial | Calidad | Auditorías | Cumplimiento Operativo | Seguridad e Higiene",
+            "address": "Tultitlán, Estado de México",
+            "email": "lizethgont@gmail.com",
+            "phone": "5529318029"
+        },
+        "profile": {
+            "title": "Perfil Profesional",
+            "description": "Ingeniera Química Industrial con experiencia en aseguramiento de calidad, auditorías, trazabilidad de materiales, cumplimiento operativo y gestión ambiental dentro de la industria electrónica y reciclaje industrial.<br><br>Experiencia en atención y seguimiento de auditorías de clientes, ambientales y seguridad patrimonial, así como en implementación de controles documentales, procedimientos operativos y acciones de mejora para asegurar cumplimiento regulatorio y operativo.<br><br>Participación en actividades relacionadas con seguridad e higiene, manejo de residuos industriales, control de inventarios, exportaciones y cumplimiento normativo bajo esquemas IMMEX y no IMMEX.<br><br>Interés en continuar desarrollándome en áreas de calidad, sistemas de gestión, auditorías y mejora continua dentro de entornos industriales y logísticos de alta exigencia."
+        },
+        "experience": {
+            "title": "Experiencia Profesional",
+            "jobs": [
+                {
+                    "title": "Analista de Aseguramiento de Calidad | CRM Synergies Corp",
+                    "company": "Cuautitlán, Estado de México | Junio 2023 – Actualidad",
+                    "description": "• Atención y seguimiento de auditorías de clientes, ambientales y seguridad patrimonial.<br>• Participación directa en auditorías presenciales y remotas, incluyendo seguimiento y cierre de hallazgos y no conformidades.<br>• Desarrollo e implementación de procedimientos, formatos y controles documentales enfocados en trazabilidad y cumplimiento operativo.<br>• Implementación de controles de etiquetado interno para fortalecer trazabilidad de residuos y materiales industriales.<br>• Elaboración de packing list y documentación operativa para exportaciones de residuos peligrosos y residuos de manejo especial bajo esquemas IMMEX y no IMMEX.<br>• Seguimiento documental y operativo de requisitos regulatorios aplicables a manejo y exportación de residuos industriales.<br>• Participación en procesos de segregación de materiales, control de inventarios y cumplimiento operativo en almacén.<br>• Coordinación de capacitaciones internas relacionadas con seguridad patrimonial, seguridad e higiene y cumplimiento operativo.<br>• Participación en implementación de acciones correctivas derivadas de auditorías y seguimiento de cumplimiento documental.<br>• Apoyo en seguimiento de permisos y documentación ambiental.<br>• Supervisión y coordinación de personal operativo y auxiliares de almacén."
+                },
+                {
+                    "title": "Becaria de Calidad | CRM Synergies Corp",
+                    "company": "Cuautitlán, Estado de México | Junio 2022 – Junio 2023",
+                    "description": "• Apoyo en procesos de calidad, control documental y seguimiento operativo.<br>• Participación en validación de materiales, control de inventarios y documentación ambiental.<br>• Soporte en actividades relacionadas con seguridad e higiene y manejo de residuos industriales.<br>• Participación en seguimiento documental y cumplimiento operativo de almacén."
+                },
+                {
+                    "title": "Prestadora de Servicio Social | SEMARNAT",
+                    "company": "Secretaría de Medio Ambiente y Recursos Naturales",
+                    "description": "• Apoyo en actividades administrativas y documentales relacionadas con gestión ambiental y seguimiento regulatorio.<br>• Participación en procesos relacionados con cumplimiento ambiental y manejo documental."
+                }
+            ]
+        },
+        "skills": {
+            "title": "Habilidades Clave",
+            "categories": [
+                {
+                    "name": "Calidad y Sistemas de Gestión",
+                    "items": [
+                        "Auditorías de clientes",
+                        "Control documental",
+                        "Trazabilidad de materiales",
+                        "No conformidades y acciones correctivas",
+                        "Cumplimiento operativo",
+                        "Mejora continua",
+                        "Procedimientos operativos",
+                        "Seguridad patrimonial"
+                    ]
+                },
+                {
+                    "name": "Operaciones y Cumplimiento",
+                    "items": [
+                        "Inventarios y control de almacén",
+                        "Manejo de residuos peligrosos y manejo especial",
+                        "IMMEX",
+                        "Documentación de exportación",
+                        "Seguridad e higiene",
+                        "Cumplimiento ambiental y regulatorio"
+                    ]
+                },
+                {
+                    "name": "Herramientas",
+                    "items": [
+                        "Excel",
+                        "Microsoft Office",
+                        "Control documental",
+                        "Plataformas y documentación regulatoria ambiental"
+                    ]
+                }
+            ]
+        },
+        "education": {
+            "title": "Educación",
+            "degree": "Ingeniería Química Industrial",
+            "institution": "Escuela Superior de Ingeniería Química e Industrias Extractivas (ESIQIE) – Instituto Politécnico Nacional",
+            "years": "2021 | Titulada"
+        },
+        "languages": [
+            { "name": "Español", "level": "Nativo" },
+            { "name": "Inglés", "level": "Intermedio" }
+        ]
+    }
+};
+
+registerProfile('lizz', lizzProfile);
