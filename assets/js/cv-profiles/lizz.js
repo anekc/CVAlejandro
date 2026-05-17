@@ -27,7 +27,7 @@ const lizzProfile = {
                 },
                 {
                     "title": "Social Service Provider | SEMARNAT",
-                    "company": "Secretaría de Medio Ambiente y Recursos Naturales",
+                    "company": "Secretaría de Medio Ambiente y Recursos Naturales | January 2020 – April 2020",
                     "description": "• Support in administrative and documentary activities related to environmental management and regulatory follow-up.<br>• Participation in processes related to environmental compliance and document management."
                 }
             ]
@@ -111,7 +111,7 @@ const lizzProfile = {
                 },
                 {
                     "title": "Prestadora de Servicio Social | SEMARNAT",
-                    "company": "Secretaría de Medio Ambiente y Recursos Naturales",
+                    "company": "Secretaría de Medio Ambiente y Recursos Naturales | Enero 2020 – Abril 2020",
                     "description": "• Apoyo en actividades administrativas y documentales relacionadas con gestión ambiental y seguimiento regulatorio.<br>• Participación en procesos relacionados con cumplimiento ambiental y manejo documental."
                 }
             ]
@@ -235,9 +235,20 @@ registerProfile('lizz', lizzProfile);
                     '</div>';
             }
 
+            // Section title "Experiencia Complementaria"
+            var semarnatTitle = document.createElement('h3');
+            semarnatTitle.id = 'lizz-complementary-title';
+            semarnatTitle.style.cssText = 'font-size: var(--normal-font-size); color: var(--title-color); margin: var(--mb-2) 0 var(--mb-1) 0; font-weight: var(--font-semi-bold); text-transform: uppercase; letter-spacing: 0.05rem;';
+
+            function renderSemarnatTitle(lang) {
+                semarnatTitle.textContent = lang === 'es' ? 'Experiencia Complementaria' : 'Complementary Experience';
+            }
+
             // Render with current language
             var activeLang = localStorage.getItem('selected-lang') || 'es';
+            renderSemarnatTitle(activeLang);
             renderSemarnat(activeLang);
+            expContainer.appendChild(semarnatTitle);
             expContainer.appendChild(semarnatEl);
 
             // Keep in sync when language is toggled
@@ -246,7 +257,9 @@ registerProfile('lizz', lizzProfile);
                 langBtn.addEventListener('click', function () {
                     // Language was already toggled by main.js; read the updated value
                     setTimeout(function () {
-                        renderSemarnat(localStorage.getItem('selected-lang') || 'es');
+                        var newLang = localStorage.getItem('selected-lang') || 'es';
+                        renderSemarnatTitle(newLang);
+                        renderSemarnat(newLang);
                     }, 0);
                 });
             }
