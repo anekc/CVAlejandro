@@ -27,7 +27,7 @@ const lizzProfile = {
                 },
                 {
                     "title": "Social Service Provider | SEMARNAT",
-                    "company": "Secretaría de Medio Ambiente y Recursos Naturales | January 2020 – April 2020",
+                    "company": "Secretaría de Medio Ambiente y Recursos Naturales | January 2020 – June 2020",
                     "description": "• Support in administrative and documentary activities related to environmental management and regulatory follow-up.<br>• Participation in processes related to environmental compliance and document management."
                 }
             ]
@@ -111,7 +111,7 @@ const lizzProfile = {
                 },
                 {
                     "title": "Prestadora de Servicio Social | SEMARNAT",
-                    "company": "Secretaría de Medio Ambiente y Recursos Naturales | Enero 2020 – Abril 2020",
+                    "company": "Secretaría de Medio Ambiente y Recursos Naturales | Enero 2020 – Junio 2020",
                     "description": "• Apoyo en actividades administrativas y documentales relacionadas con gestión ambiental y seguimiento regulatorio.<br>• Participación en procesos relacionados con cumplimiento ambiental y manejo documental."
                 }
             ]
