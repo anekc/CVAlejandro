@@ -16,12 +16,12 @@ const lizzProfile = {
             "title": "Professional Experience",
             "jobs": [
                 {
-                    "title": "Quality Assurance Analyst | CRM Synergies Corp",
+                    "title": "Quality Assurance Analyst | CRM Synergies México",
                     "company": "Cuautitlán, Estado de México | June 2023 – Present",
                     "description": "• Attendance and follow-up of client, environmental, and security audits.<br>• Direct participation in in-person and remote audits, including follow-up and closure of findings and non-conformities.<br>• Development and implementation of procedures, formats, and document controls focused on traceability and operational compliance.<br>• Implementation of internal labeling controls to strengthen traceability of industrial waste and materials.<br>• Preparation of packing lists and operational documentation for exports of hazardous and special management waste under IMMEX and non-IMMEX schemes.<br>• Documentary and operational follow-up of regulatory requirements applicable to industrial waste handling and export.<br>• Participation in material segregation processes, inventory control, and operational compliance in the warehouse.<br>• Coordination of internal training related to safety and hygiene, operational compliance, and internal procedures.<br>• Participation in implementing corrective actions derived from audits and documentary compliance follow-up.<br>• Support in following up permits and environmental documentation.<br>• Supervision and coordination of operational personnel and warehouse assistants."
                 },
                 {
-                    "title": "Quality Intern | CRM Synergies Corp",
+                    "title": "Quality Intern | CRM Synergies México",
                     "company": "Cuautitlán, Estado de México | June 2022 – June 2023",
                     "description": "• Support in quality processes, document control, and operational follow-up.<br>• Participation in material validation, inventory control, and environmental documentation.<br>• Support in activities related to safety and hygiene and industrial waste management.<br>• Participation in documentary follow-up and operational warehouse compliance."
                 },
@@ -120,12 +120,12 @@ const lizzProfile = {
             "title": "Experiencia Profesional",
             "jobs": [
                 {
-                    "title": "Analista de Aseguramiento de Calidad | CRM Synergies Corp",
+                    "title": "Analista de Aseguramiento de Calidad | CRM Synergies México",
                     "company": "Cuautitlán, Estado de México | Junio 2023 – Actualidad",
                     "description": "• Atención y seguimiento de auditorías de clientes, ambientales y de seguridad patrimonial.<br>• Participación directa en auditorías presenciales y remotas, incluyendo seguimiento y cierre de hallazgos y no conformidades.<br>• Desarrollo e implementación de procedimientos, formatos y controles documentales enfocados en trazabilidad y cumplimiento operativo.<br>• Implementación de controles de etiquetado interno para fortalecer la trazabilidad de residuos y materiales industriales.<br>• Elaboración de packing list y documentación operativa para exportaciones de residuos peligrosos y residuos de manejo especial bajo esquemas IMMEX y no IMMEX.<br>• Seguimiento documental y operativo de requisitos regulatorios aplicables al manejo y exportación de residuos industriales.<br>• Participación en procesos de segregación de materiales, control de inventarios y cumplimiento operativo en almacén.<br>• Coordinación de capacitaciones internas relacionadas con seguridad e higiene, cumplimiento operativo y procedimientos internos.<br>• Participación en implementación de acciones correctivas derivadas de auditorías y seguimiento de cumplimiento documental.<br>• Apoyo en seguimiento de permisos y documentación ambiental.<br>• Supervisión y coordinación de personal operativo y auxiliares de almacén."
                 },
                 {
-                    "title": "Becaria de Calidad | CRM Synergies Corp",
+                    "title": "Becaria de Calidad | CRM Synergies México",
                     "company": "Cuautitlán, Estado de México | Junio 2022 – Junio 2023",
                     "description": "• Apoyo en procesos de calidad, control documental y seguimiento operativo.<br>• Participación en validación de materiales, control de inventarios y documentación ambiental.<br>• Soporte en actividades relacionadas con seguridad e higiene y manejo de residuos industriales.<br>• Participación en seguimiento documental y cumplimiento operativo de almacén."
                 },
