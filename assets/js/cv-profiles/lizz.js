@@ -84,8 +84,7 @@ const lizzProfile = {
                         "Traceability",
                         "Environmental Regulatory Documentation",
                         "Regulatory Compliance",
-                        "Exports",
-                        "IMMEX"
+                        "Exports"
                     ]
                 }
             ]
@@ -188,8 +187,7 @@ const lizzProfile = {
                         "Trazabilidad",
                         "Documentación regulatoria ambiental",
                         "Cumplimiento regulatorio",
-                        "Exportaciones",
-                        "IMMEX"
+                        "Exportaciones"
                     ]
                 }
             ]
