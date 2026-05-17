@@ -76,10 +76,13 @@ const lizzProfile = {
             "institution": "Escuela Superior de Ingeniería Química e Industrias Extractivas (ESIQIE) – Instituto Politécnico Nacional",
             "years": "2021 | Graduated"
         },
-        "languages": [
-            { "name": "Spanish", "level": "Native" },
-            { "name": "English", "level": "Intermediate" }
-        ]
+        "languages": {
+            "title": "Languages",
+            "items": [
+                "Spanish — Native",
+                "English — Intermediate"
+            ]
+        }
     },
     "es": {
         "home": {
@@ -157,10 +160,13 @@ const lizzProfile = {
             "institution": "Escuela Superior de Ingeniería Química e Industrias Extractivas (ESIQIE) – Instituto Politécnico Nacional",
             "years": "2021 | Titulada"
         },
-        "languages": [
-            { "name": "Español", "level": "Nativo" },
-            { "name": "Inglés", "level": "Intermedio" }
-        ]
+        "languages": {
+            "title": "Idiomas",
+            "items": [
+                "Español — Nativo",
+                "Inglés — Intermedio"
+            ]
+        }
     }
 };
 
