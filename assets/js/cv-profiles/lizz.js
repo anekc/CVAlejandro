@@ -213,5 +213,43 @@ registerProfile('lizz', lizzProfile);
                 '<i class=\'bx bxl-linkedin-square social__icon\'></i> linkedin.com/in/lizeth-gonzalez-torres-49b9a9205' +
                 '</a>';
         }
+
+        // 4. Inject 3rd experience entry (SEMARNAT - Experiencia Complementaria)
+        // main.js only updates existing .experience__content DOM elements (2 hardcoded),
+        // so we inject the 3rd job dynamically and keep it in sync on language toggle.
+        const expContainer = document.querySelector('.experience__container');
+        if (expContainer) {
+            var semarnatEl = document.createElement('div');
+            semarnatEl.className = 'experience__content';
+            semarnatEl.id = 'lizz-semarnat-entry';
+
+            function renderSemarnat(lang) {
+                var job = lizzProfile[lang] && lizzProfile[lang].experience.jobs[2];
+                if (!job) return;
+                semarnatEl.innerHTML =
+                    '<div class="experience__time"><span class="experience__rounder"></span></div>' +
+                    '<div class="experience__data bd-grid">' +
+                        '<h3 class="experience__title">' + job.title + '</h3>' +
+                        '<span class="experience__company">' + job.company + '</span>' +
+                        '<p class="experience__description">' + job.description + '</p>' +
+                    '</div>';
+            }
+
+            // Render with current language
+            var activeLang = localStorage.getItem('selected-lang') || 'es';
+            renderSemarnat(activeLang);
+            expContainer.appendChild(semarnatEl);
+
+            // Keep in sync when language is toggled
+            var langBtn = document.getElementById('language-button');
+            if (langBtn) {
+                langBtn.addEventListener('click', function () {
+                    // Language was already toggled by main.js; read the updated value
+                    setTimeout(function () {
+                        renderSemarnat(localStorage.getItem('selected-lang') || 'es');
+                    }, 0);
+                });
+            }
+        }
     });
 })();
