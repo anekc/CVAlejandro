@@ -165,3 +165,46 @@ const lizzProfile = {
 };
 
 registerProfile('lizz', lizzProfile);
+
+// ── Lizz-specific DOM overrides ──────────────────────────────────────────────
+// Runs only when the lizz profile hash is active.
+// Fixes hardcoded HTML elements (email, social links, nav logo) and sets
+// Spanish as the default language before main.js initializes.
+(function () {
+    const urlParams = new URLSearchParams(window.location.search);
+    if (urlParams.get('v') !== 'l1z2g3t') return;
+
+    // Default to Spanish if the user has no saved language preference
+    if (!localStorage.getItem('selected-lang')) {
+        localStorage.setItem('selected-lang', 'es');
+    }
+
+    document.addEventListener('DOMContentLoaded', function () {
+        // 1. Update hardcoded email text node
+        const contactInfo = document.getElementById('home-contact-info');
+        if (contactInfo) {
+            contactInfo.querySelectorAll('.home__information').forEach(function (span) {
+                if (span.querySelector('.bx-envelope')) {
+                    span.childNodes.forEach(function (node) {
+                        if (node.nodeType === Node.TEXT_NODE) {
+                            node.textContent = ' lizethgont@gmail.com';
+                        }
+                    });
+                }
+            });
+        }
+
+        // 2. Update nav logo name
+        const navLogo = document.querySelector('.nav__logo');
+        if (navLogo) navLogo.textContent = 'Lizeth González';
+
+        // 3. Replace social links: LinkedIn only, no GitHub
+        const socialContainer = document.querySelector('.social__container');
+        if (socialContainer) {
+            socialContainer.innerHTML =
+                '<a class="social__link" href="https://www.linkedin.com/in/lizeth-gonzalez-torres-49b9a9205/" target="_blank">' +
+                '<i class=\'bx bxl-linkedin-square social__icon\'></i> linkedin.com/in/lizeth-gonzalez-torres-49b9a9205' +
+                '</a>';
+        }
+    });
+})();
